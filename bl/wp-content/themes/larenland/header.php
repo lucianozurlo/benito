@@ -38,7 +38,7 @@ global $wp_query;
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../../css/colors/orange.css">
     <link rel="stylesheet" href="../../../../css/responsive.css">
-    <link rel="stylesheet" href="../../../../css/animsition.min.css">
+    <link rel="stylesheet" href="../../../../css/animsition.css">
     <link rel="stylesheet" href="../../../../css/bootstrap.css">
     
     
