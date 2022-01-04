@@ -1,6 +1,6 @@
 /*
 Plugin Name: 	BrowserSelector
-Written by: 	Crivos - (http://www.crivos.com)
+Written by: 	Crivos - (https://www.crivos.com)
 Version: 		0.1
 */
 
@@ -31,7 +31,7 @@ Version: 		0.1
 
 /*
 Plugin Name: 	smoothScroll for jQuery.
-Written by: 	Crivos - (http://www.crivos.com)
+Written by: 	Crivos - (https://www.crivos.com)
 Version: 		0.1
 
 Based on:
@@ -570,7 +570,7 @@ Based on:
 			 * Viscous fluid with a pulse for part and decay for the rest.
 			 * - Applies a fixed force over an interval (a damped acceleration), and
 			 * - Lets the exponential bleed away the velocity over a longer interval
-			 * - Michael Herf, http://stereopsis.com/stopping/
+			 * - Michael Herf, https://stereopsis.com/stopping/
 			 */
 			function pulse_(x) {
 				var val, start, expx;

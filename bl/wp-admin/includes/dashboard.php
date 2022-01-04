@@ -722,7 +722,7 @@ function wp_dashboard_recent_posts( $args ) {
 			} elseif ( date( 'Y-m-d', $time ) == $tomorrow ) {
 				$relative = __( 'Tomorrow' );
 			} else {
-				/* translators: date and time format for recent posts on the dashboard, see http://php.net/date */
+				/* translators: date and time format for recent posts on the dashboard, see https://php.net/date */
 				$relative = date_i18n( __( 'M jS' ), $time );
 			}
 
@@ -942,7 +942,7 @@ function wp_dashboard_primary() {
 			 *
 			 * @param string $link The widget's primary link URL.
 			 */
-			'link' => apply_filters( 'dashboard_primary_link', __( 'http://wordpress.org/news/' ) ),
+			'link' => apply_filters( 'dashboard_primary_link', __( 'https://wordpress.org/news/' ) ),
 
 			/**
 			 * Filter the primary feed URL for the 'WordPress News' dashboard widget.
@@ -951,7 +951,7 @@ function wp_dashboard_primary() {
 			 *
 			 * @param string $url The widget's primary feed URL.
 			 */
-			'url' => apply_filters( 'dashboard_primary_feed', __( 'http://wordpress.org/news/feed/' ) ),
+			'url' => apply_filters( 'dashboard_primary_feed', __( 'https://wordpress.org/news/feed/' ) ),
 
 			/**
 			 * Filter the primary link title for the 'WordPress News' dashboard widget.
@@ -1005,7 +1005,7 @@ function wp_dashboard_primary() {
 		$feeds['plugins'] = array(
 			'link'         => '',
 			'url'          => array(
-				'popular' => 'http://wordpress.org/plugins/rss/browse/popular/',
+				'popular' => 'https://wordpress.org/plugins/rss/browse/popular/',
 			),
 			'title'        => '',
 			'items'        => 1,
@@ -1193,7 +1193,7 @@ function wp_dashboard_browser_nag() {
 		}
 		$notice .= "<p class='browser-update-nag{$browser_nag_class}'>{$msg}</p>";
 
-		$browsehappy = 'http://browsehappy.com/';
+		$browsehappy = 'https://browsehappy.com/';
 		$locale = get_locale();
 		if ( 'en_US' !== $locale )
 			$browsehappy = add_query_arg( 'locale', $locale, $browsehappy );
@@ -1244,7 +1244,7 @@ function wp_check_browser_version() {
 			'user-agent'	=> 'WordPress/' . $wp_version . '; ' . home_url()
 		);
 
-		$response = wp_remote_post( 'http://api.wordpress.org/core/browse-happy/1.1/', $options );
+		$response = wp_remote_post( 'https://api.wordpress.org/core/browse-happy/1.1/', $options );
 
 		if ( is_wp_error( $response ) || 200 != wp_remote_retrieve_response_code( $response ) )
 			return false;

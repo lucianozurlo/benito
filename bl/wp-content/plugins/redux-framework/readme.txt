@@ -6,7 +6,7 @@ Requires at least: 3.5.1
 Tested up to: 4.2
 Stable tag: 3.5.4
 License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Redux is a simple, truly extensible and fully responsive options framework for WordPress themes and plugins. Ships with an integrated demo.
 
@@ -24,18 +24,18 @@ it would take to build from the ground up!
 
 = Online Demo =
 Don't take our word for it, check out our online demo and try Redux without installing a thing!
-[**http://demo.redux.io/**](http://demo.redux.io/)
+[**https://demo.redux.io/**](https://demo.redux.io/)
 
 = Use the Redux Builder to Get Started =
-Want to use Redux, but not sure what to do? Use our [builder](http://build.reduxframework.com/)! It will allow you to make
-a custom theme based on [_s](http://underscores.me), [TGM](http://tgmpluginactivation.com), and [Redux](http://reduxframework.com), and any Redux arguments you want to set.
+Want to use Redux, but not sure what to do? Use our [builder](https://build.reduxframework.com/)! It will allow you to make
+a custom theme based on [_s](https://underscores.me), [TGM](https://tgmpluginactivation.com), and [Redux](https://reduxframework.com), and any Redux arguments you want to set.
 Don't want to make your own theme? Then output a custom admin folder that you can place
 in a theme or plugin. Oh and did we mention it's free? Try it today at:
-[**http://build.reduxframework.com/**](http://build.reduxframework.com/)
+[**https://build.reduxframework.com/**](https://build.reduxframework.com/)
 
 
 = Docs & Support =
-We have extremely extensive docs. Please visit [http://docs.reduxframework.com/](http://docs.reduxframework.com/) If that doesn’t solve your concern, you should search [the issue tracker on Github](https://github.com/reduxframework/redux-framework/issues). If you can't locate any topics that pertain to your particular issue, [post a new issue](https://github.com/reduxframework/redux-framework/issues/new) for it. Before you submit an issue, please read [our contributing requirements](https://github.com/redux-framework/redux-framework/blob/master/CONTRIBUTING.md). We build off of the dev version and push to WordPress.org when all is confirmed stable and ready for release.
+We have extremely extensive docs. Please visit [https://docs.reduxframework.com/](https://docs.reduxframework.com/) If that doesn’t solve your concern, you should search [the issue tracker on Github](https://github.com/reduxframework/redux-framework/issues). If you can't locate any topics that pertain to your particular issue, [post a new issue](https://github.com/reduxframework/redux-framework/issues/new) for it. Before you submit an issue, please read [our contributing requirements](https://github.com/redux-framework/redux-framework/blob/master/CONTRIBUTING.md). We build off of the dev version and push to WordPress.org when all is confirmed stable and ready for release.
 
 
 = Redux Framework Needs Your Support =
@@ -104,7 +104,7 @@ cool!
 == Installation ==
 
 = For Complete Documentation and Examples =
-Visit: [http://docs.reduxframework.com/](http://docs.reduxframework.com/)
+Visit: [https://docs.reduxframework.com/](https://docs.reduxframework.com/)
 
 == Frequently Asked Questions ==
 
@@ -114,14 +114,14 @@ Redux is an options framework... in other words, it's not designed to do anythin
 
 = How can I learn more about Redux? =
 
-Visit our website at [http://reduxframework.com/](http://reduxframework.com/)
+Visit our website at [https://reduxframework.com/](https://reduxframework.com/)
 
 = You don't have much content in this FAQ section =
-That's because the real FAQ section is on our site! Please visit [http://docs.reduxframework.com/faq/](http://docs.reduxframework.com/faq/)
+That's because the real FAQ section is on our site! Please visit [https://docs.reduxframework.com/faq/](https://docs.reduxframework.com/faq/)
 
 == Screenshots ==
 
-1. This is the demo mode of Redux Framework. Activate it and you will find a fully-functional admin panel that you can play with. On the Plugins page, beneath the description and an activated Redux Framework, you will find a Demo Mode link. Click that link to activate or deactivate the sample-config file Redux ships with.  Don't take our word for it, check out our online demo and try Redux without installing a thing! [**http://demo.reduxframework.com/wp-admin/**](http://demo.reduxframework.com/wp-admin/)
+1. This is the demo mode of Redux Framework. Activate it and you will find a fully-functional admin panel that you can play with. On the Plugins page, beneath the description and an activated Redux Framework, you will find a Demo Mode link. Click that link to activate or deactivate the sample-config file Redux ships with.  Don't take our word for it, check out our online demo and try Redux without installing a thing! [**https://demo.reduxframework.com/wp-admin/**](https://demo.reduxframework.com/wp-admin/)
 
 == Changelog ==
 
@@ -800,7 +800,7 @@ That's because the real FAQ section is on our site! Please visit [http://docs.re
 * Fixed:    CSS spacing issue
 * Fixed:    Customizer now works and doesn't break other customizer fields outside of Redux.
 * Fixed:    Several minor bug fixes
-* Added:    Metabox support via extension http://reduxframework.com/extensions/
+* Added:    Metabox support via extension https://reduxframework.com/extensions/
 * Added:    Admin-bar menu
 * Fixed:    Section field now folds.
 * Fixed:    wp_content_dir path now handles double forward slashes.
@@ -981,7 +981,7 @@ Feature: Code at bottom of sample-config.php to hide plugin activation text abou
 * Fixed an odd saving issue.
 * Fixed link issues in the framework
 * Issue #135: jQuery UI wasn't being properly queued
-* Issue #140: Admin notice glitch. See http://reduxframework.com/2013/10/wordpress-notifications-custom-options-panels/
+* Issue #140: Admin notice glitch. See https://reduxframework.com/2013/10/wordpress-notifications-custom-options-panels/
 * Use hooks instead of custom variable for custom admin CSS
 * Added "raw" field that allows PHP or a hook to embed anything in the panel.
 * Submenus in Admin now change the tabs without reloading the page.

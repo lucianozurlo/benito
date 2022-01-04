@@ -1,8 +1,8 @@
 <?php
 /////////////////////////////////////////////////////////////////
 /// getID3() by James Heinrich <info@getid3.org>               //
-//  available at http://getid3.sourceforge.net                 //
-//            or http://www.getid3.org                         //
+//  available at https://getid3.sourceforge.net                 //
+//            or https://www.getid3.org                         //
 //          also https://github.com/JamesHeinrich/getID3       //
 /////////////////////////////////////////////////////////////////
 //                                                             //
@@ -107,7 +107,7 @@ class getid3_lib
 
 
 	public static function NormalizeBinaryPoint($binarypointnumber, $maxbits=52) {
-		// http://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/binary.html
+		// https://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/binary.html
 		if (strpos($binarypointnumber, '.') === false) {
 			$binarypointnumber = '0.'.$binarypointnumber;
 		} elseif ($binarypointnumber{0} == '.') {
@@ -131,7 +131,7 @@ class getid3_lib
 
 
 	public static function Float2BinaryDecimal($floatvalue) {
-		// http://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/binary.html
+		// https://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/binary.html
 		$maxbits = 128; // to how many bits of precision should the calculations be taken?
 		$intpart   = self::trunc($floatvalue);
 		$floatpart = abs($floatvalue - $intpart);
@@ -147,7 +147,7 @@ class getid3_lib
 
 
 	public static function Float2String($floatvalue, $bits) {
-		// http://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/ieee-expl.html
+		// https://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/ieee-expl.html
 		switch ($bits) {
 			case 32:
 				$exponentbits = 8;
@@ -184,8 +184,8 @@ class getid3_lib
 
 	public static function BigEndian2Float($byteword) {
 		// ANSI/IEEE Standard 754-1985, Standard for Binary Floating Point Arithmetic
-		// http://www.psc.edu/general/software/packages/ieee/ieee.html
-		// http://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/ieee.html
+		// https://www.psc.edu/general/software/packages/ieee/ieee.html
+		// https://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/ieee.html
 
 		$bitword = self::BigEndian2Bin($byteword);
 		if (!$bitword) {
@@ -206,7 +206,7 @@ class getid3_lib
 
 			case 80:
 				// 80-bit Apple SANE format
-				// http://www.mactech.com/articles/mactech/Vol.06/06.01/SANENormalized/
+				// https://www.mactech.com/articles/mactech/Vol.06/06.01/SANENormalized/
 				$exponentstring = substr($bitword, 1, 15);
 				$isnormalized = intval($bitword{16});
 				$fractionstring = substr($bitword, 17, 63);
@@ -383,7 +383,7 @@ class getid3_lib
 
 	public static function array_merge_clobber($array1, $array2) {
 		// written by kcØhireability*com
-		// taken from http://www.php.net/manual/en/function.array-merge-recursive.php
+		// taken from https://www.php.net/manual/en/function.array-merge-recursive.php
 		if (!is_array($array1) || !is_array($array2)) {
 			return false;
 		}

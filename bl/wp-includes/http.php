@@ -37,7 +37,7 @@ function _wp_http_get_object() {
  * @since 3.6.0
  *
  * @see wp_remote_request() For more information on the response array format.
- * @see WP_Http::request() For default arguments information.
+ * @see WP_https::request() For default arguments information.
  *
  * @param string $url  Site URL to retrieve.
  * @param array  $args Optional. Request arguments. Default empty array.
@@ -58,7 +58,7 @@ function wp_safe_remote_request( $url, $args = array() ) {
  * @since 3.6.0
  *
  * @see wp_remote_request() For more information on the response array format.
- * @see WP_Http::request() For default arguments information.
+ * @see WP_https::request() For default arguments information.
  *
  * @param string $url  Site URL to retrieve.
  * @param array  $args Optional. Request arguments. Default empty array.
@@ -79,7 +79,7 @@ function wp_safe_remote_get( $url, $args = array() ) {
  * @since 3.6.0
  *
  * @see wp_remote_request() For more information on the response array format.
- * @see WP_Http::request() For default arguments information.
+ * @see WP_https::request() For default arguments information.
  *
  * @param string $url  Site URL to retrieve.
  * @param array  $args Optional. Request arguments. Default empty array.
@@ -100,7 +100,7 @@ function wp_safe_remote_post( $url, $args = array() ) {
  * @since 3.6.0
  *
  * @see wp_remote_request() For more information on the response array format.
- * @see WP_Http::request() For default arguments information.
+ * @see WP_https::request() For default arguments information.
  *
  * @param string $url Site URL to retrieve.
  * @param array $args Optional. Request arguments. Default empty array.
@@ -142,7 +142,7 @@ function wp_safe_remote_head( $url, $args = array() ) {
  *
  * @since 2.7.0
  *
- * @see WP_Http::request() For additional information on default arguments.
+ * @see WP_https::request() For additional information on default arguments.
  *
  * @param string $url  Site URL to retrieve.
  * @param array  $args Optional. Request arguments. Default empty array.
@@ -159,7 +159,7 @@ function wp_remote_request($url, $args = array()) {
  * @since 2.7.0
  *
  * @see wp_remote_request() For more information on the response array format.
- * @see WP_Http::request() For default arguments information.
+ * @see WP_https::request() For default arguments information.
  *
  * @param string $url  Site URL to retrieve.
  * @param array  $args Optional. Request arguments. Default empty array.
@@ -176,7 +176,7 @@ function wp_remote_get($url, $args = array()) {
  * @since 2.7.0
  *
  * @see wp_remote_request() For more information on the response array format.
- * @see WP_Http::request() For default arguments information.
+ * @see WP_https::request() For default arguments information.
  *
  * @param string $url  Site URL to retrieve.
  * @param array  $args Optional. Request arguments. Default empty array.
@@ -193,7 +193,7 @@ function wp_remote_post($url, $args = array()) {
  * @since 2.7.0
  *
  * @see wp_remote_request() For more information on the response array format.
- * @see WP_Http::request() For default arguments information.
+ * @see WP_https::request() For default arguments information.
  *
  * @param string $url  Site URL to retrieve.
  * @param array  $args Optional. Request arguments. Default empty array.
@@ -354,9 +354,9 @@ function get_allowed_http_origins() {
 
 	// @todo preserve port?
 	$allowed_origins = array_unique( array(
-		'http://' . $admin_origin[ 'host' ],
 		'https://' . $admin_origin[ 'host' ],
-		'http://' . $home_origin[ 'host' ],
+		'https://' . $admin_origin[ 'host' ],
+		'https://' . $home_origin[ 'host' ],
 		'https://' . $home_origin[ 'host' ],
 	) );
 
@@ -522,7 +522,7 @@ function wp_http_validate_url( $url ) {
  * @return bool
  */
 function allowed_http_request_hosts( $is_external, $host ) {
-	if ( ! $is_external && wp_validate_redirect( 'http://' . $host ) )
+	if ( ! $is_external && wp_validate_redirect( 'https://' . $host ) )
 		$is_external = true;
 	return $is_external;
 }

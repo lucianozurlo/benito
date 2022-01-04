@@ -1,8 +1,8 @@
 <?php
 /////////////////////////////////////////////////////////////////
 /// getID3() by James Heinrich <info@getid3.org>               //
-//  available at http://getid3.sourceforge.net                 //
-//            or http://www.getid3.org                         //
+//  available at https://getid3.sourceforge.net                 //
+//            or https://www.getid3.org                         //
 //          also https://github.com/JamesHeinrich/getID3       //
 /////////////////////////////////////////////////////////////////
 // See readme.txt for more details                             //
@@ -18,7 +18,7 @@
 getid3_lib::IncludeDependency(GETID3_INCLUDEPATH.'module.audio.ogg.php', __FILE__, true);
 
 /**
-* @tutorial http://flac.sourceforge.net/format.html
+* @tutorial https://flac.sourceforge.net/format.html
 */
 class getid3_flac extends getid3_handler
 {
@@ -384,7 +384,7 @@ class getid3_flac extends getid3_handler
 	}
 
 	public static function applicationIDLookup($applicationid) {
-		// http://flac.sourceforge.net/id.html
+		// https://flac.sourceforge.net/id.html
 		static $lookup = array(
 			0x41544348 => 'FlacFile',                                                                           // "ATCH"
 			0x42534F4C => 'beSolo',                                                                             // "BSOL"

@@ -92,8 +92,8 @@ msgstr "Heute"
 msgid "Easy and extremely productive spam-fighting plugin with many sophisticated solutions. Includes protection again trackback spam."
 msgstr "Simples, äußerst effektives Plugin zur Bekämpfung von Spam-Kommentaren. Datenschutzkonform, funktionsreich und unkompliziert."
 
-msgid "http://antispambee.com"
-msgstr "http://antispambee.de"
+msgid "https://antispambee.com"
+msgstr "https://antispambee.de"
 
 msgid "Comments"
 msgstr "Kommentare"
@@ -149,7 +149,7 @@ msgid "Use a public antispam database"
 msgstr "Öffentliche Spamdatenbank berücksichtigen"
 
 msgid "Matching the ip address with <a href=\"https://dnsbl.tornevall.org\" target=\"_blank\">Tornevall</a>"
-msgstr "Beachte den <a href=\"http://playground.ebiene.de/antispam-bee-wordpress-plugin/#dnsbl_check\" target=\"_blank\">Datenschutzhinweis</a> für die Option"
+msgstr "Beachte den <a href=\"https://playground.ebiene.de/antispam-bee-wordpress-plugin/#dnsbl_check\" target=\"_blank\">Datenschutzhinweis</a> für die Option"
 
 msgid "Validate the ip address of commenters"
 msgstr "IP-Adresse des Kommentators validieren"
@@ -161,7 +161,7 @@ msgid "Use regular expressions"
 msgstr "Reguläre Ausdrücke anwenden"
 
 msgid "Predefined and custom patterns by <a href=\"https://gist.github.com/4242142\" target=\"_blank\">plugin hook</a>"
-msgstr "Vordefinierte und eigene Muster via <a href=\"http://playground.ebiene.de/antispam-bee-wordpress-plugin/#regexp_check\" target=\"_blank\">Plugin-Hook</a>"
+msgstr "Vordefinierte und eigene Muster via <a href=\"https://playground.ebiene.de/antispam-bee-wordpress-plugin/#regexp_check\" target=\"_blank\">Plugin-Hook</a>"
 
 msgid "Look in the local spam database"
 msgstr "Lokale Spamdatenbank einbeziehen"
@@ -173,7 +173,7 @@ msgid "Trust commenters with a Gravatar"
 msgstr "Kommentatoren mit Gravatar vertrauen"
 
 msgid "Check if commenter has a Gravatar image"
-msgstr "Beachte den <a href=\"http://playground.ebiene.de/antispam-bee-wordpress-plugin/#gravatar_check\" target=\"_blank\">Datenschutzhinweis</a> für die Option"
+msgstr "Beachte den <a href=\"https://playground.ebiene.de/antispam-bee-wordpress-plugin/#gravatar_check\" target=\"_blank\">Datenschutzhinweis</a> für die Option"
 
 msgid "Block comments from specific countries"
 msgstr "Bestimmte Länder blockieren bzw. erlauben"

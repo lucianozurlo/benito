@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: Erident Custom Login and Dashboard
-Plugin URI: http://www.eridenttech.com/wp-plugins/erident-custom-login-and-dashboard
+Plugin URI: https://www.eridenttech.com/wp-plugins/erident-custom-login-and-dashboard
 Description: Customize completely your WordPress Login Screen and Dashboard. Add your company logo to login screen, change background colors, styles, button color etc. Customize your Dashboard footer text also for complete branding.
 Text Domain: erident-custom-login-and-dashboard
 Domain Path: /languages
 Version: 3.3.1
 Author: Libin V Babu
-Author URI: http://www.libin.in/
+Author URI: https://www.libin.in/
 License: GPL
 */
 
@@ -459,7 +459,7 @@ value="<?php echo $er_options['top_bg_xpos']; ?>" />
 	Vertical Position: <input class="er-textfield-small" name="er_options_up[top_bg_ypos]" type="text" id="wp_erident_top_bg_ypos"
 value="<?php echo $er_options['top_bg_ypos']; ?>" />
     <br />
-    <span class="description"><?php _e( 'The background-position property sets the starting position of a background image. If you entering the value in "pixels" or "percentage", add "px" or "%" at the end of value. This will not show any changes if you set the Background Repeat option as "Repeat". <a href="http://www.w3schools.com/cssref/pr_background-position.asp" target="_blank">More Info</a>', 'erident-custom-login-and-dashboard' ); ?></span>
+    <span class="description"><?php _e( 'The background-position property sets the starting position of a background image. If you entering the value in "pixels" or "percentage", add "px" or "%" at the end of value. This will not show any changes if you set the Background Repeat option as "Repeat". <a href="https://www.w3schools.com/cssref/pr_background-position.asp" target="_blank">More Info</a>', 'erident-custom-login-and-dashboard' ); ?></span>
     </td>
   </tr>
   
@@ -468,7 +468,7 @@ value="<?php echo $er_options['top_bg_ypos']; ?>" />
     <td><input class="er-textfield-small" name="er_options_up[top_bg_size]" type="text" id="wp_erident_top_bg_size"
 value="<?php echo $er_options['top_bg_size']; ?>" />
     <br />
-    <span class="description"><?php _e( 'The background-size property specifies the size of a background image. If you entering the value in "pixels" or "percentage", add "px" or "%" at the end of value. Possible values: auto, length, percentage, cover, contain. <a href="http://www.w3schools.com/cssref/css3_pr_background-size.asp" target="_blank">More Info</a>', 'erident-custom-login-and-dashboard' ); ?></span>
+    <span class="description"><?php _e( 'The background-size property specifies the size of a background image. If you entering the value in "pixels" or "percentage", add "px" or "%" at the end of value. Possible values: auto, length, percentage, cover, contain. <a href="https://www.w3schools.com/cssref/css3_pr_background-size.asp" target="_blank">More Info</a>', 'erident-custom-login-and-dashboard' ); ?></span>
     </td>
   </tr>
   
@@ -678,7 +678,7 @@ value="<?php echo $er_options['login_bg_xpos']; ?>" />
 	<?php _e( 'Vertical Position: ', 'erident-custom-login-and-dashboard' ); ?><input class="er-textfield-small" name="er_options_up[login_bg_ypos]" type="text" id="wp_erident_login_bg_ypos"
 value="<?php echo $er_options['login_bg_ypos']; ?>" />
     <br />
-    <span class="description"><?php _e( 'The background-position property sets the starting position of a background image. If you entering the value in "pixels" or "percentage", add "px" or "%" at the end of value. This will not show any changes if you set the Background Repeat option as "Repeat". <a href="http://www.w3schools.com/cssref/pr_background-position.asp" target="_blank">More Info</a>', 'erident-custom-login-and-dashboard' ); ?></span>
+    <span class="description"><?php _e( 'The background-position property sets the starting position of a background image. If you entering the value in "pixels" or "percentage", add "px" or "%" at the end of value. This will not show any changes if you set the Background Repeat option as "Repeat". <a href="https://www.w3schools.com/cssref/pr_background-position.asp" target="_blank">More Info</a>', 'erident-custom-login-and-dashboard' ); ?></span>
     </td>
   </tr>
   
@@ -870,21 +870,21 @@ value="<?php echo $er_options['login_bg_ypos']; ?>" />
 		<h3><?php _e( 'Quick Links', 'erident-custom-login-and-dashboard' ); ?></h3>
 		<ul>
 			<li class="login-page"><a href="<?php bloginfo( 'wpurl' ); ?>/wp-login.php" target="_blank"><?php _e( 'Open Your WP Login Page in a New Tab', 'erident-custom-login-and-dashboard' ); ?></a></li>
-			<li><a href="http://wordpress.org/extend/plugins/erident-custom-login-and-dashboard/" target="_blank"><?php _e( 'Plugin Documentation', 'erident-custom-login-and-dashboard' ); ?></a></li>
-			<li><a href="http://wordpress.org/support/plugin/erident-custom-login-and-dashboard" target="_blank"><?php _e( 'Plugin Support Page', 'erident-custom-login-and-dashboard' ); ?></a></li>
-			<li><a href="http://wordpress.org/support/topic/suggestionsrequests-for-future-version-update?replies=1" target="_blank"><?php _e( 'Feature Request/Suggestions?', 'erident-custom-login-and-dashboard' ); ?></a></li>
-			<li class="green"><a href="http://wordpress.org/support/view/plugin-reviews/erident-custom-login-and-dashboard" target="_blank"><?php _e( 'Got some Love? Give us a 5 star rating!', 'erident-custom-login-and-dashboard' ); ?></a></li>
+			<li><a href="https://wordpress.org/extend/plugins/erident-custom-login-and-dashboard/" target="_blank"><?php _e( 'Plugin Documentation', 'erident-custom-login-and-dashboard' ); ?></a></li>
+			<li><a href="https://wordpress.org/support/plugin/erident-custom-login-and-dashboard" target="_blank"><?php _e( 'Plugin Support Page', 'erident-custom-login-and-dashboard' ); ?></a></li>
+			<li><a href="https://wordpress.org/support/topic/suggestionsrequests-for-future-version-update?replies=1" target="_blank"><?php _e( 'Feature Request/Suggestions?', 'erident-custom-login-and-dashboard' ); ?></a></li>
+			<li class="green"><a href="https://wordpress.org/support/view/plugin-reviews/erident-custom-login-and-dashboard" target="_blank"><?php _e( 'Got some Love? Give us a 5 star rating!', 'erident-custom-login-and-dashboard' ); ?></a></li>
 		</ul>
 	</div><!-- end .er_notice2 -->
 	<div class="er_notice">
 		<h3><?php _e( 'Hire Me', 'erident-custom-login-and-dashboard' ); ?></h3>
-		<p><?php _e( 'Hey, I\'m Libin, a professional Front End Engineer/WordPress Developer. You can hire me for freelancing projects.<br/><br/>Email me: <a href="mailto:libin@libin.in">libin@libin.in</a> <br/>Online Portfolio: <a href="http://www.libin.in" target="_blank">www.libin.in</a>', 'erident-custom-login-and-dashboard' ); ?></p>
+		<p><?php _e( 'Hey, I\'m Libin, a professional Front End Engineer/WordPress Developer. You can hire me for freelancing projects.<br/><br/>Email me: <a href="mailto:libin@libin.in">libin@libin.in</a> <br/>Online Portfolio: <a href="https://www.libin.in" target="_blank">www.libin.in</a>', 'erident-custom-login-and-dashboard' ); ?></p>
 		
 		<h3><?php _e( 'Translation Credits', 'erident-custom-login-and-dashboard'); ?></h3>
 		<ul>
-			<li><?php _e( 'Spanish by <a href="http://www.linkedin.com/in/adrifolio" target="_blank">Adriana De La Cuadra</a>', 'erident-custom-login-and-dashboard'); ?></li>
+			<li><?php _e( 'Spanish by <a href="https://www.linkedin.com/in/adrifolio" target="_blank">Adriana De La Cuadra</a>', 'erident-custom-login-and-dashboard'); ?></li>
 			<li><?php _e( 'French by <a href="https://www.linkedin.com/pub/vaslin-guillaume/38/35a/5aa" target="_blank">Guillaume Vaslin</a>', 'erident-custom-login-and-dashboard'); ?></li>
-			<li><?php _e( 'German by <a href="http://www.starsofvietnam.net/" target="_blank">Peter Kaulfuss</a>', 'erident-custom-login-and-dashboard'); ?></li>
+			<li><?php _e( 'German by <a href="https://www.starsofvietnam.net/" target="_blank">Peter Kaulfuss</a>', 'erident-custom-login-and-dashboard'); ?></li>
 		</ul>
 		<p><?php _e( 'Do you wants to translate this plugin to your language? Email me!', 'erident-custom-login-and-dashboard'); ?></p>
 	</div><!-- end .er_notice -->

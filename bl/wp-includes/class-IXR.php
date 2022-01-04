@@ -32,11 +32,11 @@
  * @package IXR
  * @since 1.5.0
  *
- * @copyright  Incutio Ltd 2010 (http://www.incutio.com)
+ * @copyright  Incutio Ltd 2010 (https://www.incutio.com)
  * @version    1.7.4 7th September 2010
  * @author     Simon Willison
- * @link       http://scripts.incutio.com/xmlrpc/ Site/manual
- * @license    http://www.opensource.org/licenses/bsd-license.php BSD
+ * @link       https://scripts.incutio.com/xmlrpc/ Site/manual
+ * @license    https://www.opensource.org/licenses/bsd-license.php BSD
  */
 
 /**
@@ -412,7 +412,7 @@ class IXR_Server
 
             global $HTTP_RAW_POST_DATA;
             if (empty($HTTP_RAW_POST_DATA)) {
-                // workaround for a bug in PHP 5.2.2 - http://bugs.php.net/bug.php?id=41293
+                // workaround for a bug in PHP 5.2.2 - https://bugs.php.net/bug.php?id=41293
                 $data = file_get_contents('php://input');
             } else {
                 $data =& $HTTP_RAW_POST_DATA;
@@ -530,15 +530,15 @@ EOD;
         // Initialises capabilities array
         $this->capabilities = array(
             'xmlrpc' => array(
-                'specUrl' => 'http://www.xmlrpc.com/spec',
+                'specUrl' => 'https://www.xmlrpc.com/spec',
                 'specVersion' => 1
         ),
             'faults_interop' => array(
-                'specUrl' => 'http://xmlrpc-epi.sourceforge.net/specs/rfc.fault_codes.php',
+                'specUrl' => 'https://xmlrpc-epi.sourceforge.net/specs/rfc.fault_codes.php',
                 'specVersion' => 20010516
         ),
             'system.multicall' => array(
-                'specUrl' => 'http://www.xmlrpc.com/discuss/msgReader$1208',
+                'specUrl' => 'https://www.xmlrpc.com/discuss/msgReader$1208',
                 'specVersion' => 1
         ),
         );
@@ -565,7 +565,7 @@ EOD;
 
     function multiCall($methodcalls)
     {
-        // See http://www.xmlrpc.com/discuss/msgReader$1208
+        // See https://www.xmlrpc.com/discuss/msgReader$1208
         $return = array();
         foreach ($methodcalls as $call) {
             $method = $call['methodName'];
@@ -929,7 +929,7 @@ class IXR_IntrospectionServer extends IXR_Server
         $this->setCallbacks();
         $this->setCapabilities();
         $this->capabilities['introspection'] = array(
-            'specUrl' => 'http://xmlrpc.usefulinc.com/doc/reserved.html',
+            'specUrl' => 'https://xmlrpc.usefulinc.com/doc/reserved.html',
             'specVersion' => 1
         );
         $this->addCallback(

@@ -93,9 +93,9 @@ class WXR_Parser_SimpleXML {
 
 		$namespaces = $xml->getDocNamespaces();
 		if ( ! isset( $namespaces['wp'] ) )
-			$namespaces['wp'] = 'http://wordpress.org/export/1.1/';
+			$namespaces['wp'] = 'https://wordpress.org/export/1.1/';
 		if ( ! isset( $namespaces['excerpt'] ) )
-			$namespaces['excerpt'] = 'http://wordpress.org/export/1.1/excerpt/';
+			$namespaces['excerpt'] = 'https://wordpress.org/export/1.1/excerpt/';
 
 		// grab authors
 		foreach ( $xml->xpath('/rss/channel/wp:author') as $author_arr ) {
@@ -152,10 +152,10 @@ class WXR_Parser_SimpleXML {
 				'guid' => (string) $item->guid,
 			);
 
-			$dc = $item->children( 'http://purl.org/dc/elements/1.1/' );
+			$dc = $item->children( 'https://purl.org/dc/elements/1.1/' );
 			$post['post_author'] = (string) $dc->creator;
 
-			$content = $item->children( 'http://purl.org/rss/1.0/modules/content/' );
+			$content = $item->children( 'https://purl.org/rss/1.0/modules/content/' );
 			$excerpt = $item->children( $namespaces['excerpt'] );
 			$post['post_content'] = (string) $content->encoded;
 			$post['post_excerpt'] = (string) $excerpt->encoded;

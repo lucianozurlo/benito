@@ -569,7 +569,7 @@ class WP_Http {
 	 *
 	 * Based off the HTTP http_encoding_dechunk function.
 	 *
-	 * @link http://tools.ietf.org/html/rfc2616#section-19.4.6 Process for chunked decoding.
+	 * @link https://tools.ietf.org/html/rfc2616#section-19.4.6 Process for chunked decoding.
 	 *
 	 * @access public
 	 * @since 2.7.0
@@ -732,11 +732,11 @@ class WP_Http {
 		if ( empty( $url ) )
 			return $maybe_relative_path;
 
-		if ( ! $url_parts = WP_HTTP::parse_url( $url ) ) {
+		if ( ! $url_parts = WP_https::parse_url( $url ) ) {
 			return $maybe_relative_path;
 		}
 
-		if ( ! $relative_url_parts = WP_HTTP::parse_url( $maybe_relative_path ) ) {
+		if ( ! $relative_url_parts = WP_https::parse_url( $maybe_relative_path ) ) {
 			return $maybe_relative_path;
 		}
 
@@ -818,7 +818,7 @@ class WP_Http {
 		if ( is_array( $redirect_location ) )
 			$redirect_location = array_pop( $redirect_location );
 
-		$redirect_location = WP_HTTP::make_absolute_url( $redirect_location, $url );
+		$redirect_location = WP_https::make_absolute_url( $redirect_location, $url );
 
 		// POST requests should not POST to a redirected location.
 		if ( 'POST' == $args['method'] ) {
@@ -845,7 +845,7 @@ class WP_Http {
 	 * This does not verify if the IP is a valid IP, only that it appears to be
 	 * an IP address.
 	 *
-	 * @see http://home.deds.nl/~aeron/regex/ for IPv6 regex
+	 * @see https://home.deds.nl/~aeron/regex/ for IPv6 regex
 	 *
 	 * @since 3.7.0
 	 * @static
@@ -875,7 +875,7 @@ class WP_Http_Streams {
 	/**
 	 * Send a HTTP request to a URI using PHP Streams.
 	 *
-	 * @see WP_Http::request For default options descriptions.
+	 * @see WP_https::request For default options descriptions.
 	 *
 	 * @since 2.7.0
 	 * @since 3.7.0 Combined with the fsockopen transport and switched to stream_socket_client().
@@ -904,7 +904,7 @@ class WP_Http_Streams {
 		}
 
 		// Construct Cookie: header if any cookies are set.
-		WP_Http::buildCookieHeader( $r );
+		WP_https::buildCookieHeader( $r );
 
 		$arrURL = parse_url($url);
 
@@ -920,7 +920,7 @@ class WP_Http_Streams {
 			}
 		}
 
-		// Always pass a Path, defaulting to the root in cases such as http://example.com
+		// Always pass a Path, defaulting to the root in cases such as https://example.com
 		if ( ! isset( $arrURL['path'] ) ) {
 			$arrURL['path'] = '/';
 		}
@@ -1091,7 +1091,7 @@ class WP_Http_Streams {
 				if ( ! $bodyStarted ) {
 					$strResponse .= $block;
 					if ( strpos( $strResponse, "\r\n\r\n" ) ) {
-						$process = WP_Http::processResponse( $strResponse );
+						$process = WP_https::processResponse( $strResponse );
 						$bodyStarted = true;
 						$block = $process['body'];
 						unset( $strResponse );
@@ -1133,14 +1133,14 @@ class WP_Http_Streams {
 				$keep_reading = ( ! $bodyStarted || !isset( $r['limit_response_size'] ) || strlen( $strResponse ) < ( $header_length + $r['limit_response_size'] ) );
 			}
 
-			$process = WP_Http::processResponse( $strResponse );
+			$process = WP_https::processResponse( $strResponse );
 			unset( $strResponse );
 
 		}
 
 		fclose( $handle );
 
-		$arrHeaders = WP_Http::processHeaders( $process['headers'], $url );
+		$arrHeaders = WP_https::processHeaders( $process['headers'], $url );
 
 		$response = array(
 			'headers' => $arrHeaders['headers'],
@@ -1152,12 +1152,12 @@ class WP_Http_Streams {
 		);
 
 		// Handle redirects.
-		if ( false !== ( $redirect_response = WP_HTTP::handle_redirects( $url, $r, $response ) ) )
+		if ( false !== ( $redirect_response = WP_https::handle_redirects( $url, $r, $response ) ) )
 			return $redirect_response;
 
 		// If the body was chunk encoded, then decode it.
 		if ( ! empty( $process['body'] ) && isset( $arrHeaders['headers']['transfer-encoding'] ) && 'chunked' == $arrHeaders['headers']['transfer-encoding'] )
-			$process['body'] = WP_Http::chunkTransferDecode($process['body']);
+			$process['body'] = WP_https::chunkTransferDecode($process['body']);
 
 		if ( true === $r['decompress'] && true === WP_Http_Encoding::should_decode($arrHeaders['headers']) )
 			$process['body'] = WP_Http_Encoding::decompress( $process['body'] );
@@ -1201,7 +1201,7 @@ class WP_Http_Streams {
 		 * If the request is being made to an IP address, we'll validate against IP fields
 		 * in the cert (if they exist)
 		 */
-		$host_type = ( WP_HTTP::is_ip_address( $host ) ? 'ip' : 'dns' );
+		$host_type = ( WP_https::is_ip_address( $host ) ? 'ip' : 'dns' );
 
 		$certificate_hostnames = array();
 		if ( ! empty( $cert['extensions']['subjectAltName'] ) ) {
@@ -1275,10 +1275,10 @@ class WP_Http_Streams {
  * This class is not used, and is included for backwards compatibility only.
  * All code should make use of WP_HTTP directly through it's API.
  *
- * @see WP_HTTP::request
+ * @see WP_https::request
  *
  * @since 2.7.0
- * @deprecated 3.7.0 Please use WP_HTTP::request() directly
+ * @deprecated 3.7.0 Please use WP_https::request() directly
  */
 class WP_HTTP_Fsockopen extends WP_HTTP_Streams {
 	// For backwards compatibility for users who are using the class directly.
@@ -1369,7 +1369,7 @@ class WP_Http_Curl {
 		}
 
 		// Construct Cookie: header if any cookies are set.
-		WP_Http::buildCookieHeader( $r );
+		WP_https::buildCookieHeader( $r );
 
 		$handle = curl_init();
 
@@ -1510,7 +1510,7 @@ class WP_Http_Curl {
 		}
 
 		curl_exec( $handle );
-		$theHeaders = WP_Http::processHeaders( $this->headers, $url );
+		$theHeaders = WP_https::processHeaders( $this->headers, $url );
 		$theBody = $this->body;
 		$bytes_written_total = $this->bytes_written_total;
 
@@ -1559,7 +1559,7 @@ class WP_Http_Curl {
 		);
 
 		// Handle redirects.
-		if ( false !== ( $redirect_response = WP_HTTP::handle_redirects( $url, $r, $response ) ) )
+		if ( false !== ( $redirect_response = WP_https::handle_redirects( $url, $r, $response ) ) )
 			return $redirect_response;
 
 		if ( true === $r['decompress'] && true === WP_Http_Encoding::should_decode($theHeaders['headers']) )
@@ -2146,8 +2146,8 @@ class WP_Http_Encoding {
 	 *
 	 * @since 2.8.1
 	 * @link https://core.trac.wordpress.org/ticket/18273
-	 * @link http://au2.php.net/manual/en/function.gzinflate.php#70875
-	 * @link http://au2.php.net/manual/en/function.gzinflate.php#77336
+	 * @link https://au2.php.net/manual/en/function.gzinflate.php#70875
+	 * @link https://au2.php.net/manual/en/function.gzinflate.php#77336
 	 *
 	 * @param string $gzData String to decompress.
 	 * @return string|bool False on failure.

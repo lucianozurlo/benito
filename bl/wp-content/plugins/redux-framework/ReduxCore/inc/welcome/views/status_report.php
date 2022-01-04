@@ -40,7 +40,7 @@
         <p class="submit"><a href="#"
                              class="button-primary debug-report"><?php _e( 'Get System Report', 'redux-framework' ); ?></a>
             <a class="skip button-primary"
-               href="http://docs.reduxframework.com/core/support/understanding-the-redux-framework-system-status-report/"
+               href="https://docs.reduxframework.com/core/support/understanding-the-redux-framework-system-status-report/"
                target="_blank"><?php _e( 'Understanding the Status Report', 'redux-framework' ); ?></a></p>
 
         <div id="debug-report">
@@ -147,7 +147,7 @@
                     $memory = $sysinfo['wp_mem_limit']['raw'];
 
                     if ( $memory < 40000000 ) {
-                        echo '<mark class="error">' . sprintf( __( '%s - We recommend setting memory to at least 40MB. See: <a href="%s" target="_blank">Increasing memory allocated to PHP</a>', 'redux-framework' ), $sysinfo['wp_mem_limit']['size'], 'http://codex.wordpress.org/Editing_wp-config.php#Increasing_memory_allocated_to_PHP' ) . '</mark>';
+                        echo '<mark class="error">' . sprintf( __( '%s - We recommend setting memory to at least 40MB. See: <a href="%s" target="_blank">Increasing memory allocated to PHP</a>', 'redux-framework' ), $sysinfo['wp_mem_limit']['size'], 'https://codex.wordpress.org/Editing_wp-config.php#Increasing_memory_allocated_to_PHP' ) . '</mark>';
                     } else {
                         echo '<mark class="yes">' . $sysinfo['wp_mem_limit']['size'] . '</mark>';
                     }
@@ -319,7 +319,7 @@
                 $posting['soap_client']['success'] = true;
             } else {
                 $posting['soap_client']['success'] = false;
-                $posting['soap_client']['note']    = sprintf( __( 'Your server does not have the <a href="%s">SOAP Client</a> class enabled - some gateway plugins which use SOAP may not work as expected.', 'redux-framework' ), 'http://php.net/manual/en/class.soapclient.php' ) . '</mark>';
+                $posting['soap_client']['note']    = sprintf( __( 'Your server does not have the <a href="%s">SOAP Client</a> class enabled - some gateway plugins which use SOAP may not work as expected.', 'redux-framework' ), 'https://php.net/manual/en/class.soapclient.php' ) . '</mark>';
             }
 
             // DOMDocument
@@ -330,7 +330,7 @@
                 $posting['dom_document']['success'] = true;
             } else {
                 $posting['dom_document']['success'] = false;
-                $posting['dom_document']['note']    = sprintf( __( 'Your server does not have the <a href="%s">DOMDocument</a> class enabled - HTML/Multipart emails, and also some extensions, will not work without DOMDocument.', 'redux-framework' ), 'http://php.net/manual/en/class.domdocument.php' ) . '</mark>';
+                $posting['dom_document']['note']    = sprintf( __( 'Your server does not have the <a href="%s">DOMDocument</a> class enabled - HTML/Multipart emails, and also some extensions, will not work without DOMDocument.', 'redux-framework' ), 'https://php.net/manual/en/class.domdocument.php' ) . '</mark>';
             }
             */
 
@@ -342,7 +342,7 @@
             //    $posting['gzip']['success'] = true;
             //} else {
             //    $posting['gzip']['success'] = false;
-            //    $posting['gzip']['note']    = sprintf( __( 'Your server does not support the <a href="%s">gzopen</a> function - this is required to use the GeoIP database from MaxMind. The API fallback will be used instead for geolocation.', 'redux-framework' ), 'http://php.net/manual/en/zlib.installation.php' ) . '</mark>';
+            //    $posting['gzip']['note']    = sprintf( __( 'Your server does not support the <a href="%s">gzopen</a> function - this is required to use the GeoIP database from MaxMind. The API fallback will be used instead for geolocation.', 'redux-framework' ), 'https://php.net/manual/en/zlib.installation.php' ) . '</mark>';
             //}
 
             // WP Remote Post Check
@@ -551,7 +551,7 @@
                                             ?>
                                             <?php
 
-                                            echo '<a href="http://reduxframework.com/extensions/' . str_replace( array(
+                                            echo '<a href="https://reduxframework.com/extensions/' . str_replace( array(
                                                     '_',
                                                 ), '-', $name ) . '" target="blank">' . ucwords( str_replace( array(
                                                     '_',
@@ -603,7 +603,7 @@
             <td data-export-label="Child Theme"><?php _e( 'Child Theme', 'redux-framework' ); ?>:</td>
             <td class="help"><?php echo '<a href="#" class="redux-hint-qtip" qtip-content="' . esc_attr__( 'Displays whether or not the current theme is a child theme.', 'redux-framework' ) . '">[?]</a>'; ?></td>
             <td><?php
-                    echo is_child_theme() ? '<mark class="yes">' . '&#10004;' . '</mark>' : '&#10005; <br /><em>' . sprintf( __( 'If you\'re modifying Redux Framework or a parent theme you didn\'t build personally, we recommend using a child theme. See: <a href="%s" target="_blank">How to create a child theme</a>', 'redux-framework' ), 'http://codex.wordpress.org/Child_Themes' ) . '</em>';
+                    echo is_child_theme() ? '<mark class="yes">' . '&#10004;' . '</mark>' : '&#10005; <br /><em>' . sprintf( __( 'If you\'re modifying Redux Framework or a parent theme you didn\'t build personally, we recommend using a child theme. See: <a href="%s" target="_blank">How to create a child theme</a>', 'redux-framework' ), 'https://codex.wordpress.org/Child_Themes' ) . '</em>';
                 ?></td>
         </tr>
         <?php

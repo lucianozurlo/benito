@@ -34,7 +34,7 @@ Plugin uses standard actions and filters only.
 2. Activate the plugin through the WordPress admin interface.
 3. Customize the settings on the options page, if desired. If your server is located behind a reverse proxy make sure to change this setting.
 
-If you have any questions or problems please make a post here: http://wordpress.org/tags/limit-login-attempts
+If you have any questions or problems please make a post here: https://wordpress.org/tags/limit-login-attempts
 
 == Frequently Asked Questions ==
 
@@ -140,7 +140,7 @@ In theory the "auth cookie" is quite resistant to brute force attack. It contain
 * Handle 3.0 login page failure "shake"
 * Basic multisite support (parts thanks to <erik@erikshosting.com>)
 * Added Dutch translation, thanks to Bjorn Wijers <burobjorn@burobjorn.nl>
-* Added Hungarian translation, thanks to Bálint Vereskuti <balint@vereskuti.info>
+* Added Hungarian translation, thanks to Bï¿½lint Vereskuti <balint@vereskuti.info>
 * Added French translation, thanks to oVa <ova13lastar@gmail.com>
 
 = 1.4.1 =
@@ -152,10 +152,10 @@ In theory the "auth cookie" is quite resistant to brute force attack. It contain
 
 = 1.3.2 =
 * Added Bulgarian translation, thanks to Hristo Chakarov
-* Added Norwegian translation, thanks to Rune Gulbrandsøy
+* Added Norwegian translation, thanks to Rune Gulbrandsï¿½y
 * Added Spanish translation, thanks to Marcelo Pedra
 * Added Persian translation, thanks to Mostafa Soufi
-* Added Russian translation, thanks to Jack Leonid (http://studio-xl.com)
+* Added Russian translation, thanks to Jack Leonid (https://studio-xl.com)
 
 = 1.3.1 =
 * Added Catalan translation, thanks to Robert Buj

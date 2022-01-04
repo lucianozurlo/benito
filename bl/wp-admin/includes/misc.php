@@ -257,7 +257,7 @@ add_action( 'update_option_page_on_front', 'update_home_siteurl', 10, 2 );
  * @return string
  */
 function url_shorten( $url ) {
-	$short_url = str_replace( array( 'http://', 'www.' ), '', $url );
+	$short_url = str_replace( array( 'https://', 'www.' ), '', $url );
 	$short_url = untrailingslashit( $short_url );
 	if ( strlen( $short_url ) > 35 )
 		$short_url = substr( $short_url, 0, 32 ) . '&hellip;';
@@ -815,7 +815,7 @@ function heartbeat_autosave( $response, $data ) {
 		} elseif ( empty( $saved ) ) {
 			$response['wp_autosave'] = array( 'success' => false, 'message' => __( 'Error while saving.' ) );
 		} else {
-			/* translators: draft saved date format, see http://php.net/date */
+			/* translators: draft saved date format, see https://php.net/date */
 			$draft_saved_date_format = __( 'g:i:s a' );
 			/* translators: %s: date and time */
 			$response['wp_autosave'] = array( 'success' => true, 'message' => sprintf( __( 'Draft saved at %s.' ), date_i18n( $draft_saved_date_format ) ) );
@@ -875,7 +875,7 @@ function wp_admin_canonical_url() {
 	}
 
 	// Ensure we're using an absolute URL.
-	$current_url  = set_url_scheme( 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
+	$current_url  = set_url_scheme( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
 	$filtered_url = remove_query_arg( $removable_query_args, $current_url );
 	?>
 	<link id="wp-admin-canonical" rel="canonical" href="<?php echo esc_url( $filtered_url ); ?>" />

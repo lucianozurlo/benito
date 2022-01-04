@@ -412,7 +412,7 @@ class WP_Comments_List_Table extends WP_List_Table {
 		echo '<div class="submitted-on">';
 		/* translators: 2: comment date, 3: comment time */
 		printf( __( 'Submitted on <a href="%1$s">%2$s at %3$s</a>' ), $comment_url,
-			/* translators: comment date format. See http://php.net/date */
+			/* translators: comment date format. See https://php.net/date */
 			get_comment_date( __( 'Y/m/d' ) ),
 			get_comment_date( get_option( 'time_format' ) )
 		);
@@ -518,9 +518,9 @@ class WP_Comments_List_Table extends WP_List_Table {
 		global $comment_status;
 
 		$author_url = get_comment_author_url();
-		if ( 'http://' == $author_url )
+		if ( 'https://' == $author_url )
 			$author_url = '';
-		$author_url_display = preg_replace( '|http://(www\.)?|i', '', $author_url );
+		$author_url_display = preg_replace( '|https://(www\.)?|i', '', $author_url );
 		if ( strlen( $author_url_display ) > 50 )
 			$author_url_display = substr( $author_url_display, 0, 49 ) . '&hellip;';
 

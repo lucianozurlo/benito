@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////
 /// getID3() by James Heinrich <info@getid3.org>               //
-//  available at http://getid3.sourceforge.net                 //
-//            or http://www.getid3.org                         //
+//  available at https://getid3.sourceforge.net                 //
+//            or https://www.getid3.org                         //
 //          also https://github.com/JamesHeinrich/getID3       //
 /////////////////////////////////////////////////////////////////
 
@@ -18,9 +18,9 @@ GNU GPL: https://gnu.org/licenses/gpl.html                   (v3)
 
 GNU LGPL: https://gnu.org/licenses/lgpl.html                 (v3)
 
-Mozilla MPL: http://www.mozilla.org/MPL/2.0/                 (v2)
+Mozilla MPL: https://www.mozilla.org/MPL/2.0/                 (v2)
 
-getID3 Commercial License: http://getid3.org/#gCL (payment required)
+getID3 Commercial License: https://getid3.org/#gCL (payment required)
 
 *****************************************************************
 *****************************************************************
@@ -30,7 +30,7 @@ directory of the getID3 distribution.
 
        +---------------------------------------------+
        | If you want to donate, there is a link on   |
-       | http://www.getid3.org for PayPal donations. |
+       | https://www.getid3.org for PayPal donations. |
        +---------------------------------------------+
 
 
@@ -47,7 +47,7 @@ Support
 
 Q: I have a question, or I found a bug. What do I do?
 A: The preferred method of support requests and/or bug reports is the
-   forum at http://support.getid3.org/
+   forum at https://support.getid3.org/
 
 
 
@@ -56,7 +56,7 @@ Sourceforge Notification
 
 It's highly recommended that you sign up for notification from
 Sourceforge for when new versions are released. Please visit:
-http://sourceforge.net/project/showfiles.php?group_id=55859
+https://sourceforge.net/project/showfiles.php?group_id=55859
 and click the little "monitor package" icon/link.  If you're
 previously signed up for the mailing list, be aware that it has
 been discontinued, only the automated Sourceforge notification
@@ -175,7 +175,7 @@ locally first before running getID3(). Your code would look something
 like this:
 
 // Copy remote file locally to scan with getID3()
-$remotefilename = 'http://www.example.com/filename.mp3';
+$remotefilename = 'https://www.example.com/filename.mp3';
 if ($fp_remote = fopen($remotefilename, 'rb')) {
     $localtempfilename = tempnam('/tmp', 'getID3');
     if ($fp_local = fopen($localtempfilename, 'wb')) {
@@ -292,11 +292,11 @@ could essentially write it today with a one-line function:
 
 Future Plans
 ===========================================================================
-http://www.getid3.org/phpBB3/viewforum.php?f=7
+https://www.getid3.org/phpBB3/viewforum.php?f=7
 
 * Better support for MP4 container format
 * Scan for appended ID3v2 tag at end of file per ID3v2.4 specs (Section 5.0)
-* Support for JPEG-2000 (http://www.morgan-multimedia.com/jpeg2000_overview.htm)
+* Support for JPEG-2000 (https://www.morgan-multimedia.com/jpeg2000_overview.htm)
 * Support for MOD (mod/stm/s3m/it/xm/mtm/ult/669)
 * Support for ACE (thanks Vince)
 * Support for Ogg other than Vorbis, Speex and OggFlac (ie. Ogg+Xvid)
@@ -305,17 +305,17 @@ http://www.getid3.org/phpBB3/viewforum.php?f=7
 * Warn if MP3s change version mid-stream (in full-scan mode)
 * check for corrupt/broken mid-file MP3 streams in histogram scan
 * Support for lossless-compression formats
-  (http://www.firstpr.com.au/audiocomp/lossless/#Links)
-  (http://compression.ca/act-sound.html)
-  (http://web.inter.nl.net/users/hvdh/lossless/lossless.htm)
+  (https://www.firstpr.com.au/audiocomp/lossless/#Links)
+  (https://compression.ca/act-sound.html)
+  (https://web.inter.nl.net/users/hvdh/lossless/lossless.htm)
 * Support for RIFF-INFO chunks
-  * http://lotto.st-andrews.ac.uk/~njh/tag_interchange.html
+  * https://lotto.st-andrews.ac.uk/~njh/tag_interchange.html
     (thanks Nick Humfrey <njhØsurgeradio*co*uk>)
-  * http://abcavi.narod.ru/sof/abcavi/infotags.htm
+  * https://abcavi.narod.ru/sof/abcavi/infotags.htm
     (thanks Kibi)
 * Better support for Bink video
-* http://www.hr/josip/DSP/AudioFile2.html
-* http://www.pcisys.net/~melanson/codecs/
+* https://www.hr/josip/DSP/AudioFile2.html
+* https://www.pcisys.net/~melanson/codecs/
 * Detect mp3PRO
 * Support for PSD
 * Support for JPC
@@ -334,12 +334,12 @@ http://www.getid3.org/phpBB3/viewforum.php?f=7
 * Optional scan-through-frames for AVI verification
   (thanks rockcohenØmassive-interactive*nl)
 * Support for TTF (thanks infoØbutterflyx*com)
-* Support for DSS (http://www.getid3.org/phpBB3/viewtopic.php?t=171)
-* Support for SMAF (http://smaf-yamaha.com/what/demo.html)
-  http://www.getid3.org/phpBB3/viewtopic.php?t=182
-* Support for AMR (http://www.getid3.org/phpBB3/viewtopic.php?t=195)
-* Support for 3gpp (http://www.getid3.org/phpBB3/viewtopic.php?t=195)
-* Support for ID4 (http://www.wackysoft.cjb.net grizlyY2KØhotmail*com)
+* Support for DSS (https://www.getid3.org/phpBB3/viewtopic.php?t=171)
+* Support for SMAF (https://smaf-yamaha.com/what/demo.html)
+  https://www.getid3.org/phpBB3/viewtopic.php?t=182
+* Support for AMR (https://www.getid3.org/phpBB3/viewtopic.php?t=195)
+* Support for 3gpp (https://www.getid3.org/phpBB3/viewtopic.php?t=195)
+* Support for ID4 (https://www.wackysoft.cjb.net grizlyY2KØhotmail*com)
 * Parse XML data returned in Ogg comments
 * Parse XML data from Quicktime SMIL metafiles (klausrathØmac*com)
 * ID3v2 genre string creator function
@@ -349,23 +349,23 @@ http://www.getid3.org/phpBB3/viewforum.php?f=7
 * Parse declared T??? ID3v2 text information frames, where appropriate
     (thanks Christian Fritz for the idea)
 * Recognize encoder:
-  http://www.guerillasoft.com/EncSpot2/index.html
-  http://ff123.net/identify.html
-  http://www.hydrogenaudio.org/?act=ST&f=16&t=9414
-  http://www.hydrogenaudio.org/?showtopic=11785
+  https://www.guerillasoft.com/EncSpot2/index.html
+  https://ff123.net/identify.html
+  https://www.hydrogenaudio.org/?act=ST&f=16&t=9414
+  https://www.hydrogenaudio.org/?showtopic=11785
 * Support for other OS/2 bitmap structures: Bitmap Array('BA'),
   Color Icon('CI'), Color Pointer('CP'), Icon('IC'), Pointer ('PT')
-  http://netghost.narod.ru/gff/graphics/summary/os2bmp.htm
+  https://netghost.narod.ru/gff/graphics/summary/os2bmp.htm
 * Support for WavPack RAW mode
 * ASF/WMA/WMV data packet parsing
 * ID3v2FrameFlagsLookupTagAlter()
 * ID3v2FrameFlagsLookupFileAlter()
 * obey ID3v2 tag alter/preserve/discard rules
-* http://www.geocities.com/SiliconValley/Sector/9654/Softdoc/Illyrium/Aolyr.htm
+* https://www.geocities.com/SiliconValley/Sector/9654/Softdoc/Illyrium/Aolyr.htm
 * proper checking for LINK/LNK frame validity in ID3v2 writing
 * proper checking for ASPI-TLEN frame validity in ID3v2 writing
 * proper checking for COMR frame validity in ID3v2 writing
-* http://www.geocities.co.jp/SiliconValley-Oakland/3664/index.html
+* https://www.geocities.co.jp/SiliconValley-Oakland/3664/index.html
 * decode GEOB ID3v2 structure as encoded by RealJukebox,
   decode NCON ID3v2 structure as encoded by MusicMatch
   (probably won't happen - the formats are proprietary)
@@ -374,7 +374,7 @@ http://www.getid3.org/phpBB3/viewforum.php?f=7
 
 Known Bugs/Issues in getID3() that may be fixed eventually
 ===========================================================================
-http://www.getid3.org/phpBB3/viewtopic.php?t=25
+https://www.getid3.org/phpBB3/viewtopic.php?t=25
 
 * Cannot determine bitrate for MPEG video with VBR video data
   (need documentation)
@@ -400,7 +400,7 @@ http://www.getid3.org/phpBB3/viewtopic.php?t=25
 
 Known Bugs/Issues in getID3() that cannot be fixed
 --------------------------------------------------
-http://www.getid3.org/phpBB3/viewtopic.php?t=25
+https://www.getid3.org/phpBB3/viewtopic.php?t=25
 
 * 32-bit PHP installations only:
   Files larger than 2GB cannot always be parsed fully by getID3()
@@ -430,7 +430,7 @@ http://www.getid3.org/phpBB3/viewtopic.php?t=25
 
 Known Bugs/Issues in other programs
 -----------------------------------
-http://www.getid3.org/phpBB3/viewtopic.php?t=25
+https://www.getid3.org/phpBB3/viewtopic.php?t=25
 
 * Windows Media Player (up to v11) and iTunes (up to v10+) do
     not correctly handle ID3v2.3 tags with UTF-16BE+BOM
@@ -438,7 +438,7 @@ http://www.getid3.org/phpBB3/viewtopic.php?t=25
     crash (WMP) or output Asian character set (iTunes)
 * Winamp (up to v2.80 at least) does not support ID3v2.4 tags,
     only ID3v2.3
-    see: http://forums.winamp.com/showthread.php?postid=387524
+    see: https://forums.winamp.com/showthread.php?postid=387524
 * Some versions of Helium2 (www.helium2.com) do not write
     ID3v2.4-compliant Frame Sizes, even though the tag is marked
     as ID3v2.4)  (detected by getID3())
@@ -510,95 +510,95 @@ http://www.getid3.org/phpBB3/viewtopic.php?t=25
 Reference material:
 ===========================================================================
 
-[www.id3.org material now mirrored at http://id3lib.sourceforge.net/id3/]
-* http://www.id3.org/id3v2.4.0-structure.txt
-* http://www.id3.org/id3v2.4.0-frames.txt
-* http://www.id3.org/id3v2.4.0-changes.txt
-* http://www.id3.org/id3v2.3.0.txt
-* http://www.id3.org/id3v2-00.txt
-* http://www.id3.org/mp3frame.html
-* http://minnie.tuhs.org/pipermail/mp3encoder/2001-January/001800.html <mathewhendry@hotmail.com>
-* http://www.dv.co.yu/mpgscript/mpeghdr.htm
-* http://www.mp3-tech.org/programmer/frame_header.html
-* http://users.belgacom.net/gc247244/extra/tag.html
-* http://gabriel.mp3-tech.org/mp3infotag.html
-* http://www.id3.org/iso4217.html
-* http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-1.TXT
-* http://www.xiph.org/ogg/vorbis/doc/framing.html
-* http://www.xiph.org/ogg/vorbis/doc/v-comment.html
-* http://leknor.com/code/php/class.ogg.php.txt
-* http://www.id3.org/iso639-2.html
-* http://www.id3.org/lyrics3.html
-* http://www.id3.org/lyrics3200.html
-* http://www.psc.edu/general/software/packages/ieee/ieee.html
-* http://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/ieee-expl.html
-* http://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/binary.html
-* http://www.jmcgowan.com/avi.html
-* http://www.wotsit.org/
-* http://www.herdsoft.com/ti/davincie/davp3xo2.htm
-* http://www.mathdogs.com/vorbis-illuminated/bitstream-appendix.html
+[www.id3.org material now mirrored at https://id3lib.sourceforge.net/id3/]
+* https://www.id3.org/id3v2.4.0-structure.txt
+* https://www.id3.org/id3v2.4.0-frames.txt
+* https://www.id3.org/id3v2.4.0-changes.txt
+* https://www.id3.org/id3v2.3.0.txt
+* https://www.id3.org/id3v2-00.txt
+* https://www.id3.org/mp3frame.html
+* https://minnie.tuhs.org/pipermail/mp3encoder/2001-January/001800.html <mathewhendry@hotmail.com>
+* https://www.dv.co.yu/mpgscript/mpeghdr.htm
+* https://www.mp3-tech.org/programmer/frame_header.html
+* https://users.belgacom.net/gc247244/extra/tag.html
+* https://gabriel.mp3-tech.org/mp3infotag.html
+* https://www.id3.org/iso4217.html
+* https://www.unicode.org/Public/MAPPINGS/ISO8859/8859-1.TXT
+* https://www.xiph.org/ogg/vorbis/doc/framing.html
+* https://www.xiph.org/ogg/vorbis/doc/v-comment.html
+* https://leknor.com/code/php/class.ogg.php.txt
+* https://www.id3.org/iso639-2.html
+* https://www.id3.org/lyrics3.html
+* https://www.id3.org/lyrics3200.html
+* https://www.psc.edu/general/software/packages/ieee/ieee.html
+* https://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/ieee-expl.html
+* https://www.scri.fsu.edu/~jac/MAD3401/Backgrnd/binary.html
+* https://www.jmcgowan.com/avi.html
+* https://www.wotsit.org/
+* https://www.herdsoft.com/ti/davincie/davp3xo2.htm
+* https://www.mathdogs.com/vorbis-illuminated/bitstream-appendix.html
 * "Standard MIDI File Format" by Dustin Caldwell (from www.wotsit.org)
-* http://midistudio.com/Help/GMSpecs_Patches.htm
-* http://www.xiph.org/archives/vorbis/200109/0459.html
-* http://www.replaygain.org/
-* http://www.lossless-audio.com/
-* http://download.microsoft.com/download/winmediatech40/Doc/1.0/WIN98MeXP/EN-US/ASF_Specification_v.1.0.exe
-* http://mediaxw.sourceforge.net/files/doc/Active%20Streaming%20Format%20(ASF)%201.0%20Specification.pdf
-* http://www.uni-jena.de/~pfk/mpp/sv8/ (archived at http://www.hydrogenaudio.org/musepack/klemm/www.personal.uni-jena.de/~pfk/mpp/sv8/)
-* http://jfaul.de/atl/
-* http://www.uni-jena.de/~pfk/mpp/ (archived at http://www.hydrogenaudio.org/musepack/klemm/www.personal.uni-jena.de/~pfk/mpp/)
-* http://www.libpng.org/pub/png/spec/png-1.2-pdg.html
-* http://www.real.com/devzone/library/creating/rmsdk/doc/rmff.htm
-* http://www.fastgraph.com/help/bmp_os2_header_format.html
-* http://netghost.narod.ru/gff/graphics/summary/os2bmp.htm
-* http://flac.sourceforge.net/format.html
-* http://www.research.att.com/projects/mpegaudio/mpeg2.html
-* http://www.audiocoding.com/wiki/index.php?page=AAC
-* http://libmpeg.org/mpeg4/doc/w2203tfs.pdf
-* http://www.geocities.com/xhelmboyx/quicktime/formats/qtm-layout.txt
-* http://developer.apple.com/techpubs/quicktime/qtdevdocs/RM/frameset.htm
-* http://www.nullsoft.com/nsv/
-* http://www.wotsit.org/download.asp?f=iso9660
-* http://sandbox.mc.edu/~bennet/cs110/tc/tctod.html
-* http://www.cdroller.com/htm/readdata.html
-* http://www.speex.org/manual/node10.html
-* http://www.harmony-central.com/Computer/Programming/aiff-file-format.doc
-* http://www.faqs.org/rfcs/rfc2361.html
-* http://ghido.shelter.ro/
-* http://www.ebu.ch/tech_t3285.pdf
-* http://www.sr.se/utveckling/tu/bwf
-* http://ftp.aessc.org/pub/aes46-2002.pdf
-* http://cartchunk.org:8080/
-* http://www.broadcastpapers.com/radio/cartchunk01.htm
-* http://www.hr/josip/DSP/AudioFile2.html
-* http://home.attbi.com/~chris.bagwell/AudioFormats-11.html
-* http://www.pure-mac.com/extkey.html
-* http://cesnet.dl.sourceforge.net/sourceforge/bonkenc/bonk-binary-format-0.9.txt
-* http://www.headbands.com/gspot/
-* http://www.openswf.org/spec/SWFfileformat.html
-* http://j-faul.virtualave.net/
-* http://www.btinternet.com/~AnthonyJ/Atari/programming/avr_format.html
-* http://cui.unige.ch/OSG/info/AudioFormats/ap11.html
-* http://sswf.sourceforge.net/SWFalexref.html
-* http://www.geocities.com/xhelmboyx/quicktime/formats/qti-layout.txt
-* http://www-lehre.informatik.uni-osnabrueck.de/~fbstark/diplom/docs/swf/Flash_Uncovered.htm
-* http://developer.apple.com/quicktime/icefloe/dispatch012.html
-* http://www.csdn.net/Dev/Format/graphics/PCD.htm
-* http://tta.iszf.irk.ru/
-* http://www.atsc.org/standards/a_52a.pdf
-* http://www.alanwood.net/unicode/
-* http://www.freelists.org/archives/matroska-devel/07-2003/msg00010.html
-* http://www.its.msstate.edu/net/real/reports/config/tags.stats
-* http://homepages.slingshot.co.nz/~helmboy/quicktime/formats/qtm-layout.txt
-* http://brennan.young.net/Comp/LiveStage/things.html
-* http://www.multiweb.cz/twoinches/MP3inside.htm
-* http://www.geocities.co.jp/SiliconValley-Oakland/3664/alittle.html#GenreExtended
-* http://www.mactech.com/articles/mactech/Vol.06/06.01/SANENormalized/
-* http://www.unicode.org/unicode/faq/utf_bom.html
-* http://tta.corecodec.org/?menu=format
-* http://www.scvi.net/nsvformat.htm
-* http://pda.etsi.org/pda/queryform.asp
-* http://cpansearch.perl.org/src/RGIBSON/Audio-DSS-0.02/lib/Audio/DSS.pm
-* http://trac.musepack.net/trac/wiki/SV8Specification
-* http://wyday.com/cuesharp/specification.php
-* http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/Nikon.html
+* https://midistudio.com/Help/GMSpecs_Patches.htm
+* https://www.xiph.org/archives/vorbis/200109/0459.html
+* https://www.replaygain.org/
+* https://www.lossless-audio.com/
+* https://download.microsoft.com/download/winmediatech40/Doc/1.0/WIN98MeXP/EN-US/ASF_Specification_v.1.0.exe
+* https://mediaxw.sourceforge.net/files/doc/Active%20Streaming%20Format%20(ASF)%201.0%20Specification.pdf
+* https://www.uni-jena.de/~pfk/mpp/sv8/ (archived at https://www.hydrogenaudio.org/musepack/klemm/www.personal.uni-jena.de/~pfk/mpp/sv8/)
+* https://jfaul.de/atl/
+* https://www.uni-jena.de/~pfk/mpp/ (archived at https://www.hydrogenaudio.org/musepack/klemm/www.personal.uni-jena.de/~pfk/mpp/)
+* https://www.libpng.org/pub/png/spec/png-1.2-pdg.html
+* https://www.real.com/devzone/library/creating/rmsdk/doc/rmff.htm
+* https://www.fastgraph.com/help/bmp_os2_header_format.html
+* https://netghost.narod.ru/gff/graphics/summary/os2bmp.htm
+* https://flac.sourceforge.net/format.html
+* https://www.research.att.com/projects/mpegaudio/mpeg2.html
+* https://www.audiocoding.com/wiki/index.php?page=AAC
+* https://libmpeg.org/mpeg4/doc/w2203tfs.pdf
+* https://www.geocities.com/xhelmboyx/quicktime/formats/qtm-layout.txt
+* https://developer.apple.com/techpubs/quicktime/qtdevdocs/RM/frameset.htm
+* https://www.nullsoft.com/nsv/
+* https://www.wotsit.org/download.asp?f=iso9660
+* https://sandbox.mc.edu/~bennet/cs110/tc/tctod.html
+* https://www.cdroller.com/htm/readdata.html
+* https://www.speex.org/manual/node10.html
+* https://www.harmony-central.com/Computer/Programming/aiff-file-format.doc
+* https://www.faqs.org/rfcs/rfc2361.html
+* https://ghido.shelter.ro/
+* https://www.ebu.ch/tech_t3285.pdf
+* https://www.sr.se/utveckling/tu/bwf
+* https://ftp.aessc.org/pub/aes46-2002.pdf
+* https://cartchunk.org:8080/
+* https://www.broadcastpapers.com/radio/cartchunk01.htm
+* https://www.hr/josip/DSP/AudioFile2.html
+* https://home.attbi.com/~chris.bagwell/AudioFormats-11.html
+* https://www.pure-mac.com/extkey.html
+* https://cesnet.dl.sourceforge.net/sourceforge/bonkenc/bonk-binary-format-0.9.txt
+* https://www.headbands.com/gspot/
+* https://www.openswf.org/spec/SWFfileformat.html
+* https://j-faul.virtualave.net/
+* https://www.btinternet.com/~AnthonyJ/Atari/programming/avr_format.html
+* https://cui.unige.ch/OSG/info/AudioFormats/ap11.html
+* https://sswf.sourceforge.net/SWFalexref.html
+* https://www.geocities.com/xhelmboyx/quicktime/formats/qti-layout.txt
+* https://www-lehre.informatik.uni-osnabrueck.de/~fbstark/diplom/docs/swf/Flash_Uncovered.htm
+* https://developer.apple.com/quicktime/icefloe/dispatch012.html
+* https://www.csdn.net/Dev/Format/graphics/PCD.htm
+* https://tta.iszf.irk.ru/
+* https://www.atsc.org/standards/a_52a.pdf
+* https://www.alanwood.net/unicode/
+* https://www.freelists.org/archives/matroska-devel/07-2003/msg00010.html
+* https://www.its.msstate.edu/net/real/reports/config/tags.stats
+* https://homepages.slingshot.co.nz/~helmboy/quicktime/formats/qtm-layout.txt
+* https://brennan.young.net/Comp/LiveStage/things.html
+* https://www.multiweb.cz/twoinches/MP3inside.htm
+* https://www.geocities.co.jp/SiliconValley-Oakland/3664/alittle.html#GenreExtended
+* https://www.mactech.com/articles/mactech/Vol.06/06.01/SANENormalized/
+* https://www.unicode.org/unicode/faq/utf_bom.html
+* https://tta.corecodec.org/?menu=format
+* https://www.scvi.net/nsvformat.htm
+* https://pda.etsi.org/pda/queryform.asp
+* https://cpansearch.perl.org/src/RGIBSON/Audio-DSS-0.02/lib/Audio/DSS.pm
+* https://trac.musepack.net/trac/wiki/SV8Specification
+* https://wyday.com/cuesharp/specification.php
+* https://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/Nikon.html

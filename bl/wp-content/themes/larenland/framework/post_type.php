@@ -6,7 +6,7 @@ add_action( 'init', 'codex_portfolio_init' );
 /**
  * Register a portfolio post type.
  *
- * @link http://codex.wordpress.org/Function_Reference/register_post_type
+ * @link https://codex.wordpress.org/Function_Reference/register_post_type
  */
 function codex_portfolio_init() {
 	global $textdomain;

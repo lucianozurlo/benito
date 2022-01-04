@@ -34,7 +34,7 @@ function bl_setup() {
 
 	/*
 	 * Enable support for Post Formats.
-	 * See http://codex.wordpress.org/Post_Formats
+	 * See https://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
 		'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery',
@@ -148,7 +148,7 @@ function bl_scripts() {
 	wp_enqueue_script("carousel", get_template_directory_uri()."/js/owl.carousel.min.js",array(),false,true);
 	wp_enqueue_script("countTo", get_template_directory_uri()."/js/jquery.countTo.js",array(),false,true);
 	wp_enqueue_script("jflickrfeed", get_template_directory_uri()."/js/jflickrfeed.min.js",array(),false,true);
-	wp_enqueue_script("map_api", "http://maps.google.com/maps/api/js?sensor=false",array(),false,true);
+	wp_enqueue_script("map_api", "https://maps.google.com/maps/api/js?sensor=false",array(),false,true);
 	wp_enqueue_script("gmap", get_template_directory_uri()."/js/gmap3.min.js",array(),false,true);
 	wp_enqueue_script("custom", get_template_directory_uri()."/js/script.js",array(),false,true);
 	//wp_enqueue_script( 'ajax-implementation.js', get_template_directory_uri(). "/scripts/ajax-implementation.js", array( 'jquery' ) );
@@ -185,7 +185,7 @@ function bl_theme_comment($comment, $args, $depth) {
      $GLOBALS['comment'] = $comment; ?>
 		<li <?php comment_class('clearfix'); ?> id="comment-<?php comment_ID() ?>">
 			<div class="comment-box">
-				<?php echo get_avatar($comment,$size='60',$default='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=70' ); ?>
+				<?php echo get_avatar($comment,$size='60',$default='https://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=70' ); ?>
 				<div class="comment-content">
 					<h4><?php printf(__('%s','white'), get_comment_author_link()) ?></h4>
 					<span><?php printf(__('%1$s at %2$s',$textdomain), get_comment_date(), get_comment_time()) ?></span>
@@ -297,7 +297,7 @@ function marbale_excerpt($limit = 30) {
  * @author       Thomas Griffin <thomas@thomasgriffinmedia.com>
  * @author       Gary Jones <gamajo@gamajo.com>
  * @copyright  Copyright (c) 2012, Thomas Griffin
- * @license       http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
+ * @license       https://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link       https://github.com/thomasgriffin/TGM-Plugin-Activation
  */
 

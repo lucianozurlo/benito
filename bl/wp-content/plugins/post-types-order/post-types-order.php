@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Post Types Order
-Plugin URI: http://www.nsp-code.com
+Plugin URI: https://www.nsp-code.com
 Description: Posts Order and Post Types Objects Order using a Drag and Drop Sortable javascript capability
 Author: Nsp Code
-Author URI: http://www.nsp-code.com 
+Author URI: https://www.nsp-code.com 
 Version: 1.7.7
 */
 

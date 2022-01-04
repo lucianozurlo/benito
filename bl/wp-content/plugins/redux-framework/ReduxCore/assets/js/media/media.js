@@ -3,7 +3,7 @@
 /**
  * Media Uploader
  * Dependencies        : jquery, wp media uploader
- * Feature added by    : Smartik - http://smartik.ws/
+ * Feature added by    : Smartik - https://smartik.ws/
  * Date                  : 05.28.2013
  */
 

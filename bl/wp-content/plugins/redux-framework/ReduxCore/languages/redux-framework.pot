@@ -1533,7 +1533,7 @@ msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://wordpress.org/plugins/redux-framework"
+msgid "https://wordpress.org/plugins/redux-framework"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -1547,7 +1547,7 @@ msgid "Team Redux"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://reduxframework.com"
+msgid "https://reduxframework.com"
 msgstr ""
 
 #: ReduxCore/inc/welcome/views/status_report.php:427

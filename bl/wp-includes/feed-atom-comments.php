@@ -12,9 +12,9 @@ echo '<?xml version="1.0" encoding="' . get_option('blog_charset') . '" ?' . '>'
 do_action( 'rss_tag_pre', 'atom-comments' );
 ?>
 <feed
-	xmlns="http://www.w3.org/2005/Atom"
+	xmlns="https://www.w3.org/2005/Atom"
 	xml:lang="<?php bloginfo_rss( 'language' ); ?>"
-	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xmlns:thr="https://purl.org/syndication/thread/1.0"
 	<?php
 		/** This action is documented in wp-includes/feed-atom.php */
 		do_action( 'atom_ns' );
@@ -91,7 +91,7 @@ if ( have_comments() ) : while ( have_comments() ) : the_comment();
 <?php else : // post pass ?>
 		<content type="html" xml:base="<?php comment_link(); ?>"><![CDATA[<?php comment_text(); ?>]]></content>
 <?php endif; // post pass
-	// Return comment threading information (http://www.ietf.org/rfc/rfc4685.txt)
+	// Return comment threading information (https://www.ietf.org/rfc/rfc4685.txt)
 	if ( $comment->comment_parent == 0 ) : // This comment is top level ?>
 		<thr:in-reply-to ref="<?php the_guid(); ?>" href="<?php the_permalink_rss() ?>" type="<?php bloginfo_rss('html_type'); ?>" />
 <?php else : // This comment is in reply to another comment

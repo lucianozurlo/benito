@@ -59,7 +59,7 @@ function redirect_canonical( $requested_url = null, $do_redirect = true ) {
 
 	if ( !$requested_url ) {
 		// build the URL in the address bar
-		$requested_url  = is_ssl() ? 'https://' : 'http://';
+		$requested_url  = is_ssl() ? 'https://' : 'https://';
 		$requested_url .= $_SERVER['HTTP_HOST'];
 		$requested_url .= $_SERVER['REQUEST_URI'];
 	}

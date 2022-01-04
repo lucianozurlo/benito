@@ -92,8 +92,8 @@ msgid "Notify message by Antispam Bee"
 msgstr "Уведомление от Antispam Bee"
 
 #: ../antispam_bee.php:1885
-msgid "http://antispambee.com"
-msgstr "http://antispambee.com"
+msgid "https://antispambee.com"
+msgstr "https://antispambee.com"
 
 #: ../inc/gui.class.php:30
 msgid "Cheatin&#8217; uh?"

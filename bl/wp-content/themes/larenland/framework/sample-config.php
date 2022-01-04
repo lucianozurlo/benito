@@ -214,7 +214,7 @@ if (!class_exists('Redux_Framework_sample_config')) {
                     <p class="theme-description"><?php echo $this->theme->display('Description'); ?></p>
             <?php
             if ($this->theme->parent()) {
-                printf(' <p class="howto">' . __('This <a href="%1$s">child theme</a> requires its parent theme, %2$s.') . '</p>', __('http://codex.wordpress.org/Child_Themes', 'redux-framework-demo'), $this->theme->parent()->display('Name'));
+                printf(' <p class="howto">' . __('This <a href="%1$s">child theme</a> requires its parent theme, %2$s.') . '</p>', __('https://codex.wordpress.org/Child_Themes', 'redux-framework-demo'), $this->theme->parent()->display('Name'));
             }
             ?>
 
@@ -451,7 +451,7 @@ if (!class_exists('Redux_Framework_sample_config')) {
                         'subtitle'  => __('Paste your CSS code here.', $textdomain),
                         'mode'      => 'css',
                         'theme'     => 'monokai',
-                        'desc'      => 'Possible modes can be found at <a href="http://ace.c9.io" target="_blank">http://ace.c9.io/</a>.',
+                        'desc'      => 'Possible modes can be found at <a href="https://ace.c9.io" target="_blank">https://ace.c9.io/</a>.',
                         'default'   => "#header{\nmargin: 0 auto;\n}"
                     ),
                    
@@ -763,7 +763,7 @@ if (!class_exists('Redux_Framework_sample_config')) {
 
                 // OPTIONAL -> Give you extra features
                 'page_priority'     => null,                    // Order where the menu appears in the admin area. If there is any conflict, something will not show. Warning.
-                'page_parent'       => 'themes.php',            // For a full list of options, visit: http://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
+                'page_parent'       => 'themes.php',            // For a full list of options, visit: https://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
                 'page_permissions'  => 'manage_options',        // Permissions needed to access the options panel.
                 'menu_icon'         => '',                      // Specify a custom URL to an icon
                 'last_tab'          => '',                      // Force your panel to always open to a specific tab (by id)
@@ -829,12 +829,12 @@ if (!class_exists('Redux_Framework_sample_config')) {
                 'icon'  => 'el-icon-facebook'
             );
             $this->args['share_icons'][] = array(
-                'url'   => 'http://twitter.com/reduxframework',
+                'url'   => 'https://twitter.com/reduxframework',
                 'title' => 'Follow us on Twitter',
                 'icon'  => 'el-icon-twitter'
             );
             $this->args['share_icons'][] = array(
-                'url'   => 'http://www.linkedin.com/company/redux-framework',
+                'url'   => 'https://www.linkedin.com/company/redux-framework',
                 'title' => 'Find us on LinkedIn',
                 'icon'  => 'el-icon-linkedin'
             );

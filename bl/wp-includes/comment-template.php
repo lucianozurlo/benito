@@ -201,7 +201,7 @@ function get_comment_author_link( $comment_ID = 0 ) {
 	$url    = get_comment_author_url( $comment_ID );
 	$author = get_comment_author( $comment_ID );
 
-	if ( empty( $url ) || 'http://' == $url )
+	if ( empty( $url ) || 'https://' == $url )
 		$return = $author;
 	else
 		$return = "<a href='$url' rel='external nofollow' class='url'>$author</a>";
@@ -282,7 +282,7 @@ function comment_author_IP( $comment_ID = 0 ) {
  */
 function get_comment_author_url( $comment_ID = 0 ) {
 	$comment = get_comment( $comment_ID );
-	$url = ('http://' == $comment->comment_author_url) ? '' : $comment->comment_author_url;
+	$url = ('https://' == $comment->comment_author_url) ? '' : $comment->comment_author_url;
 	$url = esc_url( $url, array('http', 'https') );
 
 	/**
@@ -344,8 +344,8 @@ function comment_author_url( $comment_ID = 0 ) {
 function get_comment_author_url_link( $linktext = '', $before = '', $after = '' ) {
 	$url = get_comment_author_url();
 	$display = ($linktext != '') ? $linktext : $url;
-	$display = str_replace( 'http://www.', '', $display );
-	$display = str_replace( 'http://', '', $display );
+	$display = str_replace( 'https://www.', '', $display );
+	$display = str_replace( 'https://', '', $display );
 
 	if ( '/' == substr($display, -1) ) {
 		$display = substr($display, 0, -1);
@@ -1011,9 +1011,9 @@ function trackback_rdf( $deprecated = '' ) {
 		return;
 	}
 
-	echo '<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-			xmlns:dc="http://purl.org/dc/elements/1.1/"
-			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+	echo '<rdf:RDF xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="https://purl.org/dc/elements/1.1/"
+			xmlns:trackback="https://madskills.com/public/xml/rss/module/trackback/">
 		<rdf:Description rdf:about="';
 	the_permalink();
 	echo '"'."\n";

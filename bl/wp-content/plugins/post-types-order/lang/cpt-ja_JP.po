@@ -56,7 +56,7 @@ msgid ""
 "write an article about this plugin in your blog with a link to our site"
 msgstr ""
 "このプラグインはあなたの役に立ちましたか？寄付をしてくださるか、あなたのブロ"
-"グに次のサイトへのリンク付きで記事を書いてサポートをお願いします: http://www."
+"グに次のサイトへのリンク付きで記事を書いてサポートをお願いします: https://www."
 "nsp-code.com/."
 
 #: include/functions.php:66

@@ -45,7 +45,7 @@ if ( !defined('ABSPATH') )
 <tr>
 	<td class="first">
 	<?php
-		if ( ! empty( $comment->comment_author_url ) && 'http://' != $comment->comment_author_url ) {
+		if ( ! empty( $comment->comment_author_url ) && 'https://' != $comment->comment_author_url ) {
 			$link = '<a href="' . $comment->comment_author_url . '" rel="external nofollow" target="_blank">' . __('visit site') . '</a>';
 			$author = get_comment_author( $comment->comment_ID );
 			/** This filter is documented in wp-includes/comment-template.php */
@@ -93,13 +93,13 @@ if ( !defined('ABSPATH') )
 
 <?php if ( $ip = get_comment_author_IP() ) : ?>
 <div class="misc-pub-section misc-pub-comment-author-ip">
-	<?php _e( 'IP address:' ); ?> <strong><a href="<?php echo esc_url( sprintf( 'http://whois.arin.net/rest/ip/%s', $ip ) ); ?>"><?php echo esc_html( $ip ); ?></a></strong>
+	<?php _e( 'IP address:' ); ?> <strong><a href="<?php echo esc_url( sprintf( 'https://whois.arin.net/rest/ip/%s', $ip ) ); ?>"><?php echo esc_html( $ip ); ?></a></strong>
 </div>
 <?php endif; ?>
 
 <div class="misc-pub-section curtime misc-pub-curtime">
 <?php
-/* translators: Publish box date format, see http://php.net/date */
+/* translators: Publish box date format, see https://php.net/date */
 $datef = __( 'M j, Y @ H:i' );
 $stamp = __('Submitted on: <b>%1$s</b>');
 $date = date_i18n( $datef, strtotime( $comment->comment_date ) );

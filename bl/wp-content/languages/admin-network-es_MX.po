@@ -615,8 +615,8 @@ msgid "You will need a wildcard DNS record if you are going to use the virtual h
 msgstr "Necesitarás crear un registro DNS wildcard si vas a utilizar la funcionalidad de servidor vitual (sub-dominios)."
 
 #: wp-admin/network.php:215
-msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
-msgstr "Si <code>mod_rewrite</code> está deshabilitado, pide a su administrador que active ese módulo, o revise la <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">documentación de Apache</a> o <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">en otros sitios</a> para conseguir ayuda para su configuración."
+msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"https://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"https://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
+msgstr "Si <code>mod_rewrite</code> está deshabilitado, pide a su administrador que active ese módulo, o revise la <a href=\"https://httpd.apache.org/docs/mod/mod_rewrite.html\">documentación de Apache</a> o <a href=\"https://www.google.com/search?q=apache+mod_rewrite\">en otros sitios</a> para conseguir ayuda para su configuración."
 
 #: wp-admin/network.php:195
 msgctxt "Default network name"

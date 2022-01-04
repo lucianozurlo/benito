@@ -275,7 +275,7 @@ msgstr "Autor: %1$s (IP: %2$s, %3$s)"
 msgid "Post type names must be between 1 and 20 characters in length."
 msgstr "Los nombres de un tipo de entrada deben tener entre 1 y 20 caracteres de longitud."
 
-#. translators: revision date format, see http:php.net/date
+#. translators: revision date format, see https:php.net/date
 #: wp-includes/post-template.php:1725 wp-includes/post-template.php:1761
 msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
@@ -2063,17 +2063,17 @@ msgstr "#%d (sin título)"
 msgid "JavaScript must be enabled to use this feature."
 msgstr "JavaScript debe estar activado para utilizar esta funcionalidad."
 
-#. translators: localized date format, see http:php.net/date
+#. translators: localized date format, see https:php.net/date
 #: wp-includes/locale.php:348
 msgid "F j, Y"
 msgstr "j F, Y"
 
-#. translators: localized time format, see http:php.net/date
+#. translators: localized time format, see https:php.net/date
 #: wp-includes/locale.php:350
 msgid "g:i a"
 msgstr "g:i a"
 
-#. translators: localized date and time format, see http:php.net/date
+#. translators: localized date and time format, see https:php.net/date
 #: wp-includes/locale.php:352
 msgid "F j, Y g:i a"
 msgstr "j F, Y g:i a"
@@ -3166,8 +3166,8 @@ msgid "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to y
 msgstr "Tu sitio en <a href=\"%1$s\">%2$s</a> está activo. Puedes entrar en tu sitio usando el usuario  &#8220;%3$s&#8221;. Por favor, comprueba en tu correo electrónico %4$s la contraseña y las instrucciones de acceso. Si no recibes el correo mira en la papelera o en la carpeta de spam. Si no recibes el correo en una hora puedes <a href=\"%5$s\">reiniciar tu contraseña</a>."
 
 #: wp-signup.php:376
-msgid "<a href=\"http://%1$s\">http://%2$s</a> is your new site. <a href=\"%3$s\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
-msgstr "<a href=\"http://%1$s\">http://%2$s</a> es tu nuevo sitio. <a href=\"%3$s\">Accede</a> como &#8220;%4$s&#8221; usando tu contraseña."
+msgid "<a href=\"https://%1$s\">https://%2$s</a> is your new site. <a href=\"%3$s\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
+msgstr "<a href=\"https://%1$s\">https://%2$s</a> es tu nuevo sitio. <a href=\"%3$s\">Accede</a> como &#8220;%4$s&#8221; usando tu contraseña."
 
 #: wp-activate.php:96
 msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
@@ -5634,7 +5634,7 @@ msgstr "AM"
 msgid "PM"
 msgstr "PM"
 
-#. translators: $thousands_sep argument for http:php.net/number_format, default
+#. translators: $thousands_sep argument for https:php.net/number_format, default
 #. is ,
 #: wp-includes/locale.php:171
 msgid "number_format_thousands_sep"
@@ -6344,7 +6344,7 @@ msgstr "Los registros están deshabilitados."
 msgid "User registration has been disabled."
 msgstr "No se permite el registro de nuevos usuarios."
 
-#. translators: $dec_point argument for http:php.net/number_format, default is
+#. translators: $dec_point argument for https:php.net/number_format, default is
 #. .
 #: wp-includes/locale.php:175
 msgid "number_format_decimal_point"

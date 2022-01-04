@@ -1141,7 +1141,7 @@ var UniteAdminRev = new function(){
 			vimeoID = jQuery.trim(vimeoID);
 			vimeoID = getVimeoIDFromUrl(vimeoID);
 			
-			var urlAPI = 'http://www.vimeo.com/api/v2/video/' + vimeoID + '.json?callback=UniteAdminRev.onVimeoCallback'; 
+			var urlAPI = 'https://www.vimeo.com/api/v2/video/' + vimeoID + '.json?callback=UniteAdminRev.onVimeoCallback'; 
 			jQuery.getScript(urlAPI);
 		});
 		

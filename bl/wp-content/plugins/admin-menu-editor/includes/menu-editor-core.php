@@ -242,7 +242,7 @@ class WPMenuEditor extends MenuEd_ShadowPluginFramework {
 			return;
 		}
 
-		//Menu reset (for emergencies). Executed by accessing http://example.com/wp-admin/?reset_admin_menu=1
+		//Menu reset (for emergencies). Executed by accessing https://example.com/wp-admin/?reset_admin_menu=1
 		$reset_requested = isset($this->get['reset_admin_menu']) && $this->get['reset_admin_menu'];
 		if ( $reset_requested && $this->current_user_can_edit_menu() ){
 			$this->set_custom_menu(null);

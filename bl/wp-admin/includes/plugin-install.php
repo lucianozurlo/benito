@@ -66,7 +66,7 @@ function plugins_api($action, $args = null) {
 	$res = apply_filters( 'plugins_api', false, $action, $args );
 
 	if ( false === $res ) {
-		$url = $http_url = 'http://api.wordpress.org/plugins/info/1.0/';
+		$url = $http_url = 'https://api.wordpress.org/plugins/info/1.0/';
 		if ( $ssl = wp_http_supports( array( 'ssl' ) ) )
 			$url = set_url_scheme( $url, 'https' );
 

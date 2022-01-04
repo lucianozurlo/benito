@@ -1054,7 +1054,7 @@ function auth_redirect() {
 	// The cookie is no good so force login
 	nocache_headers();
 
-	$redirect = ( strpos( $_SERVER['REQUEST_URI'], '/options.php' ) && wp_get_referer() ) ? wp_get_referer() : set_url_scheme( 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
+	$redirect = ( strpos( $_SERVER['REQUEST_URI'], '/options.php' ) && wp_get_referer() ) ? wp_get_referer() : set_url_scheme( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
 
 	$login_url = wp_login_url($redirect, true);
 
@@ -1291,9 +1291,9 @@ function wp_validate_redirect($location, $default = '') {
 	$location = trim( $location );
 	// browsers will assume 'http' is your protocol, and will obey a redirect to a URL starting with '//'
 	if ( substr($location, 0, 2) == '//' )
-		$location = 'http:' . $location;
+		$location = 'https:' . $location;
 
-	// In php 5 parse_url may fail if the URL query part contains http://, bug #38143
+	// In php 5 parse_url may fail if the URL query part contains https://, bug #38143
 	$test = ( $cut = strpos($location, '?') ) ? substr( $location, 0, $cut ) : $location;
 
 	$lp  = parse_url($test);
@@ -1448,7 +1448,7 @@ function wp_notify_postauthor( $comment_id, $deprecated = null ) {
 			$notify_message .= sprintf( __( 'Author: %1$s (IP: %2$s, %3$s)' ), $comment->comment_author, $comment->comment_author_IP, $comment_author_domain ) . "\r\n";
 			$notify_message .= sprintf( __( 'E-mail: %s' ), $comment->comment_author_email ) . "\r\n";
 			$notify_message .= sprintf( __( 'URL: %s' ), $comment->comment_author_url ) . "\r\n";
-			$notify_message .= sprintf( __( 'Whois: %s' ), "http://whois.arin.net/rest/ip/{$comment->comment_author_IP}" ) . "\r\n";
+			$notify_message .= sprintf( __( 'Whois: %s' ), "https://whois.arin.net/rest/ip/{$comment->comment_author_IP}" ) . "\r\n";
 			$notify_message .= sprintf( __('Comment: %s' ), "\r\n" . $comment->comment_content ) . "\r\n\r\n";
 			$notify_message .= __( 'You can see all comments on this post here:' ) . "\r\n";
 			/* translators: 1: blog name, 2: post title */
@@ -1579,7 +1579,7 @@ function wp_notify_moderator($comment_id) {
 			$notify_message .= sprintf( __( 'Author: %1$s (IP: %2$s, %3$s)' ), $comment->comment_author, $comment->comment_author_IP, $comment_author_domain ) . "\r\n";
 			$notify_message .= sprintf( __( 'E-mail: %s' ), $comment->comment_author_email ) . "\r\n";
 			$notify_message .= sprintf( __( 'URL: %s' ), $comment->comment_author_url ) . "\r\n";
-			$notify_message .= sprintf( __( 'Whois: %s' ), "http://whois.arin.net/rest/ip/{$comment->comment_author_IP}" ) . "\r\n";
+			$notify_message .= sprintf( __( 'Whois: %s' ), "https://whois.arin.net/rest/ip/{$comment->comment_author_IP}" ) . "\r\n";
 			$notify_message .= sprintf( __( 'Comment: %s' ), "\r\n" . $comment->comment_content ) . "\r\n\r\n";
 			break;
 	}

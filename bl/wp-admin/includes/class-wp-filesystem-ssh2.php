@@ -4,12 +4,12 @@
  *
  * To use this class you must follow these steps for PHP 5.2.6+
  *
- * @contrib http://kevin.vanzonneveld.net/techblog/article/make_ssh_connections_with_php/ - Installation Notes
+ * @contrib https://kevin.vanzonneveld.net/techblog/article/make_ssh_connections_with_php/ - Installation Notes
  *
  * Complie libssh2 (Note: Only 0.14 is officaly working with PHP 5.2.6+ right now, But many users have found the latest versions work)
  *
  * cd /usr/src
- * wget http://surfnet.dl.sourceforge.net/sourceforge/libssh2/libssh2-0.14.tar.gz
+ * wget https://surfnet.dl.sourceforge.net/sourceforge/libssh2/libssh2-0.14.tar.gz
  * tar -zxvf libssh2-0.14.tar.gz
  * cd libssh2-0.14/
  * ./configure

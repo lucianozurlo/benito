@@ -268,7 +268,7 @@
 		public static function getImageUrlFromPath($pathImage){
 			//protect from absolute url
 			$pathLower = strtolower($pathImage);
-			if(strpos($pathLower, "http://") !== false || strpos($pathLower, "www.") === 0)
+			if(strpos($pathLower, "https://") !== false || strpos($pathLower, "www.") === 0)
 				return($pathImage);
 			
 			$urlImage = self::getUrlUploads().$pathImage;
@@ -1001,7 +1001,7 @@
 			}
 			
 			if(is_ssl()){
-				$baseUrl = str_replace("http://", "https://", $baseUrl);
+				$baseUrl = str_replace("https://", "https://", $baseUrl);
 			}
 			
 			return($baseUrl);

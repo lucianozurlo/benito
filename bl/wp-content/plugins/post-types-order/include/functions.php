@@ -39,10 +39,10 @@
                                 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
                                 <!-- Place this tag where you want the +1 button to render -->
-                                <div class="g-plusone" data-size="small" data-annotation="none" data-href="http://nsp-code.com/"></div>
+                                <div class="g-plusone" data-size="small" data-annotation="none" data-href="https://nsp-code.com/"></div>
                             </div>
                             <div class="p_s_item s_t">
-                                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nsp-code.com" data-text="Define custom order for your post types through an easy to use javascript AJAX drag and drop interface. No theme code updates are necessarily, this plugin will take care of query update." data-count="none">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.nsp-code.com" data-text="Define custom order for your post types through an easy to use javascript AJAX drag and drop interface. No theme code updates are necessarily, this plugin will take care of query update." data-count="none">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
                             </div> 
                             
                             <div class="p_s_item s_f">
@@ -62,9 +62,9 @@
                         </div>
                     </div>
                     
-                    <p><?php _e('Did you find this plugin useful? Please support our work with a donation or write an article about this plugin in your blog with a link to our site', 'cpt') ?> <a href="http://www.nsp-code.com/" target="_blank"><strong>http://www.nsp-code.com/</strong></a>.</p>
-                    <h4><?php _e('Did you know there is available an Advanced version of this plug-in?', 'cpt') ?> <a target="_blank" href="http://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-post-types-order/"><?php _e('Read more', 'cpt') ?></a></h4>
-                    <p><?php _e('Check our', 'cpt') ?> <a target="_blank" href="http://wordpress.org/plugins/taxonomy-terms-order/">Category Order - Taxonomy Terms Order</a> <?php _e('plugin which allow to custom sort categories and custom taxonomies terms', 'cpt') ?> </p>
+                    <p><?php _e('Did you find this plugin useful? Please support our work with a donation or write an article about this plugin in your blog with a link to our site', 'cpt') ?> <a href="https://www.nsp-code.com/" target="_blank"><strong>https://www.nsp-code.com/</strong></a>.</p>
+                    <h4><?php _e('Did you know there is available an Advanced version of this plug-in?', 'cpt') ?> <a target="_blank" href="https://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-post-types-order/"><?php _e('Read more', 'cpt') ?></a></h4>
+                    <p><?php _e('Check our', 'cpt') ?> <a target="_blank" href="https://wordpress.org/plugins/taxonomy-terms-order/">Category Order - Taxonomy Terms Order</a> <?php _e('plugin which allow to custom sort categories and custom taxonomies terms', 'cpt') ?> </p>
                     
                     <div class="clear"></div>
                 </div>

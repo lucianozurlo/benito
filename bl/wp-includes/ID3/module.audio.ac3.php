@@ -1,8 +1,8 @@
 <?php
 /////////////////////////////////////////////////////////////////
 /// getID3() by James Heinrich <info@getid3.org>               //
-//  available at http://getid3.sourceforge.net                 //
-//            or http://www.getid3.org                         //
+//  available at https://getid3.sourceforge.net                 //
+//            or https://www.getid3.org                         //
 //          also https://github.com/JamesHeinrich/getID3       //
 /////////////////////////////////////////////////////////////////
 // See readme.txt for more details                             //
@@ -32,7 +32,7 @@ class getid3_ac3 extends getid3_handler
 		$thisfile_ac3_raw_bsi      = &$thisfile_ac3_raw['bsi'];
 
 
-		// http://www.atsc.org/standards/a_52a.pdf
+		// https://www.atsc.org/standards/a_52a.pdf
 
 		$info['fileformat'] = 'ac3';
 

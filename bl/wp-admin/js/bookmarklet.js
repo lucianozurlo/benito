@@ -13,7 +13,7 @@
 
 	if ( href.match( /^https?:/ ) ) {
 		pt_url += '&u=' + encURI( href );
-		if ( href.match( /^https:/ ) && pt_url.match( /^http:/ ) ) {
+		if ( href.match( /^https:/ ) && pt_url.match( /^https:/ ) ) {
 			canPost = false;
 		}
 	} else {

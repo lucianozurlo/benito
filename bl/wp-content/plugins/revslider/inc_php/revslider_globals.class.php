@@ -19,10 +19,10 @@
 		const YOUTUBE_EXAMPLE_ID = "T8--OggjJKQ";
 		const DEFAULT_YOUTUBE_ARGUMENTS = "hd=1&amp;wmode=opaque&amp;showinfo=0;";
 		const DEFAULT_VIMEO_ARGUMENTS = "title=0&amp;byline=0&amp;portrait=0&amp;api=1";
-		const LINK_HELP_SLIDERS = "http://themepunch.com/revolution/documentation/";
-		const LINK_HELP_SLIDER = "http://themepunch.com/revolution/documentation/#slider_main_settings";
-		const LINK_HELP_SLIDE_LIST = "http://themepunch.com/revolution/documentation/#slide_layer_content";
-		const LINK_HELP_SLIDE = "http://themepunch.com/revolution/documentation/#slide_settings";
+		const LINK_HELP_SLIDERS = "https://themepunch.com/revolution/documentation/";
+		const LINK_HELP_SLIDER = "https://themepunch.com/revolution/documentation/#slider_main_settings";
+		const LINK_HELP_SLIDE_LIST = "https://themepunch.com/revolution/documentation/#slide_layer_content";
+		const LINK_HELP_SLIDE = "https://themepunch.com/revolution/documentation/#slide_settings";
 
 		public static $table_sliders;
 		public static $table_slides;

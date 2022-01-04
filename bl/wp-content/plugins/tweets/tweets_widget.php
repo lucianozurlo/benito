@@ -4,7 +4,7 @@
  * Description: A widget that displays Latest Tweets status via user API.
  * Version: 3.1
  * Author: Quannt
- * Author URI: http://shinetheme.com
+ * Author URI: https://shinetheme.com
  */
 
 require_once(dirname(__FILE__) . '/twitteroauth.php');

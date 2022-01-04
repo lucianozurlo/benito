@@ -986,7 +986,7 @@
 			$urlPreviewPattern = UniteBaseClassRev::$url_ajax_actions."&client_action=preview_slider&sliderid=".$sliderID."&lang=[lang]&nonce=[nonce]";
 			$nonce = wp_create_nonce("revslider_actions");
 
-			$setBase = (is_ssl()) ? "https://" : "http://";
+			$setBase = (is_ssl()) ? "https://" : "https://";
 
 			$f = new ThemePunch_Fonts();
 			$my_fonts = $f->get_all_fonts();
@@ -1092,11 +1092,11 @@
 			$output->setPreviewMode();
 
 			//put the output html
-			$urlPlugin = "http://yourpluginpath/";
+			$urlPlugin = "https://yourpluginpath/";
 			$urlPreviewPattern = UniteBaseClassRev::$url_ajax_actions."&client_action=preview_slider&only_markup=true&sliderid=".$sliderID."&lang=[lang]&nonce=[nonce]";
 			$nonce = wp_create_nonce("revslider_actions");
 
-			$setBase = (is_ssl()) ? "https://" : "http://";
+			$setBase = (is_ssl()) ? "https://" : "https://";
 
 			$f = new ThemePunch_Fonts();
 			$my_fonts = $f->get_all_fonts();
@@ -1377,12 +1377,12 @@
 		 * get html font import
 		 */
 		public static function getCleanFontImport($font){
-			$setBase = (is_ssl()) ? "https://" : "http://";
+			$setBase = (is_ssl()) ? "https://" : "https://";
 
 			if(strpos($font, "href=") === false){ //fallback for old versions
 				return '<link href="'.$setBase.'fonts.googleapis.com/css?family='.$font.'" rel="stylesheet" type="text/css" media="all" />'; //id="rev-google-font"
 			}else{
-				$font = str_replace(array('http://', 'https://'), array($setBase, $setBase), $font);
+				$font = str_replace(array('https://', 'https://'), array($setBase, $setBase), $font);
 				return stripslashes($font);
 			}
 		}
@@ -1391,7 +1391,7 @@
 		public function checkPurchaseVerification($data){
 			global $wp_version;
 
-			$response = wp_remote_post('http://updates.themepunch.com/activate.php', array(
+			$response = wp_remote_post('https://updates.themepunch.com/activate.php', array(
 				'user-agent' => 'WordPress/'.$wp_version.'; '.get_bloginfo('url'),
 				'body' => array(
 					'name' => urlencode($data['username']),
@@ -1430,7 +1430,7 @@
 			$name = get_option('revslider-username', '');
 			$code = get_option('revslider-code', '');
 
-			$response = wp_remote_post('http://updates.themepunch.com/deactivate.php', array(
+			$response = wp_remote_post('https://updates.themepunch.com/deactivate.php', array(
 				'user-agent' => 'WordPress/'.$wp_version.'; '.get_bloginfo('url'),
 				'body' => array(
 					'name' => urlencode($name),

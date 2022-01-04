@@ -86,7 +86,7 @@ function graceful_fail( $message ) {
 	$message = apply_filters( 'graceful_fail', $message );
 	$message_template = apply_filters( 'graceful_fail_template',
 '<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<html xmlns="https://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Error!</title>
 <style type="text/css">
@@ -214,7 +214,7 @@ function get_most_active_blogs( $num = 10, $display = true ) {
 		if ( is_array( $most_active ) ) {
 			reset( $most_active );
 			foreach ( (array) $most_active as $key => $details ) {
-				$url = esc_url('http://' . $details['domain'] . $details['path']);
+				$url = esc_url('https://' . $details['domain'] . $details['path']);
 				echo '<li>' . $details['postcount'] . " <a href='$url'>$url</a></li>";
 			}
 		}
@@ -333,16 +333,16 @@ function get_blogaddress_by_domain( $domain, $path ) {
 	_deprecated_function( __FUNCTION__, '3.7' );
 
 	if ( is_subdomain_install() ) {
-		$url = "http://" . $domain.$path;
+		$url = "https://" . $domain.$path;
 	} else {
 		if ( $domain != $_SERVER['HTTP_HOST'] ) {
 			$blogname = substr( $domain, 0, strpos( $domain, '.' ) );
-			$url = 'http://' . substr( $domain, strpos( $domain, '.' ) + 1 ) . $path;
+			$url = 'https://' . substr( $domain, strpos( $domain, '.' ) + 1 ) . $path;
 			// we're not installing the main blog
 			if ( $blogname != 'www.' )
 				$url .= $blogname . '/';
 		} else { // main blog
-			$url = 'http://' . $domain . $path;
+			$url = 'https://' . $domain . $path;
 		}
 	}
 	return esc_url_raw( $url );

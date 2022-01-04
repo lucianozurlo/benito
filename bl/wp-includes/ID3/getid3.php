@@ -1,8 +1,8 @@
 <?php
 /////////////////////////////////////////////////////////////////
 /// getID3() by James Heinrich <info@getid3.org>               //
-//  available at http://getid3.sourceforge.net                 //
-//            or http://www.getid3.org                         //
+//  available at https://getid3.sourceforge.net                 //
+//            or https://www.getid3.org                         //
 //          also https://github.com/JamesHeinrich/getID3       //
 /////////////////////////////////////////////////////////////////
 //                                                             //
@@ -260,7 +260,7 @@ class getID3
 			$filename = preg_replace('#(.+)'.preg_quote(DIRECTORY_SEPARATOR).'{2,}#U', '\1'.DIRECTORY_SEPARATOR, $filename);
 
 			// open local file
-			//if (is_readable($filename) && is_file($filename) && ($this->fp = fopen($filename, 'rb'))) { // see http://www.getid3.org/phpBB3/viewtopic.php?t=1720
+			//if (is_readable($filename) && is_file($filename) && ($this->fp = fopen($filename, 'rb'))) { // see https://www.getid3.org/phpBB3/viewtopic.php?t=1720
 			if ((is_readable($filename) || file_exists($filename)) && is_file($filename) && ($this->fp = fopen($filename, 'rb'))) {
 				// great
 			} else {
@@ -762,7 +762,7 @@ class getID3
 							'fail_ape'  => 'ERROR',
 						),
 
-				// TTA  - audio       - TTA Lossless Audio Compressor (http://tta.corecodec.org)
+				// TTA  - audio       - TTA Lossless Audio Compressor (https://tta.corecodec.org)
 				'tta'  => array(
 							'pattern'   => '^TTA',  // could also be '^TTA(\x01|\x02|\x03|2|1)'
 							'group'     => 'audio',
@@ -954,7 +954,7 @@ class getID3
 
 				// SVG  - still image - Scalable Vector Graphics (SVG)
 				'svg'  => array(
-							'pattern'   => '(<!DOCTYPE svg PUBLIC |xmlns="http:\/\/www\.w3\.org\/2000\/svg")',
+							'pattern'   => '(<!DOCTYPE svg PUBLIC |xmlns="https:\/\/www\.w3\.org\/2000\/svg")',
 							'group'     => 'graphic',
 							'module'    => 'svg',
 							'mime_type' => 'image/svg+xml',
@@ -1352,7 +1352,7 @@ class getID3
 
 				if (!empty($VorbisCommentError)) {
 
-					$this->info['warning'][]         = 'Failed making system call to vorbiscomment(.exe) - '.$algorithm.'_data will be incorrect. If vorbiscomment is unavailable, please download from http://www.vorbis.com/download.psp and put in the getID3() directory. Error returned: '.$VorbisCommentError;
+					$this->info['warning'][]         = 'Failed making system call to vorbiscomment(.exe) - '.$algorithm.'_data will be incorrect. If vorbiscomment is unavailable, please download from https://www.vorbis.com/download.psp and put in the getID3() directory. Error returned: '.$VorbisCommentError;
 					$this->info[$algorithm.'_data']  = false;
 
 				} else {

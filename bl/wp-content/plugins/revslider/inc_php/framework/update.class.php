@@ -2,9 +2,9 @@
 
 class UniteUpdateClassRev {
 
-	private $plugin_url			= 'http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380';
-	private $remote_url			= 'http://updates.themepunch.com/check_for_updates.php';
-	private $remote_url_info	= 'http://updates.themepunch.com/revslider/revslider.php';
+	private $plugin_url			= 'https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380';
+	private $remote_url			= 'https://updates.themepunch.com/check_for_updates.php';
+	private $remote_url_info	= 'https://updates.themepunch.com/revslider/revslider.php';
 	private $plugin_slug		= 'revslider';
 	private $plugin_path		= 'revslider/revslider.php';
 	private $version;

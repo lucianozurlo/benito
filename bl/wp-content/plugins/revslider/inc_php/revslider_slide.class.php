@@ -60,7 +60,7 @@
 			}
 			
 			if(is_ssl()){
-				$imageUrl = str_replace("http://", "https://", $imageUrl);
+				$imageUrl = str_replace("https://", "https://", $imageUrl);
 			}
 			
 			//dmp($imageUrl);exit();
@@ -368,7 +368,7 @@
 			$this->params["background_type"] = "image";
 			
 			if(is_ssl()){
-				$this->imageUrl = str_replace("http://", "https://", $this->imageUrl);
+				$this->imageUrl = str_replace("https://", "https://", $this->imageUrl);
 			}
 			
 			$this->imageFilepath = UniteFunctionsWPRev::getImagePathFromURL($this->imageUrl);

@@ -3,7 +3,7 @@
 /**
  * Switch
  * Dependencies        : jquery
- * Feature added by    : Smartik - http://smartik.ws/
+ * Feature added by    : Smartik - https://smartik.ws/
  * Date            : 03.17.2013
  */
 

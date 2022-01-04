@@ -1,6 +1,6 @@
 === Disable Admin Bar and ToolBar ===
 Contributors: slangjis
-Donate link: http://slangji.wordpress.com/donate/
+Donate link: https://slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1

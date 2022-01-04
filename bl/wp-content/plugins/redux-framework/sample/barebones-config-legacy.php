@@ -2,7 +2,7 @@
 
     /**
      * ReduxFramework Sample Config File
-     * For full documentation, please visit: http://docs.reduxframework.com/
+     * For full documentation, please visit: https://docs.reduxframework.com/
      */
 
     if ( ! class_exists( 'Redux_Framework_sample_config' ) ) {
@@ -53,7 +53,7 @@
                 // ACTUAL DECLARATION OF SECTIONS
                 $this->sections[] = array(
                     'title'  => __( 'Home Settings', 'redux-framework-demo' ),
-                    'desc'   => __( 'These fields can be fully translated by WPML (WordPress Multi-Language). This serves as an example for you to implement. For extra details look at our <a href="http://docs.reduxframework.com/core/advanced/wpml-integration/" target="_blank">WPML Implementation</a> documentation.', 'redux-framework-demo' ),
+                    'desc'   => __( 'These fields can be fully translated by WPML (WordPress Multi-Language). This serves as an example for you to implement. For extra details look at our <a href="https://docs.reduxframework.com/core/advanced/wpml-integration/" target="_blank">WPML Implementation</a> documentation.', 'redux-framework-demo' ),
                     'icon'   => 'el el-home',
                     // 'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
                     'fields' => array(
@@ -163,7 +163,7 @@
                     'page_priority'      => null,
                     // Order where the menu appears in the admin area. If there is any conflict, something will not show. Warning.
                     'page_parent'        => 'themes.php',
-                    // For a full list of options, visit: http://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
+                    // For a full list of options, visit: https://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
                     'page_permissions'   => 'manage_options',
                     // Permissions needed to access the options panel.
                     'menu_icon'          => '',
@@ -242,12 +242,12 @@
                     'icon'  => 'el el-facebook'
                 );
                 $this->args['share_icons'][] = array(
-                    'url'   => 'http://twitter.com/reduxframework',
+                    'url'   => 'https://twitter.com/reduxframework',
                     'title' => 'Follow us on Twitter',
                     'icon'  => 'el el-twitter'
                 );
                 $this->args['share_icons'][] = array(
-                    'url'   => 'http://www.linkedin.com/company/redux-framework',
+                    'url'   => 'https://www.linkedin.com/company/redux-framework',
                     'title' => 'Find us on LinkedIn',
                     'icon'  => 'el el-linkedin'
                 );

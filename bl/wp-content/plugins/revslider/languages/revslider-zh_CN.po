@@ -71,11 +71,11 @@ msgstr "如果设置，幻灯片将设置到此日期间的值"
 # @ revslider
 #: settings/slide_settings.php:44 settings/slider_settings_xml_lang.php
 msgid ""
-"To add more google fonts please read <a target=\"_blank\" href=\"http://"
+"To add more google fonts please read <a target=\"_blank\" href=\"https://"
 "codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380/"
 "faqs/15268\"> this tutorial </a> "
 msgstr ""
-"要添加更多谷歌的字体，请阅读<a target=\"_blank\" href=\"http://codecanyon."
+"要添加更多谷歌的字体，请阅读<a target=\"_blank\" href=\"https://codecanyon."
 "net/item/slider-revolution-responsive-wordpress-plugin/2751380/faqs/15268\"> "
 "这个教程 </a> "
 
@@ -1208,13 +1208,13 @@ msgstr "替换图片的URL"
 
 # @ revslider
 #: views/templates/slider_toolbox.php
-msgid "Replace From (example - http://localhost)"
-msgstr "从哪儿替换（例如 - http://localhost）"
+msgid "Replace From (example - https://localhost)"
+msgstr "从哪儿替换（例如 - https://localhost）"
 
 # @ revslider
 #: views/templates/slider_toolbox.php
-msgid "Replace To (example - http://yoursite.com)"
-msgstr "替换为（例如 - http://yoursite.com）"
+msgid "Replace To (example - https://yoursite.com)"
+msgstr "替换为（例如 - https://yoursite.com）"
 
 # @ revslider
 #: views/templates/slider_toolbox.php
@@ -1229,10 +1229,10 @@ msgstr "替换中..."
 # @ revslider
 #: views/templates/slider_toolbox.php
 msgid ""
-"Replace all layer and background image url's. Example: http://localhost/ to "
-"http://yourwbsite.com/. <br> Note, the replace is not reversible"
+"Replace all layer and background image url's. Example: https://localhost/ to "
+"https://yourwbsite.com/. <br> Note, the replace is not reversible"
 msgstr ""
-"更换所有层和背景图像的URL。例如：http://localhost/来http://yourwbsite.com/。 "
+"更换所有层和背景图像的URL。例如：https://localhost/来https://yourwbsite.com/。 "
 "<br>请注意，替换是不可逆的"
 
 # @ revslider

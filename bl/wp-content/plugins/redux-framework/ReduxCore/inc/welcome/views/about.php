@@ -18,7 +18,7 @@
             enhance their products.', 'redux-framework' ); ?></p>
 
         <p class="submit">
-            <a class="button-primary" href="http://reduxframework.com"
+            <a class="button-primary" href="https://reduxframework.com"
                target="_blank"><?php _e( 'Learn More', 'redux-framework' ); ?></a>
         </p>
     </div>
@@ -42,12 +42,12 @@
 
                     <p>We've gone back to the drawing boards and made Redux the <strong>simplist</strong> framework to
                         use. Introducing the Redux API. Easily add fields, extensions, templates, and more without every
-                        having to define a class! <a href=" http://docs.reduxframework.com/core/redux-api/" target="_blank">Learn More</a></p>
+                        having to define a class! <a href=" https://docs.reduxframework.com/core/redux-api/" target="_blank">Learn More</a></p>
                 </div>
                 <div class="last-feature">
                     <h4>Security Improvments</h4>
 
-                    <p>Thanks to the help of <a href="http://www.pritect.net/" target="_blank">James Golovich
+                    <p>Thanks to the help of <a href="https://www.pritect.net/" target="_blank">James Golovich
                             (Pritect)</a>, we have patched varying security flaws in Redux. This is the most secure
                         version of Redux yet!</p>
                 </div>
@@ -59,7 +59,7 @@
                     <h4>Panel Templates</h4>
 
                     <p>Now developers can easily customize the Redux panel by declaring a templates location path. We've
-                        also made use of template versioning so if we change anything, you will know. <br /><a href=" http://docs.reduxframework.com/core/templates/" target="_blank">Learn More</a></p>
+                        also made use of template versioning so if we change anything, you will know. <br /><a href=" https://docs.reduxframework.com/core/templates/" target="_blank">Learn More</a></p>
                 </div>
                 <div>
                     <h4>Full Width for ANY Field</h4>

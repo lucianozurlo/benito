@@ -5,8 +5,8 @@ Text Domain: antispam_bee
 Domain Path: /lang
 Description: Easy and extremely productive spam-fighting plugin with many sophisticated solutions. Includes protection again trackback spam.
 Author: Sergej M&uuml;ller
-Author URI: http://wpcoder.de
-Plugin URI: http://antispambee.com
+Author URI: https://wpcoder.de
+Plugin URI: https://antispambee.com
 License: GPLv2 or later
 Version: 2.6.6
 */
@@ -1767,7 +1767,7 @@ class Antispam_Bee {
 		$response = wp_safe_remote_request(
 			esc_url_raw(
 				sprintf(
-					'http://www.stopforumspam.com/api?ip=%s&f=json',
+					'https://www.stopforumspam.com/api?ip=%s&f=json',
 					$ip
 				),
 				'http'
@@ -2379,7 +2379,7 @@ class Antispam_Bee {
 			__('Type', 'antispam_bee'),
 			__( ( empty($comment['comment_type']) ? 'Comment' : 'Trackback' ), 'antispam_bee' )
 		).sprintf(
-			"Whois: http://whois.arin.net/rest/ip/%s\r\n",
+			"Whois: https://whois.arin.net/rest/ip/%s\r\n",
 			$comment['comment_author_IP']
 		).sprintf(
 			"%s: %s\r\n\r\n",
@@ -2413,7 +2413,7 @@ class Antispam_Bee {
 		).sprintf(
 			"%s\r\n%s\r\n",
 			__('Notify message by Antispam Bee', 'antispam_bee'),
-			__('http://antispambee.com', 'antispam_bee')
+			__('https://antispambee.com', 'antispam_bee')
 		);
 
 		/* Send */

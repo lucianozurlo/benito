@@ -35,7 +35,7 @@ wp_enqueue_style( $this->PageSlug , $this->Url . $this->PluginSlug . '.css', arr
 					<div class="stuffbox" id="usefulbox">
 						<h3><span class="hndle"><?php _e( 'Useful plugins' , $this->ltd ); ?></span></h3>
 						<div class="inside">
-							<p><strong><span style="color: orange;">new</span> <a href="http://codecanyon.net/item/login-layout-customize/5729642" target="_blank">Login Layout Customize</a></strong></p>
+							<p><strong><span style="color: orange;">new</span> <a href="https://codecanyon.net/item/login-layout-customize/5729642" target="_blank">Login Layout Customize</a></strong></p>
 							<p class="description"><?php _e( 'Flexible plugin for login screen customization.' , $this->ltd ); ?></p>
 						</div>
 					</div>

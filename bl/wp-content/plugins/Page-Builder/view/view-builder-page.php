@@ -273,7 +273,7 @@ $disabled = $selected_template_id === 0 ? 'metabox-holder-disabled' : '';
 					</div>
 				</form>
 			</div>
-			<p style="float:left"><small>Page Builder base on Aqua Page Builder by <a href ="http://qktheme.com">QKTheme</a></small></p>
+			<p style="float:left"><small>Page Builder base on Aqua Page Builder by <a href ="https://qktheme.com">QKTheme</a></small></p>
 			<p style="float:right"><small>Version 1.0<?php //echo AQPB_VERSION ?></small></p>
 			
 		</div>

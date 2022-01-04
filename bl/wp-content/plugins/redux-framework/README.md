@@ -1,22 +1,22 @@
-## Redux Options Framework [![Build Status](https://travis-ci.org/reduxframework/redux-framework.png?branch=master)](https://travis-ci.org/ReduxFramework/redux-framework) [![Stories in Ready](https://badge.waffle.io/ReduxFramework/redux-framework.png?label=ready)](https://waffle.io/ReduxFramework/redux-framework) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+## Redux Options Framework [![Build Status](https://travis-ci.org/reduxframework/redux-framework.png?branch=master)](https://travis-ci.org/ReduxFramework/redux-framework) [![Stories in Ready](https://badge.waffle.io/ReduxFramework/redux-framework.png?label=ready)](https://waffle.io/ReduxFramework/redux-framework) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](https://gruntjs.com/)
 
-WordPress options framework which uses the [WordPress Settings API](http://codex.wordpress.org/Settings_API "WordPress Settings API"), Custom Error/Validation Handling, Custom Field/Validation Types, and import/export functionality.
+WordPress options framework which uses the [WordPress Settings API](https://codex.wordpress.org/Settings_API "WordPress Settings API"), Custom Error/Validation Handling, Custom Field/Validation Types, and import/export functionality.
 
 ## Posting Guidelines for issues and questions ##
 When using our Issue Tracker, you may ask questions where you may be a bit lost or need help understanding the documentation. If, however, you find a bug we require you to read and provide the information contained in our [Contributing Guidelines](https://github.com/ReduxFramework/redux-framework/blob/master/CONTRIBUTING.md). If you do not provide this information, we will request it before we can support you.
 
-If you are stuck in some of your own code, or need help with PHP and anything else not Redux specific, we request you purchase some [Premium Support](http://reduxframework.com/extension/premium-support/) and we will be happy to assist you. If we feel the issue is outside of our scope we will suggest you to purchase some [Premium Support](http://reduxframework.com/extension/premium-support/) in order for us to serve you.
+If you are stuck in some of your own code, or need help with PHP and anything else not Redux specific, we request you purchase some [Premium Support](https://reduxframework.com/extension/premium-support/) and we will be happy to assist you. If we feel the issue is outside of our scope we will suggest you to purchase some [Premium Support](https://reduxframework.com/extension/premium-support/) in order for us to serve you.
 
 ## Kickstart Your Development ##
 
-Are you authoring a theme, or plugin?  Visit the  [Redux Builder](http://build.reduxframework.com) site and get started!
+Are you authoring a theme, or plugin?  Visit the  [Redux Builder](https://build.reduxframework.com) site and get started!
 
 ## Demo Your Products ##
-We help you create a seamless user experience for your users to demo your WordPress products.  Not only that, we help you make sure they’re engaged, turning them into a potential customer.  Visit [wpdemo.io/](http://wpdemo.io/)
+We help you create a seamless user experience for your users to demo your WordPress products.  Not only that, we help you make sure they’re engaged, turning them into a potential customer.  Visit [wpdemo.io/](https://wpdemo.io/)
 
 ## Documentation ##
 
-Need a little help with Redux?  Come check out our brand new documentation site at  [docs.reduxframework.com](http://docs.reduxframework.com), chock full of tutorials and examples!
+Need a little help with Redux?  Come check out our brand new documentation site at  [docs.reduxframework.com](https://docs.reduxframework.com), chock full of tutorials and examples!
 
 
 ## SMOF (Simple Modified Option Users) Converter! ##
@@ -37,7 +37,7 @@ You can also [download our sample theme available here](https://github.com/Redux
 
 ## Please Post Reviews and Spread the Word ##
 
-ReduxFramework has just released to the WordPress Plugins directory. Please spread the word, tweet, and (most importantly) post reviews on http://wordpress.org/plugins/redux-framework/. 
+ReduxFramework has just released to the WordPress Plugins directory. Please spread the word, tweet, and (most importantly) post reviews on https://wordpress.org/plugins/redux-framework/. 
 
 
 ## Donate to the Framework ##
@@ -48,7 +48,7 @@ If you can, please donate to help support the ongoing development of Redux Frame
 
 ## Features ##
 
-* Uses the [WordPress Settings API](http://codex.wordpress.org/Settings_API "WordPress Settings API")
+* Uses the [WordPress Settings API](https://codex.wordpress.org/Settings_API "WordPress Settings API")
 * Multiple built in field types
 * Multple layout field types
 * Fields can be overloaded with a callback function, for custom field types
@@ -65,13 +65,13 @@ If you can, please donate to help support the ongoing development of Redux Frame
 
 ## Stay In The Loop! ##
 
-[![Follow us on Twitter](http://iod.unh.edu/Images/Twitter_follow_us.png "Follow us on Twitter")](https://www.twitter.com/ReduxFramework)
+[![Follow us on Twitter](https://iod.unh.edu/Images/Twitter_follow_us.png "Follow us on Twitter")](https://www.twitter.com/ReduxFramework)
 
 ## FAQs ##
 
 1. Why should we use ```require_once``` instead of ```get_template_part```?
  * First, because ```get_template_part``` is for... you guessed it, themes! Redux is designed to work with both themes *and* plugins.
- * Second, read [this](http://kovshenin.com/2013/get_template_part/).
+ * Second, read [this](https://kovshenin.com/2013/get_template_part/).
 2. Why shouldn't we edit ```sample-config.php``` in the plugin directory?
  * Because ```sample-config.php``` will be replaced at each update of the plugin. You will lose all your effort
 

@@ -2,7 +2,7 @@
 /**
  * @package   Revolution Slider
  * @author    ThemePunch <info@themepunch.com>
- * @link      http://www.themepunch.com/revolution/
+ * @link      https://www.themepunch.com/revolution/
  * @copyright 2014 ThemePunch
  */
  
@@ -44,7 +44,7 @@
 		}
 		?>
 		<div>
-			<i style="font-size:10px;color:#777"><?php _e('Copy the Google Font Family from <a href="http://www.google.com/fonts" target="_blank">http://www.google.com/fonts</a> like: <strong>Open+Sans:400,700,600</strong>', REVSLIDER_TEXTDOMAIN); ?></i>
+			<i style="font-size:10px;color:#777"><?php _e('Copy the Google Font Family from <a href="https://www.google.com/fonts" target="_blank">https://www.google.com/fonts</a> like: <strong>Open+Sans:400,700,600</strong>', REVSLIDER_TEXTDOMAIN); ?></i>
 		</div>
 	</div>
 
@@ -58,7 +58,7 @@
 		</div>
 		<div class="tp-googlefont-cus-row-l"><label><?php _e('Parameter:', REVSLIDER_TEXTDOMAIN); ?></label><input type="text" name="eg-font-url" value="" /></div>
 		<div style="padding-left:100px;">
-			<i style="font-size:12px;color:#777; line-height:20px;"><?php _e('Copy the Google Font Family from <a href="http://www.google.com/fonts" target="_blank">http://www.google.com/fonts</a><br/>i.e.:<strong>Open+Sans:400,600,700</strong>', REVSLIDER_TEXTDOMAIN); ?></i>
+			<i style="font-size:12px;color:#777; line-height:20px;"><?php _e('Copy the Google Font Family from <a href="https://www.google.com/fonts" target="_blank">https://www.google.com/fonts</a><br/>i.e.:<strong>Open+Sans:400,600,700</strong>', REVSLIDER_TEXTDOMAIN); ?></i>
 		</div>
 		
 	</div>

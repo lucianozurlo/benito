@@ -1,12 +1,12 @@
 === Erident Custom Login and Dashboard ===
 Contributors: libinvbabu
-Donate link: http://www.libin.in
+Donate link: https://www.libin.in
 Tags: login, customisation, admin, dashboard, customise, erident, custom, form, logo, customize, branding
 Requires at least: 3.0.0
 Tested up to: 4.0.1
 Stable tag: 3.3.1
 License: GPLv2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Customize completely your WordPress Login Screen easily. Add your logo, change background image, colors, styles, Dashboard footer etc.
 
@@ -19,7 +19,7 @@ TOP RATED PLUGIN for Login Page Customization!!! Customize completely your WordP
 * New*: Import/Export Settings feature available!
 
 Fastest support for the plugin. If you have any queries, 
-visit the WordPress [support forum](http://wordpress.org/support/plugin/erident-custom-login-and-dashboard).
+visit the WordPress [support forum](https://wordpress.org/support/plugin/erident-custom-login-and-dashboard).
 
 **Features:**
 
@@ -78,7 +78,7 @@ visit the WordPress [support forum](http://wordpress.org/support/plugin/erident-
 
 **Import/Export all plugin settings between different websites**
 
-Enjoy your completely branded WordPress Version. Don't forget to [rate the plugin](http://wordpress.org/support/view/plugin-reviews/erident-custom-login-and-dashboard) :)
+Enjoy your completely branded WordPress Version. Don't forget to [rate the plugin](https://wordpress.org/support/view/plugin-reviews/erident-custom-login-and-dashboard) :)
 
 
 == Installation ==
@@ -106,7 +106,7 @@ Simply upload your image using WordPress uploader and copy the image link from t
 By default you will not lose any of your previous settings. Check the Plugin Un-install Settings.
 
 = I want some custom changes. How can I do that? =
-You can edit the plugin's php file through WordPress plugin editor. But once you made an update the changes you made will disappear. So make sure to backup your changes before updating. Or inform us [Suggestions/requests](http://wordpress.org/support/topic/suggestionsrequests-for-future-version-update?replies=1) for future version
+You can edit the plugin's php file through WordPress plugin editor. But once you made an update the changes you made will disappear. So make sure to backup your changes before updating. Or inform us [Suggestions/requests](https://wordpress.org/support/topic/suggestionsrequests-for-future-version-update?replies=1) for future version
 
 = Can I export settings? =
 Yeah! With version 3.0 Import/Export plugin settings feature added. Your life made easy.

@@ -1,4 +1,4 @@
-<div class="wrap about-wrap" xmlns="http://www.w3.org/1999/html">
+<div class="wrap about-wrap" xmlns="https://www.w3.org/1999/html">
     <h1><?php _e( 'Redux Framework - Support', 'redux-framework' ); ?></h1>
 
     <div
@@ -208,11 +208,11 @@
 
                 </div>
                 <textarea type="text" id="support_hash" name="hash" placeholder="Support Hash" readonly="readonly"
-                          class="hash" value="http://support.redux.io/"></textarea>
+                          class="hash" value="https://support.redux.io/"></textarea>
 
                 <p><em>
                         <?php
-                            echo sprintf( wp_kses( __( 'Should the developer not be responsive, read the <a href="%s" target="_blank">following article</a> before asking for support from us directly.', 'redux-framework' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( 'http://docs.reduxframework.com/core/support-defined/' ) );
+                            echo sprintf( wp_kses( __( 'Should the developer not be responsive, read the <a href="%s" target="_blank">following article</a> before asking for support from us directly.', 'redux-framework' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( 'https://docs.reduxframework.com/core/support-defined/' ) );
                         ?>
                     </em>
 

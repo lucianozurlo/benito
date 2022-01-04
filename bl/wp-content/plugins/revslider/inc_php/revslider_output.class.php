@@ -184,7 +184,7 @@
 
 			$videoID = $videoData["videoID"];
 
-			$setBase = (is_ssl()) ? "https://" : "http://";
+			$setBase = (is_ssl()) ? "https://" : "https://";
 			
 			$mute = (UniteFunctionsRev::strToBool($videoData['mute'])) ? ' data-volume="mute"' : '';
 
@@ -849,7 +849,7 @@
 						if($scaleX != '') $additional .= ' data-ww="'.$scaleX.'"';
 						if($scaleY != '') $additional .= ' data-hh="'.$scaleY.'"';
 						if(is_ssl()){
-							$urlImage = str_replace("http://", "https://", $urlImage);
+							$urlImage = str_replace("https://", "https://", $urlImage);
 						}
 
 
@@ -926,7 +926,7 @@
 							$videoHeight = "100%";
 						}
 
-						$setBase = (is_ssl()) ? "https://" : "http://";
+						$setBase = (is_ssl()) ? "https://" : "https://";
 						
 						switch($videoType){
 							case "youtube":

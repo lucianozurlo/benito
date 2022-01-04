@@ -96,8 +96,8 @@ msgstr ""
 "indésirables comportant des solutions sophistiquées. Inclus une protection "
 "contre le spam trackback."
 
-msgid "http://antispambee.com"
-msgstr "http://antispambee.com"
+msgid "https://antispambee.com"
+msgstr "https://antispambee.com"
 
 msgid "Comments"
 msgstr "Commentaires"

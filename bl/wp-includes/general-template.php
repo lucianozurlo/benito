@@ -387,7 +387,7 @@ function wp_registration_url() {
 function wp_login_form( $args = array() ) {
 	$defaults = array(
 		'echo' => true,
-		'redirect' => ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'], // Default redirect is back to the current page
+		'redirect' => ( is_ssl() ? 'https://' : 'https://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'], // Default redirect is back to the current page
 		'form_id' => 'loginform',
 		'label_username' => __( 'Username' ),
 		'label_password' => __( 'Password' ),
@@ -2325,7 +2325,7 @@ function feed_links_extra( $args = array() ) {
 /**
  * Display the link to the Really Simple Discovery service endpoint.
  *
- * @link http://archipelago.phrasewise.com/rsd
+ * @link https://archipelago.phrasewise.com/rsd
  * @since 2.0.0
  */
 function rsd_link() {
@@ -2335,7 +2335,7 @@ function rsd_link() {
 /**
  * Display the link to the Windows Live Writer manifest file.
  *
- * @link http://msdn.microsoft.com/en-us/library/bb463265.aspx
+ * @link https://msdn.microsoft.com/en-us/library/bb463265.aspx
  * @since 2.3.1
  */
 function wlwmanifest_link() {
@@ -2561,7 +2561,7 @@ function language_attributes($doctype = 'html') {
  * The 'total' argument is the total amount of pages and is an integer. The
  * 'current' argument is the current page number and is also an integer.
  *
- * An example of the 'base' argument is "http://example.com/all_posts.php%_%"
+ * An example of the 'base' argument is "https://example.com/all_posts.php%_%"
  * and the '%_%' is required. The '%_%' will be replaced by the contents of in
  * the 'format' argument. An example for the 'format' argument is "?page=%#%"
  * and the '%#%' is also required. The '%#%' will be replaced with the page
@@ -2633,7 +2633,7 @@ function paginate_links( $args = '' ) {
 	$format .= $wp_rewrite->using_permalinks() ? user_trailingslashit( $wp_rewrite->pagination_base . '/%#%', 'paged' ) : '?paged=%#%';
 
 	$defaults = array(
-		'base' => $pagenum_link, // http://example.com/all_posts.php%_% : %_% is replaced by format (below)
+		'base' => $pagenum_link, // https://example.com/all_posts.php%_% : %_% is replaced by format (below)
 		'format' => $format, // ?page=%#% : %#% is replaced by the page number
 		'total' => $total,
 		'current' => $current,
@@ -3034,13 +3034,13 @@ function get_the_generator( $type = '' ) {
 			$gen = '<meta name="generator" content="WordPress ' . get_bloginfo( 'version' ) . '" />';
 			break;
 		case 'atom':
-			$gen = '<generator uri="http://wordpress.org/" version="' . get_bloginfo_rss( 'version' ) . '">WordPress</generator>';
+			$gen = '<generator uri="https://wordpress.org/" version="' . get_bloginfo_rss( 'version' ) . '">WordPress</generator>';
 			break;
 		case 'rss2':
-			$gen = '<generator>http://wordpress.org/?v=' . get_bloginfo_rss( 'version' ) . '</generator>';
+			$gen = '<generator>https://wordpress.org/?v=' . get_bloginfo_rss( 'version' ) . '</generator>';
 			break;
 		case 'rdf':
-			$gen = '<admin:generatorAgent rdf:resource="http://wordpress.org/?v=' . get_bloginfo_rss( 'version' ) . '" />';
+			$gen = '<admin:generatorAgent rdf:resource="https://wordpress.org/?v=' . get_bloginfo_rss( 'version' ) . '" />';
 			break;
 		case 'comment':
 			$gen = '<!-- generator="WordPress/' . get_bloginfo( 'version' ) . '" -->';

@@ -3955,7 +3955,7 @@
 															   'poster="'+nextcaption.data('videoposter')+'">'+
 															   '<source src="'+videomp+'" type="video/mp4"" />'+
 															   '<source src="'+videowebm+'" type="video/webm"" />'+
-															   //'<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />'+
+															   //'<source src="https://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />'+
 															   '</video>');
 										}
 

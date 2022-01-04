@@ -2,7 +2,7 @@
 /**
  * WordPress DB Class
  *
- * Original code from {@link http://php.justinvincent.com Justin Vincent (justin@visunet.ie)}
+ * Original code from {@link https://php.justinvincent.com Justin Vincent (justin@visunet.ie)}
  *
  * @package WordPress
  * @subpackage Database
@@ -1188,22 +1188,22 @@ class wpdb {
 	 * Does not support sign, padding, alignment, width or precision specifiers.
 	 * Does not support argument numbering/swapping.
 	 *
-	 * May be called like {@link http://php.net/sprintf sprintf()} or like {@link http://php.net/vsprintf vsprintf()}.
+	 * May be called like {@link https://php.net/sprintf sprintf()} or like {@link https://php.net/vsprintf vsprintf()}.
 	 *
 	 * Both %d and %s should be left unquoted in the query string.
 	 *
 	 *     wpdb::prepare( "SELECT * FROM `table` WHERE `column` = %s AND `field` = %d", 'foo', 1337 )
 	 *     wpdb::prepare( "SELECT DATE_FORMAT(`field`, '%%c') FROM `table` WHERE `column` = %s", 'foo' );
 	 *
-	 * @link http://php.net/sprintf Description of syntax.
+	 * @link https://php.net/sprintf Description of syntax.
 	 * @since 2.3.0
 	 *
 	 * @param string $query Query statement with sprintf()-like placeholders
 	 * @param array|mixed $args The array of variables to substitute into the query's placeholders if being called like
-	 * 	{@link http://php.net/vsprintf vsprintf()}, or the first variable to substitute into the query's placeholders if
-	 * 	being called like {@link http://php.net/sprintf sprintf()}.
+	 * 	{@link https://php.net/vsprintf vsprintf()}, or the first variable to substitute into the query's placeholders if
+	 * 	being called like {@link https://php.net/sprintf sprintf()}.
 	 * @param mixed $args,... further variables to substitute into the query's placeholders if being called like
-	 * 	{@link http://php.net/sprintf sprintf()}.
+	 * 	{@link https://php.net/sprintf sprintf()}.
 	 * @return null|false|string Sanitized query string, null if there is no query, false if there is an error and string
 	 * 	if there was something to prepare
 	 */

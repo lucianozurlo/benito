@@ -78,7 +78,7 @@
 			// END MODIFICATION
 			*/
 			
-			$setBase = (is_ssl()) ? "https://" : "http://";
+			$setBase = (is_ssl()) ? "https://" : "https://";
 			
 			$url_jquery = $setBase."ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?app=revolution";
 			self::addScriptAbsoluteUrl($url_jquery, "jquery");

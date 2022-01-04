@@ -1327,12 +1327,12 @@ msgstr "Tип Google Font для загрузки"
 
 #: settings/slider_settings_xml_lang.php:24
 msgid ""
-"To add more google fonts please read <a target=\"_blank\" href=\"http://"
+"To add more google fonts please read <a target=\"_blank\" href=\"https://"
 "codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380/"
 "faqs/15268\"> this tutorial </a> "
 msgstr ""
 "Чтобы добавить шрифты Google, пожалуйста, прочитайте <a target=\"_blank\" "
-"href=\"http://codecanyon.net/item/slider-revolution-responsive-wordpress-"
+"href=\"https://codecanyon.net/item/slider-revolution-responsive-wordpress-"
 "plugin/2751380/faqs/15268\"> этот учебник </a> "
 
 # @ revslider
@@ -3051,19 +3051,19 @@ msgstr "Заменить URL изображения"
 
 #: views/templates/slider_toolbox.php:48
 msgid ""
-"Replace all layer and background image url's. Example: http://localhost/ to "
-"http://yourwbsite.com/. <br> Note, the replace is not reversible"
+"Replace all layer and background image url's. Example: https://localhost/ to "
+"https://yourwbsite.com/. <br> Note, the replace is not reversible"
 msgstr ""
-"Заменить все слои и фоновое изображение URL. Пример: http://localhost/ на "
-"http://yourwbsite.com/.  <br> Примечание, замену отменить будеть невозможно"
+"Заменить все слои и фоновое изображение URL. Пример: https://localhost/ на "
+"https://yourwbsite.com/.  <br> Примечание, замену отменить будеть невозможно"
 
 #: views/templates/slider_toolbox.php:52
-msgid "Replace From (example - http://localhost)"
-msgstr "Земенить с (пример - http://localhost)"
+msgid "Replace From (example - https://localhost)"
+msgstr "Земенить с (пример - https://localhost)"
 
 #: views/templates/slider_toolbox.php:58
-msgid "Replace To (example - http://yoursite.com)"
-msgstr "Заменить на (пример - http://yoursite.com)"
+msgid "Replace To (example - https://yoursite.com)"
+msgstr "Заменить на (пример - https://yoursite.com)"
 
 # @ revslider
 #: views/templates/slider_toolbox.php:64

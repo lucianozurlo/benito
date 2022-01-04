@@ -704,8 +704,8 @@ if(!class_exists('AQ_Page_Builder')) {
 				// Help tab sidebar
 				$screen->set_help_sidebar(
 					'<p><strong>' . __('For more information:') . '</strong></p>' .
-					'<p>' . __('<a href="http://aquagraphite.com/api/documentation/aqua-page-builder" target="_blank">Documentation</a>') . '</p>' .
-					'<p>' . __('<a href="http://aquagraphite.com/api/changelog/aqua-page-builder" target="_blank">Changelog</a>') . '</p>'
+					'<p>' . __('<a href="https://aquagraphite.com/api/documentation/aqua-page-builder" target="_blank">Documentation</a>') . '</p>' .
+					'<p>' . __('<a href="https://aquagraphite.com/api/changelog/aqua-page-builder" target="_blank">Changelog</a>') . '</p>'
 				);
 				
 				// Main overview tab

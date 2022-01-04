@@ -6,7 +6,7 @@
      * @access      public
      * @global      $optname
      * @internal    Internal Note string
-     * @link        http://reduxframework.com
+     * @link        https://reduxframework.com
      * @method      Test
      * @name        $globalvariablename
      * @param       string  $this->field['test']    This is cool.

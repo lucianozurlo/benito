@@ -17,7 +17,7 @@
             public function redux_dashboard_widget() {
                 echo '<div class="rss-widget">';
                 wp_widget_rss_output(array(
-                     'url'          => 'http://reduxframework.com/feed/',
+                     'url'          => 'https://reduxframework.com/feed/',
                      'title'        => 'REDUX_NEWS',
                      'items'        => 3,
                      'show_summary' => 1,

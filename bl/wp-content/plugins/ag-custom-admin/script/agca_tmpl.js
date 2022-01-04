@@ -102,7 +102,7 @@ function agca_setupXHR(){
 
 function agca_getTemplates(){
 	agcaDebug('FN:agca_getTemplates()');
-//agca_uploadRemoteImage('http://www.neowing.co.jp/idol_site2/image/FDGD-21/fdgd-21-top.jpg');	
+//agca_uploadRemoteImage('https://www.neowing.co.jp/idol_site2/image/FDGD-21/fdgd-21-top.jpg');	
 	agca_setupXHR();	
 if(typeof agca_active_template_version === 'undefined'){
 	agca_active_template_version = "";

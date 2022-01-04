@@ -31,7 +31,7 @@ if( is_multisite() ) {
 					<tr>
 						<th><strong>[site_url]</strong></th>
 						<td>
-							<?php $protocol = is_ssl() ? 'https://' : 'http://'; ?>
+							<?php $protocol = is_ssl() ? 'https://' : 'https://'; ?>
 							<code><?php echo $protocol . esc_attr( $current_site->domain . $current_site->path );?></code>
 						</td>
 					</tr>

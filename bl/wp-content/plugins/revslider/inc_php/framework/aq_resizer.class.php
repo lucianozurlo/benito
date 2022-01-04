@@ -5,8 +5,8 @@
  * Description   : Resizes WordPress images on the fly
  * Version       : 1.2.0
  * Author        : Syamil MJ
- * Author URI    : http://aquagraphite.com
- * License       : WTFPL - http://sam.zoy.org/wtfpl/
+ * Author URI    : https://aquagraphite.com
+ * License       : WTFPL - https://sam.zoy.org/wtfpl/
  * Documentation : https://github.com/sy4mil/Aqua-Resizer/
  *
  * @param string  $url    - (required) must be uploaded using wp media uploader
@@ -65,7 +65,7 @@ if(!class_exists('Rev_Aq_Resize')) {
             $upload_dir = $upload_info['basedir'];
             $upload_url = $upload_info['baseurl'];
             
-            $http_prefix = "http://";
+            $http_prefix = "https://";
             $https_prefix = "https://";
             
             /* if the $url scheme differs from $upload_url scheme, make them match 
@@ -73,7 +73,7 @@ if(!class_exists('Rev_Aq_Resize')) {
             if(!strncmp($url,$https_prefix,strlen($https_prefix))){ //if url begins with https:// make $upload_url begin with https:// as well
                 $upload_url = str_replace($http_prefix,$https_prefix,$upload_url);
             }
-            elseif(!strncmp($url,$http_prefix,strlen($http_prefix))){ //if url begins with http:// make $upload_url begin with http:// as well
+            elseif(!strncmp($url,$http_prefix,strlen($http_prefix))){ //if url begins with https:// make $upload_url begin with https:// as well
                 $upload_url = str_replace($https_prefix,$http_prefix,$upload_url);      
             }
             

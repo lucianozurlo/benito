@@ -2,7 +2,7 @@
 /*
  * Field Sorter jquery function
  * Based on
- * [SMOF - Slightly Modded Options Framework](http://aquagraphite.com/2011/09/slightly-modded-options-framework/)
+ * [SMOF - Slightly Modded Options Framework](https://aquagraphite.com/2011/09/slightly-modded-options-framework/)
  * Version 1.4.2
  */
 

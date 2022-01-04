@@ -1,12 +1,12 @@
 /*! $.noUiSlider
  @version 5.0.0
  @author Leon Gersen https://twitter.com/LeonGersen
- @license WTFPL http://www.wtfpl.net/about/
- @documentation http://refreshless.com/nouislider/
+ @license WTFPL https://www.wtfpl.net/about/
+ @documentation https://refreshless.com/nouislider/
 */
 
 // ==ClosureCompiler==
-// @externs_url http://refreshless.com/externs/jquery-1.8.js
+// @externs_url https://refreshless.com/externs/jquery-1.8.js
 // @compilation_level ADVANCED_OPTIMIZATIONS
 // @warning_level VERBOSE
 // ==/ClosureCompiler==

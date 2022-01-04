@@ -196,7 +196,7 @@ class Antispam_Bee_GUI extends Antispam_Bee {
 				<div class="ab-wrap">
 					<!--[if lt IE 9]>
 						<p class="browsehappy">
-							<a href="http://browsehappy.com">Browse Happy</a>
+							<a href="https://browsehappy.com">Browse Happy</a>
 						</p>
 					<![endif]-->
 
@@ -284,13 +284,13 @@ class Antispam_Bee_GUI extends Antispam_Bee {
 									<li>
 										<input type="text" name="ab_country_black" id="ab_country_black" value="<?php echo esc_attr($options['country_black']); ?>" class="ab-medium-field code" />
 										<label for="ab_country_black">
-											Blacklist <a href="http://www.iso.org/iso/country_names_and_code_elements" target="_blank">ISO Codes</a>
+											Blacklist <a href="https://www.iso.org/iso/country_names_and_code_elements" target="_blank">ISO Codes</a>
 										</label>
 									</li>
 									<li>
 										<input type="text" name="ab_country_white" id="ab_country_white" value="<?php echo esc_attr($options['country_white']); ?>" class="ab-medium-field code" />
 										<label for="ab_country_white">
-											Whitelist <a href="http://www.iso.org/iso/country_names_and_code_elements" target="_blank">ISO Codes</a>
+											Whitelist <a href="https://www.iso.org/iso/country_names_and_code_elements" target="_blank">ISO Codes</a>
 										</label>
 									</li>
 								</ul>
@@ -452,7 +452,7 @@ class Antispam_Bee_GUI extends Antispam_Bee {
 					<div class="ab-column ab-column--service">
 						<?php if ( get_locale() == 'de_DE' ) { ?>
 							<p>
-								<a href="http://playground.ebiene.de/antispam-bee-wordpress-plugin/" target="_blank">Online-Handbuch</a> &bull; <a href="http://cup.wpcoder.de/wordpress-antispam-guide/" target="_blank">Antispam-Guide</a>
+								<a href="https://playground.ebiene.de/antispam-bee-wordpress-plugin/" target="_blank">Online-Handbuch</a> &bull; <a href="https://cup.wpcoder.de/wordpress-antispam-guide/" target="_blank">Antispam-Guide</a>
 							</p>
 						<?php } ?>
 

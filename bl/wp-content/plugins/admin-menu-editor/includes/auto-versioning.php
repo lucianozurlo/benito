@@ -4,7 +4,7 @@ if ( !class_exists('AutoVersioning') ) {
 
 /**
  * This class enables automatic versioning of CSS/JS by adding file modification time to the URLs.
- * @see http://stackoverflow.com/questions/118884/
+ * @see https://stackoverflow.com/questions/118884/
  */
 class AutoVersioning {
 	private static $version_in_filename = false;

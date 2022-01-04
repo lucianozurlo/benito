@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Admin Menu Editor [Multisite module]
-Plugin URI: http://adminmenueditor.com/
+Plugin URI: https://adminmenueditor.com/
 Description: Lets you edit the WordPress admin menu. To access the editor, go to the Dashboard of one of your network sites and open the Settings -&gt; Menu Editor page.
 Author: Janis Elsts
-Author URI: http://w-shadow.com/
+Author URI: https://w-shadow.com/
 */
 
 /**

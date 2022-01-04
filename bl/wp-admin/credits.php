@@ -30,7 +30,7 @@ function wp_credits() {
 		|| false !== strpos( $wp_version, '-' )
 		|| ( isset( $results['data']['version'] ) && strpos( $wp_version, $results['data']['version'] ) !== 0 )
 	) {
-		$response = wp_remote_get( "http://api.wordpress.org/core/credits/1.1/?version=$wp_version&locale=$locale" );
+		$response = wp_remote_get( "https://api.wordpress.org/core/credits/1.1/?version=$wp_version&locale=$locale" );
 
 		if ( is_wp_error( $response ) || 200 != wp_remote_retrieve_response_code( $response ) )
 			return false;
@@ -111,7 +111,7 @@ if ( ! $credits ) {
 
 echo '<p class="about-description">' . __( 'WordPress is created by a worldwide team of passionate individuals.' ) . "</p>\n";
 
-$gravatar = is_ssl() ? 'https://secure.gravatar.com/avatar/' : 'http://0.gravatar.com/avatar/';
+$gravatar = is_ssl() ? 'https://secure.gravatar.com/avatar/' : 'https://0.gravatar.com/avatar/';
 
 foreach ( $credits['groups'] as $group_slug => $group_data ) {
 	if ( $group_data['name'] ) {

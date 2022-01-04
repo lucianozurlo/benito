@@ -81,7 +81,7 @@ var wpLink;
 				var url = $.trim( inputs.url.val() );
 
 				if ( url && correctedURL !== url && ! /^(?:[a-z]+:|#|\?|\.|\/)/.test( url ) ) {
-					inputs.url.val( 'http://' + url );
+					inputs.url.val( 'https://' + url );
 					correctedURL = url;
 				}
 			}
@@ -184,7 +184,7 @@ var wpLink;
 				rivers.recent.ajax();
 			}
 
-			correctedURL = inputs.url.val().replace( /^http:\/\//, '' );
+			correctedURL = inputs.url.val().replace( /^https:\/\//, '' );
 		},
 
 		hasSelectedText: function( linkNode ) {

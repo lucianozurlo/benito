@@ -231,7 +231,7 @@
 			self::addStyle("edit_layers","edit_layers");
 
 			//add google font
-			//$urlGoogleFont = "http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700";
+			//$urlGoogleFont = "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700";
 			//self::addStyleAbsoluteUrl($urlGoogleFont,"google-font-pt-sans-narrow");
 			self::addScriptCommon("edit_layers","unite_layers");
 			self::addScriptCommon("css_editor","unite_css_editor");

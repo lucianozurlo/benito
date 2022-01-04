@@ -3,7 +3,7 @@
 /**
  * Typography
  * Dependencies:        google.com, jquery, select2
- * Feature added by:    Dovy Paukstys - http://simplerain.com/
+ * Feature added by:    Dovy Paukstys - https://simplerain.com/
  * Date:                06.14.2013
  *
  * Rewrite:             Kevin Provance (kprovance)

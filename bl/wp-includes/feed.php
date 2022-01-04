@@ -519,7 +519,7 @@ function atom_enclosure() {
  *
  * Container div tags are added to xhtml values, per section 3.1.1.3.
  *
- * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#rfc.section.3.1
+ * @link https://www.atomenabled.org/developers/syndication/atom-format-spec.php#rfc.section.3.1
  *
  * @since 2.5.0
  *
@@ -540,7 +540,7 @@ function prep_atom_text_construct($data) {
 		if (strpos($data, '<') === false) {
 			return array('text', $data);
 		} else {
-			$data = "<div xmlns='http://www.w3.org/1999/xhtml'>$data</div>";
+			$data = "<div xmlns='https://www.w3.org/1999/xhtml'>$data</div>";
 			return array('xhtml', $data);
 		}
 	}
@@ -571,7 +571,7 @@ function self_link() {
 	 *
 	 * @param string $feed_link The link for the feed with set URL scheme.
 	 */
-	echo esc_url( apply_filters( 'self_link', set_url_scheme( 'http://' . $host['host'] . wp_unslash( $_SERVER['REQUEST_URI'] ) ) ) );
+	echo esc_url( apply_filters( 'self_link', set_url_scheme( 'https://' . $host['host'] . wp_unslash( $_SERVER['REQUEST_URI'] ) ) ) );
 }
 
 /**
@@ -612,7 +612,7 @@ function feed_content_type( $type = '' ) {
  *
  * @param mixed $url URL of feed to retrieve. If an array of URLs, the feeds are merged
  * using SimplePie's multifeed feature.
- * See also {@link ​http://simplepie.org/wiki/faq/typical_multifeed_gotchas}
+ * See also {@link ​https://simplepie.org/wiki/faq/typical_multifeed_gotchas}
  *
  * @return WP_Error|SimplePie WP_Error object on failure or SimplePie object on success
  */

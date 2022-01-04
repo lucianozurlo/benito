@@ -45,17 +45,17 @@
 			<div class="divide10"></div>
 			<div class="api-caption"><?php _e("Replace Image Url's",REVSLIDER_TEXTDOMAIN)?>:</div>
 			<div class="divide5"></div>
-			<div class="api-desc"><?php _e("Replace all layer and background image url's. Example: http://localhost/ to http://yourwbsite.com/. <br> Note, the replace is not reversible",REVSLIDER_TEXTDOMAIN)?>.</div>
+			<div class="api-desc"><?php _e("Replace all layer and background image url's. Example: https://localhost/ to https://yourwbsite.com/. <br> Note, the replace is not reversible",REVSLIDER_TEXTDOMAIN)?>.</div>
 						
 			<div class="divide10"></div>
 			
-			<?php _e("Replace From (example - http://localhost)",REVSLIDER_TEXTDOMAIN)?>:
+			<?php _e("Replace From (example - https://localhost)",REVSLIDER_TEXTDOMAIN)?>:
 			<div class="divide5"></div>			
 			<input type="text" class="text-sidebar-link" id="replace_url_from">
 			
 			<div class="divide10"></div>
 			
-			<?php _e("Replace To (example - http://yoursite.com)",REVSLIDER_TEXTDOMAIN)?>:
+			<?php _e("Replace To (example - https://yoursite.com)",REVSLIDER_TEXTDOMAIN)?>:
 			<div class="divide5"></div>
 			<input type="text" class="text-sidebar-link" id="replace_url_to">
 			

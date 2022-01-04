@@ -1762,7 +1762,7 @@ function make_url_footnote( $content ) {
 		$link_url = $matches[2][$i];
 		$link_text = $matches[4][$i];
 		$content = str_replace( $link_match, $link_text . ' ' . $link_number, $content );
-		$link_url = ( ( strtolower( substr( $link_url, 0, 7 ) ) != 'http://' ) && ( strtolower( substr( $link_url, 0, 8 ) ) != 'https://' ) ) ? get_option( 'home' ) . $link_url : $link_url;
+		$link_url = ( ( strtolower( substr( $link_url, 0, 7 ) ) != 'https://' ) && ( strtolower( substr( $link_url, 0, 8 ) ) != 'https://' ) ) ? get_option( 'home' ) . $link_url : $link_url;
 		$links_summary .= "\n" . $link_number . ' ' . $link_url;
 	}
 	$content  = strip_tags( $content );
@@ -2873,7 +2873,7 @@ function is_blog_user( $blog_id = 0 ) {
  *
  * @since 0.71
  * @deprecated Use error_log()
- * @link http://www.php.net/manual/en/function.error-log.php
+ * @link https://www.php.net/manual/en/function.error-log.php
  * @deprecated 3.4.0
  */
 function debug_fopen( $filename, $mode ) {
@@ -2886,7 +2886,7 @@ function debug_fopen( $filename, $mode ) {
  *
  * @since 0.71
  * @deprecated Use error_log() instead.
- * @link http://www.php.net/manual/en/function.error-log.php
+ * @link https://www.php.net/manual/en/function.error-log.php
  * @deprecated 3.4.0
  */
 function debug_fwrite( $fp, $string ) {
@@ -2900,7 +2900,7 @@ function debug_fwrite( $fp, $string ) {
  *
  * @since 0.71
  * @deprecated Use error_log()
- * @link http://www.php.net/manual/en/function.error-log.php
+ * @link https://www.php.net/manual/en/function.error-log.php
  * @deprecated 3.4.0
  */
 function debug_fclose( $fp ) {

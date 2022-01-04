@@ -1,8 +1,8 @@
 <?php
 /////////////////////////////////////////////////////////////////
 /// getID3() by James Heinrich <info@getid3.org>               //
-//  available at http://getid3.sourceforge.net                 //
-//            or http://www.getid3.org                         //
+//  available at https://getid3.sourceforge.net                 //
+//            or https://www.getid3.org                         //
 //          also https://github.com/JamesHeinrich/getID3       //
 /////////////////////////////////////////////////////////////////
 // See readme.txt for more details                             //
@@ -267,7 +267,7 @@ class getid3_id3v1 extends getid3_handler
 		static $GenreLookupSCMPX = array();
 		if ($allowSCMPXextended && empty($GenreLookupSCMPX)) {
 			$GenreLookupSCMPX = $GenreLookup;
-			// http://www.geocities.co.jp/SiliconValley-Oakland/3664/alittle.html#GenreExtended
+			// https://www.geocities.co.jp/SiliconValley-Oakland/3664/alittle.html#GenreExtended
 			// Extended ID3v1 genres invented by SCMPX
 			// Note that 255 "Japanese Anime" conflicts with standard "Unknown"
 			$GenreLookupSCMPX[240] = 'Sacred';

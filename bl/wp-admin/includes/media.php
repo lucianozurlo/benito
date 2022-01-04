@@ -744,7 +744,7 @@ function wp_media_upload_handler() {
 	if ( !empty($_POST['insertonlybutton']) ) {
 		$src = $_POST['src'];
 		if ( !empty($src) && !strpos($src, '://') )
-			$src = "http://$src";
+			$src = "https://$src";
 
 		if ( isset( $_POST['media_type'] ) && 'image' != $_POST['media_type'] ) {
 			$title = esc_html( wp_unslash( $_POST['title'] ) );

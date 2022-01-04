@@ -302,7 +302,7 @@ class WP_Filesystem_Base {
 	 *
 	 * From the PHP documentation page for fileperms().
 	 *
-	 * @link http://docs.php.net/fileperms
+	 * @link https://docs.php.net/fileperms
 	 *
 	 * @access public
 	 * @since 2.5.0
@@ -358,7 +358,7 @@ class WP_Filesystem_Base {
 	 * Converts '-rw-r--r--' to 0644
 	 * From "info at rvgate dot nl"'s comment on the PHP documentation for chmod()
  	 *
-	 * @link http://docs.php.net/manual/en/function.chmod.php#49614
+	 * @link https://docs.php.net/manual/en/function.chmod.php#49614
 	 *
 	 * @access public
 	 * @since 2.5.0

@@ -1735,7 +1735,7 @@ function untrailingslashit( $string ) {
  * Adds slashes to escape strings.
  *
  * Slashes will first be removed if magic_quotes_gpc is set, see {@link
- * http://www.php.net/magic_quotes} for more details.
+ * https://www.php.net/magic_quotes} for more details.
  *
  * @since 0.71
  *
@@ -1880,7 +1880,7 @@ function _make_url_clickable_cb($matches) {
 function _make_web_ftp_clickable_cb($matches) {
 	$ret = '';
 	$dest = $matches[2];
-	$dest = 'http://' . $dest;
+	$dest = 'https://' . $dest;
 	$dest = esc_url($dest);
 	if ( empty($dest) )
 		return $matches[0];
@@ -2377,7 +2377,7 @@ function iso8601_timezone_to_offset($timezone) {
  *
  * @since 1.5.0
  *
- * @param string $date_string Date and time in ISO 8601 format {@link http://en.wikipedia.org/wiki/ISO_8601}.
+ * @param string $date_string Date and time in ISO 8601 format {@link https://en.wikipedia.org/wiki/ISO_8601}.
  * @param string $timezone Optional. If set to GMT returns the time minus gmt_offset. Default is 'user'.
  * @return string The date and time in MySQL DateTime format - Y-m-d H:i:s.
  */
@@ -3108,12 +3108,12 @@ function esc_url( $url, $protocols = null, $_context = 'display' ) {
 	$url = _deep_replace($strip, $url);
 	$url = str_replace(';//', '://', $url);
 	/* If the URL doesn't appear to contain a scheme, we
-	 * presume it needs http:// appended (unless a relative
+	 * presume it needs https:// appended (unless a relative
 	 * link starting with /, # or ? or a php file).
 	 */
 	if ( strpos($url, ':') === false && ! in_array( $url[0], array( '/', '#', '?' ) ) &&
 		! preg_match('/^[a-z0-9-]+?\.php/i', $url) )
-		$url = 'http://' . $url;
+		$url = 'https://' . $url;
 
 	// Replace ampersands and single quotes only when displaying.
 	if ( 'display' == $_context ) {
@@ -3160,7 +3160,7 @@ function esc_url_raw( $url, $protocols = null ) {
 /**
  * Convert entities, while preserving already-encoded entities.
  *
- * @link http://www.php.net/htmlentities Borrowed from the PHP Manual user notes.
+ * @link https://www.php.net/htmlentities Borrowed from the PHP Manual user notes.
  *
  * @since 1.2.2
  *
@@ -3493,7 +3493,7 @@ function sanitize_option($option, $value) {
 		case 'tag_base':
 			$value = $wpdb->strip_invalid_text_for_column( $wpdb->options, 'option_value', $value );
 			$value = esc_url_raw( $value );
-			$value = str_replace( 'http://', '', $value );
+			$value = str_replace( 'https://', '', $value );
 			break;
 
 		case 'default_role' :
@@ -3527,8 +3527,8 @@ function sanitize_option($option, $value) {
 /**
  * Parses a string into variables to be stored in an array.
  *
- * Uses {@link http://www.php.net/parse_str parse_str()} and stripslashes if
- * {@link http://www.php.net/magic_quotes magic_quotes_gpc} is on.
+ * Uses {@link https://www.php.net/parse_str parse_str()} and stripslashes if
+ * {@link https://www.php.net/magic_quotes magic_quotes_gpc} is on.
  *
  * @since 2.2.1
  *
@@ -3581,7 +3581,7 @@ function wp_pre_kses_less_than_callback( $matches ) {
  * WordPress implementation of PHP sprintf() with filters.
  *
  * @since 2.5.0
- * @link http://www.php.net/sprintf
+ * @link https://www.php.net/sprintf
  *
  * @param string $pattern The string which formatted args are inserted.
  * @param mixed  $args ,... Arguments to be formatted into the $pattern string.
@@ -3768,7 +3768,7 @@ function _links_add_base($m) {
 	return $m[1] . '=' . $m[2] .
 		( preg_match( '#^(\w{1,20}):#', $m[3], $protocol ) && in_array( $protocol[1], wp_allowed_protocols() ) ?
 			$m[3] :
-			WP_HTTP::make_absolute_url( $m[3], $_links_add_base )
+			WP_https::make_absolute_url( $m[3], $_links_add_base )
 		)
 		. $m[2];
 }

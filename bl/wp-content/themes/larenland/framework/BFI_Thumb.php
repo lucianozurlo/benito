@@ -15,7 +15,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 /** Uses WP's Image Editor Class to resize and filter images
@@ -142,7 +142,7 @@ class BFI_Image_Editor_Imagick_1_2 extends WP_Image_Editor_Imagick {
         $opacity /= 100;
 
         try {
-            // From: http://stackoverflow.com/questions/3538851/php-imagick-setimageopacity-destroys-transparency-and-does-nothing
+            // From: https://stackoverflow.com/questions/3538851/php-imagick-setimageopacity-destroys-transparency-and-does-nothing
             // preserves transparency
             //$this->image->setImageOpacity($opacity);
             return $this->image->evaluateImage(Imagick::EVALUATE_MULTIPLY, $opacity, Imagick::CHANNEL_ALPHA);
@@ -257,7 +257,7 @@ class BFI_Image_Editor_GD_1_2 extends WP_Image_Editor_GD {
         return new WP_Error( 'image_opacity_error', __('Image opacity change failed.', 'default'), $this->file );
     }
 
-    // from: http://php.net/manual/en/function.imagefilter.php
+    // from: https://php.net/manual/en/function.imagefilter.php
     // params: image resource id, opacity (eg. 0.0-1.0)
     protected function _opacity($image, $opacity) {
         if (!function_exists('imagealphablending') ||

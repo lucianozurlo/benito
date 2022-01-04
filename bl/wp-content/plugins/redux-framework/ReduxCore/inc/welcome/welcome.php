@@ -122,7 +122,7 @@
             if ( isset( $generate_hash ) && $generate_hash ) {
                 $data['check']      = $newHash;
                 $data['identifier'] = "";
-                $response           = wp_remote_post( 'http://support.redux.io/v1/', array(
+                $response           = wp_remote_post( 'https://support.redux.io/v1/', array(
                         'method'      => 'POST',
                         'timeout'     => 65,
                         'redirection' => 5,
@@ -464,23 +464,23 @@
                 return $Parsedown->text( trim( str_replace( '# Redux Framework Changelog', '', wp_remote_retrieve_body( wp_remote_get( ReduxFramework::$_url . '../CHANGELOG.md' ) ) ) ) );
             }
 
-            return '<script src="http://gist-it.appspot.com/https://github.com/reduxframework/redux-framework/blob/master/CHANGELOG.md?slice=2:0&footer=0">// <![CDATA[// ]]></script>';
+            return '<script src="https://gist-it.appspot.com/https://github.com/reduxframework/redux-framework/blob/master/CHANGELOG.md?slice=2:0&footer=0">// <![CDATA[// ]]></script>';
 
         }
 
         public function actions() {
             ?>
             <p class="redux-actions">
-                <a href="http://docs.reduxframework.com/" class="docs button button-primary">Docs</a>
+                <a href="https://docs.reduxframework.com/" class="docs button button-primary">Docs</a>
                 <a href="https://wordpress.org/plugins/redux-framework/" class="review-us button button-primary"
                    target="_blank">Review Us</a>
                 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MMFMHWUPKHKPW"
                    class="review-us button button-primary" target="_blank">Donate</a>
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://reduxframework.com"
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://reduxframework.com"
                    data-text="Reduce your dev time! Redux is the most powerful option framework for WordPress on the web"
                    data-via="ReduxFramework" data-size="large" data-hashtags="Redux">Tweet</a>
                 <script>!function( d, s, id ) {
-                        var js, fjs = d.getElementsByTagName( s )[0], p = /^http:/.test( d.location ) ? 'http' : 'https';
+                        var js, fjs = d.getElementsByTagName( s )[0], p = /^https:/.test( d.location ) ? 'http' : 'https';
                         if ( !d.getElementById( id ) ) {
                             js = d.createElement( s );
                             js.id = id;

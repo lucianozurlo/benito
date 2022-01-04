@@ -2770,7 +2770,7 @@ function pingback($content, $post_ID) {
 	include_once(ABSPATH . WPINC . '/class-IXR.php');
 	include_once(ABSPATH . WPINC . '/class-wp-http-ixr-client.php');
 
-	// original code by Mort (http://mort.mine.nu:8080)
+	// original code by Mort (https://mort.mine.nu:8080)
 	$post_links = array();
 
 	$pung = get_pung($post_ID);
@@ -2783,9 +2783,9 @@ function pingback($content, $post_ID) {
 	// Walking thru the links array
 	// first we get rid of links pointing to sites, not to specific files
 	// Example:
-	// http://dummy-weblog.org
-	// http://dummy-weblog.org/
-	// http://dummy-weblog.org/post.php
+	// https://dummy-weblog.org
+	// https://dummy-weblog.org/
+	// https://dummy-weblog.org/post.php
 	// We don't wanna ping first and second types, even if they have a valid <link/>
 
 	foreach ( (array) $post_links_temp as $link_test ) :
@@ -2945,7 +2945,7 @@ function pingback_ping_source_uri( $source_uri ) {
  * which reports that the pingback is already registered.
  *
  * @since 3.5.1
- * @link http://www.hixie.ch/specs/pingback/pingback#TOC3
+ * @link https://www.hixie.ch/specs/pingback/pingback#TOC3
  *
  * @param IXR_Error $ixr_error
  * @return IXR_Error

@@ -269,7 +269,7 @@ msgstr "Tak / Nie, aby umieścić obraz tła do głównego slajdu wrapper."
 # @ revslider
 #: settings/slider_settings_xml_lang.php:66
 msgid "Background Image Url"
-msgstr "Adres http://.... obrazu tła"
+msgstr "Adres https://.... obrazu tła"
 
 # @ revslider
 #: settings/slider_settings_xml_lang.php:67

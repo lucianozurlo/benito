@@ -1,8 +1,8 @@
 <?php
 /////////////////////////////////////////////////////////////////
 /// getID3() by James Heinrich <info@getid3.org>               //
-//  available at http://getid3.sourceforge.net                 //
-//            or http://www.getid3.org                         //
+//  available at https://getid3.sourceforge.net                 //
+//            or https://www.getid3.org                         //
 //          also https://github.com/JamesHeinrich/getID3       //
 /////////////////////////////////////////////////////////////////
 // See readme.txt for more details                             //
@@ -21,7 +21,7 @@ class getid3_lyrics3 extends getid3_handler
 	public function Analyze() {
 		$info = &$this->getid3->info;
 
-		// http://www.volweb.cz/str/tags.htm
+		// https://www.volweb.cz/str/tags.htm
 
 		if (!getid3_lib::intValueSupported($info['filesize'])) {
 			$info['warning'][] = 'Unable to check for Lyrics3 because file is larger than '.round(PHP_INT_MAX / 1073741824).'GB';
@@ -123,7 +123,7 @@ class getid3_lyrics3 extends getid3_handler
 	}
 
 	public function getLyrics3Data($endoffset, $version, $length) {
-		// http://www.volweb.cz/str/tags.htm
+		// https://www.volweb.cz/str/tags.htm
 
 		$info = &$this->getid3->info;
 

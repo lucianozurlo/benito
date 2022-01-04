@@ -13,7 +13,7 @@
 
 
 
- * Abraham Williams (abraham@abrah.am) http://abrah.am
+ * Abraham Williams (abraham@abrah.am) https://abrah.am
 
 
 
@@ -38,7 +38,7 @@
 
 
 
-/* Load OAuth lib. You can find it at http://oauth.net */
+/* Load OAuth lib. You can find it at https://oauth.net */
 
 
 
@@ -868,7 +868,7 @@ class TwitterOAuth {
 
 
 
-    if (strrpos($url, 'https://') !== 0 && strrpos($url, 'http://') !== 0) {
+    if (strrpos($url, 'https://') !== 0 && strrpos($url, 'https://') !== 0) {
 
 
 

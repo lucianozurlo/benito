@@ -1,6 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: wp-limit-login-attempts-plugin\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/limit-login-attempts\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/limit-login-attempts\n"
 "POT-Creation-Date: 2009-01-28 17:17+0000\n"
 "PO-Revision-Date: 2010-08-12 04:22-0400\n"
 "Last-Translator: AriK <ari.kontiainen@gmail.com>\n"
@@ -253,8 +253,8 @@ msgid "Limit Login Attempts"
 msgstr "Limit Login Attempts"
 
 #. Plugin URI of an extension
-msgid "http://devel.kostdoktorn.se/limit-login-attempts"
-msgstr "http://devel.kostdoktorn.se/limit-login-attempts"
+msgid "https://devel.kostdoktorn.se/limit-login-attempts"
+msgstr "https://devel.kostdoktorn.se/limit-login-attempts"
 
 #. Description of an extension
 msgid "Limit rate of login attempts, including by way of cookies, for each IP."
@@ -265,6 +265,6 @@ msgid "Johan Eenfeldt"
 msgstr "Johan Eenfeldt"
 
 #. Author URI of an extension
-msgid "http://devel.kostdoktorn.se"
-msgstr "http://devel.kostdoktorn.se"
+msgid "https://devel.kostdoktorn.se"
+msgstr "https://devel.kostdoktorn.se"
 

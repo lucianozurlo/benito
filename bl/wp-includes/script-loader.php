@@ -3,7 +3,7 @@
  * WordPress scripts and styles default loader.
  *
  * Most of the functionality that existed here was moved to
- * {@link http://backpress.automattic.com/ BackPress}. WordPress themes and
+ * {@link https://backpress.automattic.com/ BackPress}. WordPress themes and
  * plugins will only be concerned about the filters and actions set in this
  * file.
  *

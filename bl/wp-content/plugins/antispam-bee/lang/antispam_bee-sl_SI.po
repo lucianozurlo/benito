@@ -87,8 +87,8 @@ msgstr "Preprost, napreden in izjemno učinkovit vtičnik v boju proti nezažele
 #: antispam_bee.php:0
 #: antispam_bee.php:2416
 #@ antispam_bee
-msgid "http://antispambee.com"
-msgstr "http://antispambee.com"
+msgid "https://antispambee.com"
+msgstr "https://antispambee.com"
 
 #: antispam_bee.php:2354
 #@ antispam_bee
@@ -331,7 +331,7 @@ msgstr ""
 #. translators: plugin header field 'AuthorURI'
 #: antispam_bee.php:0
 #@ antispam_bee
-msgid "http://wpcoder.de"
+msgid "https://wpcoder.de"
 msgstr ""
 
 #. translators: plugin header field 'Version'

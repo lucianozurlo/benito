@@ -18,22 +18,22 @@
 //
 // *Version: 1.6, Last updated: 1/24/2009*
 //
-// Project Home - http://benalman.com/projects/php-simple-proxy/
-// GitHub       - http://github.com/cowboy/php-simple-proxy/
-// Source       - http://github.com/cowboy/php-simple-proxy/raw/master/ba-simple-proxy.php
+// Project Home - https://benalman.com/projects/php-simple-proxy/
+// GitHub       - https://github.com/cowboy/php-simple-proxy/
+// Source       - https://github.com/cowboy/php-simple-proxy/raw/master/ba-simple-proxy.php
 //
 // About: License
 //
 // Copyright (c) 2010 "Cowboy" Ben Alman,
 // Dual licensed under the MIT and GPL licenses.
-// http://benalman.com/about/license/
+// https://benalman.com/about/license/
 //
 // About: Examples
 //
 // This working example, complete with fully commented code, illustrates one way
 // in which this PHP script can be used.
 //
-// Simple - http://benalman.com/code/projects/php-simple-proxy/examples/simple/
+// Simple - https://benalman.com/code/projects/php-simple-proxy/examples/simple/
 //
 // About: Release History
 //
@@ -81,7 +81,7 @@
 //
 // Request:
 //
-// > ba-simple-proxy.php?url=http://example.com/
+// > ba-simple-proxy.php?url=https://example.com/
 //
 // Response:
 //
@@ -101,7 +101,7 @@
 //
 // Request:
 //
-// > ba-simple-proxy.php?url=http://example.com/&callback=foo
+// > ba-simple-proxy.php?url=https://example.com/&callback=foo
 //
 // Response:
 //
@@ -122,7 +122,7 @@
 //
 // Request:
 //
-// > ba-simple-proxy.php?url=http://example.com/&mode=native
+// > ba-simple-proxy.php?url=https://example.com/&mode=native
 //
 // Response:
 //
@@ -189,7 +189,7 @@
 
                 // Ad URL rewrite
                 if ( strpos( $url, 'http' ) === false ) {
-                    $url = 'http:' . $url;
+                    $url = 'https:' . $url;
                 }
 
                 if ( isset( $_GET['callback'] ) ) {

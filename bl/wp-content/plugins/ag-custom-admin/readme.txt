@@ -1,12 +1,12 @@
 === AG Custom Admin ===
 Contributors: argonius
-Donate link: http://wordpressadminpanel.com/ag-custom-admin/
+Donate link: https://wordpressadminpanel.com/ag-custom-admin/
 Tags: admin, customize, hide, change admin, themes, admin themes, admin bar, login page
 Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 1.4.7
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
  
 All-in-one tool for admin panel customization. Change almost everything: admin menu, dashboard, login page, admin bar etc. Apply admin panel themes.
 
@@ -99,16 +99,16 @@ With this plugin you can easily customize WordPress **admin panel**, **login pag
 AG Custom Admin plugin contains specialy created professional and responsive themes for admin panel and login page, that can be applied easily within AG Custom Admin plugin with only few clicks!
 We will add more themes with better styles and theme options in future. 
 
-For more info about AG Custom Admin themes, please go to [WordPress Admin Panel Themes](http://wordpressadminpanel.com/themes/home) site.
+For more info about AG Custom Admin themes, please go to [WordPress Admin Panel Themes](https://wordpressadminpanel.com/themes/home) site.
 
 = Additional Features = 
-* [Admin Panel Themes](http://wordpressadminpanel.com/themes/home)
-* [Admin Menu Icons Management](http://wordpressadminpanel.com/aglcami/home)
+* [Admin Panel Themes](https://wordpressadminpanel.com/themes/home)
+* [Admin Menu Icons Management](https://wordpressadminpanel.com/aglcami/home)
 
 = Contact =
-If you are unable to login or you have any other problems, please check our [FAQ](http://wordpress.org/extend/plugins/ag-custom-admin/faq/) and [SUPPORT](http://wordpress.org/support/plugin/ag-custom-admin) page.
+If you are unable to login or you have any other problems, please check our [FAQ](https://wordpress.org/extend/plugins/ag-custom-admin/faq/) and [SUPPORT](https://wordpress.org/support/plugin/ag-custom-admin) page.
 
-For more information about the plugin please check [PLUGIN WEBSITE](http://wordpressadminpanel.com/ag-custom-admin/) and for more information about admin themes please check [THEMES WEBSITE](http://wordpressadminpanel.com/themes/home)
+For more information about the plugin please check [PLUGIN WEBSITE](https://wordpressadminpanel.com/ag-custom-admin/) and for more information about admin themes please check [THEMES WEBSITE](https://wordpressadminpanel.com/themes/home)
 
 **Important**: AG Custom Admin should always be updated before updating WordPress. 
 
@@ -137,7 +137,7 @@ Please use 'Reset Settings' button on Admin Menu page to reset menu configuratio
 Go to browser's console and see if there are any errors. Try to locate them. If you can't fix error by yourself, post it back to plugin's support page.
 
 = Some options are not working =
-Plugin should be always up-to-date with latest WordPress release. If you have found out that something is not working in the latest WordPress, please contact us and let us know. If you're using older WordPress version, some options could be deprecated. In that case, please check our [COMPATIBILITY](http://wordpressadminpanel.com/agca-support/news/recommended-ag-custom-admin-version-for-your-wordpress-version/) page to find the best AG Custom Admin version for your WordPress.
+Plugin should be always up-to-date with latest WordPress release. If you have found out that something is not working in the latest WordPress, please contact us and let us know. If you're using older WordPress version, some options could be deprecated. In that case, please check our [COMPATIBILITY](https://wordpressadminpanel.com/agca-support/news/recommended-ag-custom-admin-version-for-your-wordpress-version/) page to find the best AG Custom Admin version for your WordPress.
  
 
 == Screenshots ==

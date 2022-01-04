@@ -500,7 +500,7 @@ if ( ! class_exists( 'ReduxFramework_typography' ) ) {
                                 'subset'     => array( $this->value['subset'] )
                             );
 
-                            $protocol = ( ! empty( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443 ) ? "https:" : "http:";
+                            $protocol = ( ! empty( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443 ) ? "https:" : "https:";
 
                             wp_deregister_style( 'redux-typography-preview' );
                             wp_dequeue_style( 'redux-typography-preview' );

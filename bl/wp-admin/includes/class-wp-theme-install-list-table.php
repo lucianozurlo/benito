@@ -199,13 +199,13 @@ class WP_Theme_Install_List_Table extends WP_Themes_List_Table {
 	 *     public 'slug' => string 'magazine-basic'
 	 *     public 'version' => string '1.1'
 	 *     public 'author' => string 'tinkerpriest'
-	 *     public 'preview_url' => string 'http://wp-themes.com/?magazine-basic'
-	 *     public 'screenshot_url' => string 'http://wp-themes.com/wp-content/themes/magazine-basic/screenshot.png'
+	 *     public 'preview_url' => string 'https://wp-themes.com/?magazine-basic'
+	 *     public 'screenshot_url' => string 'https://wp-themes.com/wp-content/themes/magazine-basic/screenshot.png'
 	 *     public 'rating' => float 80
 	 *     public 'num_ratings' => int 1
-	 *     public 'homepage' => string 'http://wordpress.org/themes/magazine-basic'
-	 *     public 'description' => string 'A basic magazine style layout with a fully customizable layout through a backend interface. Designed by <a href="http://bavotasan.com">c.bavota</a> of <a href="http://tinkerpriestmedia.com">Tinker Priest Media</a>.'
-	 *     public 'download_link' => string 'http://wordpress.org/themes/download/magazine-basic.1.1.zip'
+	 *     public 'homepage' => string 'https://wordpress.org/themes/magazine-basic'
+	 *     public 'description' => string 'A basic magazine style layout with a fully customizable layout through a backend interface. Designed by <a href="https://bavotasan.com">c.bavota</a> of <a href="https://tinkerpriestmedia.com">Tinker Priest Media</a>.'
+	 *     public 'download_link' => string 'https://wordpress.org/themes/download/magazine-basic.1.1.zip'
 	 */
 	public function single_row( $theme ) {
 		global $themes_allowedtags;

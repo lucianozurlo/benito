@@ -2946,7 +2946,7 @@ function network_site_url( $path = '', $scheme = null ) {
 	if ( 'relative' == $scheme )
 		$url = $current_site->path;
 	else
-		$url = set_url_scheme( 'http://' . $current_site->domain . $current_site->path, $scheme );
+		$url = set_url_scheme( 'https://' . $current_site->domain . $current_site->path, $scheme );
 
 	if ( $path && is_string( $path ) )
 		$url .= ltrim( $path, '/' );
@@ -2992,7 +2992,7 @@ function network_home_url( $path = '', $scheme = null ) {
 	if ( 'relative' == $scheme )
 		$url = $current_site->path;
 	else
-		$url = set_url_scheme( 'http://' . $current_site->domain . $current_site->path, $scheme );
+		$url = set_url_scheme( 'https://' . $current_site->domain . $current_site->path, $scheme );
 
 	if ( $path && is_string( $path ) )
 		$url .= ltrim( $path, '/' );
@@ -3108,7 +3108,7 @@ function set_url_scheme( $url, $scheme = null ) {
 
 	$url = trim( $url );
 	if ( substr( $url, 0, 2 ) === '//' )
-		$url = 'http:' . $url;
+		$url = 'https:' . $url;
 
 	if ( 'relative' == $scheme ) {
 		$url = ltrim( preg_replace( '#^\w+://[^/]*#', '', $url ) );
@@ -3601,7 +3601,7 @@ function get_avatar_data( $id_or_email, $args = null ) {
 		'r' => $args['rating'],
 	);
 
-	$url = sprintf( 'http://%d.gravatar.com/avatar/%s', $gravatar_server, $email_hash );
+	$url = sprintf( 'https://%d.gravatar.com/avatar/%s', $gravatar_server, $email_hash );
 
 	$url = add_query_arg(
 		rawurlencode_deep( array_filter( $url_args ) ),

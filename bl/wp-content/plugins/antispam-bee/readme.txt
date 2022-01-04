@@ -34,7 +34,7 @@ Blog-Spam bekämpfen ist die Stärke von *Antispam Bee*. Seit Jahren wird das Pl
 
 
 = Einstellungen =
-Nach der Aktivierung nimmt *Antispam Bee* den regulären Betrieb auf, indem vordefinierte Schutzmechanismen scharf geschaltet werden. Es empfiehlt sich jedoch, die Seite mit Plugin-Einstellungen aufzurufen und sich mit wirkungsvollen Optionen auseinander zu setzen. Alle Optionsschalter sind in der [Online-Dokumentation](http://playground.ebiene.de/antispam-bee-wordpress-plugin/) detailliert vorgestellt.
+Nach der Aktivierung nimmt *Antispam Bee* den regulären Betrieb auf, indem vordefinierte Schutzmechanismen scharf geschaltet werden. Es empfiehlt sich jedoch, die Seite mit Plugin-Einstellungen aufzurufen und sich mit wirkungsvollen Optionen auseinander zu setzen. Alle Optionsschalter sind in der [Online-Dokumentation](https://playground.ebiene.de/antispam-bee-wordpress-plugin/) detailliert vorgestellt.
 
 Die meisten Auswahlmöglichkeiten innerhalb der Optionsseite sind konfigurierbare Antispam-Filter, die der Blog-Administrator nach Bedarf aktiviert. Zahlreiche Wahlmöglichkeiten steuern hingegen die Benachrichtigungs- und die automatische Löschfunktion des Plugins. Die *Antispam Bee* Optionen in der Kurzfassung:
 
@@ -48,7 +48,7 @@ Die meisten Auswahlmöglichkeiten innerhalb der Optionsseite sind konfigurierbar
 * Kommentare nur in einer Sprache zulassen
 * Erkannten Spam kennzeichnen, nicht löschen
 * Bei Spam via E-Mail informieren
-* Optionale Logdatei mit Spam-Einträgen z.B. für [Fail2Ban](http://cup.wpcoder.de/fail2ban-ip-firewall/)
+* Optionale Logdatei mit Spam-Einträgen z.B. für [Fail2Ban](https://cup.wpcoder.de/fail2ban-ip-firewall/)
 * Spamgrund im Kommentar nicht speichern
 * Vorhandenen Spam nach X Tagen löschen
 * Aufbewahrung der Spam-Kommentare für einen Typ
@@ -60,7 +60,7 @@ Die meisten Auswahlmöglichkeiten innerhalb der Optionsseite sind konfigurierbar
 
 
 = Datenschutz =
-In Blogs innerhalb der EU-Länder sollte die Option *"Öffentliche Spamdatenbank berücksichtigen"* nicht aktiviert werden, da das Antispam-Plugin dann ungekürzte IP-Adressen der Kommentatoren dafür verwendet, diese in einer öffentlichen Spammer-Datenbank nachzuschlagen, um als Spam zu identifizieren. Technisch ist die Verschlüsselung der IP nicht möglich, da Spammer-Datenbanken mit vollständigen, unverschlüsselten IP-Adressen arbeiten. [Weitere Details](http://playground.ebiene.de/antispam-bee-wordpress-plugin/#dnsbl_check)
+In Blogs innerhalb der EU-Länder sollte die Option *"Öffentliche Spamdatenbank berücksichtigen"* nicht aktiviert werden, da das Antispam-Plugin dann ungekürzte IP-Adressen der Kommentatoren dafür verwendet, diese in einer öffentlichen Spammer-Datenbank nachzuschlagen, um als Spam zu identifizieren. Technisch ist die Verschlüsselung der IP nicht möglich, da Spammer-Datenbanken mit vollständigen, unverschlüsselten IP-Adressen arbeiten. [Weitere Details](https://playground.ebiene.de/antispam-bee-wordpress-plugin/#dnsbl_check)
 
 
 = Schlusswort =
@@ -85,18 +85,18 @@ Fragen rund ums Plugin werden gern per E-Mail beantwortet. Beachtet auch die [Gu
 
 
 = Lesenswertes =
-* [Antispam Bee: Antispam für WordPress](http://playground.ebiene.de/antispam-bee-wordpress-plugin/)
-* [Guide: Spam-Bekämpfung in WordPress](http://cup.wpcoder.de/wordpress-antispam-guide/)
+* [Antispam Bee: Antispam für WordPress](https://playground.ebiene.de/antispam-bee-wordpress-plugin/)
+* [Guide: Spam-Bekämpfung in WordPress](https://cup.wpcoder.de/wordpress-antispam-guide/)
 
 
 = Website =
-* [antispambee.de](http://antispambee.de)
+* [antispambee.de](https://antispambee.de)
 
 
 = Autor =
 * [Twitter](https://twitter.com/wpSEO)
 * [Google+](https://plus.google.com/110569673423509816572)
-* [Plugins](http://wpcoder.de)
+* [Plugins](https://wpcoder.de)
 
 
 
@@ -125,7 +125,7 @@ Fragen rund ums Plugin werden gern per E-Mail beantwortet. Beachtet auch die [Gu
 
 * **Deutsch**
     * Fix: Parameter-Rückgabe bei `dashboard_glance_items` / thx [@toscho](https://twitter.com/toscho)
-    * Neue Funktion: [Kommentatoren mit Gravatar vertrauen](http://playground.ebiene.de/antispam-bee-wordpress-plugin/#gravatar_check) / thx [@glueckpress](https://twitter.com/glueckpress)
+    * Neue Funktion: [Kommentatoren mit Gravatar vertrauen](https://playground.ebiene.de/antispam-bee-wordpress-plugin/#gravatar_check) / thx [@glueckpress](https://twitter.com/glueckpress)
     * Zusätzliche Plausibilitätsprüfungen und Filter
     * *Release-Zeitaufwand (Development & QA): 12 Stunden*
 
@@ -188,18 +188,18 @@ Fragen rund ums Plugin werden gern per E-Mail beantwortet. Beachtet auch die [Gu
 * EN: Spam reason as a column in the table with spam comments
 
 = 2.5.9 =
-* DE: Anpassung des Dashboard-Skriptes für die Zusammenarbeit mit [Statify](http://statify.de)
-* EN: Dashboard widget changes to work with [Statify](http://statify.de)
+* DE: Anpassung des Dashboard-Skriptes für die Zusammenarbeit mit [Statify](https://statify.de)
+* EN: Dashboard widget changes to work with [Statify](https://statify.de)
 
 = 2.5.8 =
-* DE: Umstellung von TornevallDNSBL zu [Stop Forum Spam](http://www.stopforumspam.com)
+* DE: Umstellung von TornevallDNSBL zu [Stop Forum Spam](https://www.stopforumspam.com)
 * DE: Neue JS-Bibliothek für das Dashboard-Widget
 * DE: [Mehr Informationen auf Google+](https://plus.google.com/110569673423509816572/posts/VCFr3fDAYDs)
-* EN: Switch from TornevallDNSBL to [Stop Forum Spam](http://www.stopforumspam.com)
+* EN: Switch from TornevallDNSBL to [Stop Forum Spam](https://www.stopforumspam.com)
 * EN: New JS library for the Antispam Bee dashboard chart
 
 = 2.5.7 =
-* DE: Optionale Spam-Logdatei z.B. für [Fail2Ban](http://cup.wpcoder.de/fail2ban-ip-firewall/)
+* DE: Optionale Spam-Logdatei z.B. für [Fail2Ban](https://cup.wpcoder.de/fail2ban-ip-firewall/)
 * DE: Filter `antispam_bee_notification_subject` für eigenen Betreff in Benachrichtigungen
 * DE: Detaillierte Informationen zum Update auf [Google+](https://plus.google.com/110569673423509816572/posts/iCfip2ggYt9)
 * EN: Optional logfile with spam entries e.g. for [Fail2Ban](https://gist.github.com/sergejmueller/5622883)
@@ -210,8 +210,8 @@ Fragen rund ums Plugin werden gern per E-Mail beantwortet. Beachtet auch die [Gu
 * EN: Added new detection/patterns for spam comments
 
 = 2.5.5 =
-* Deutsch: Erkennung und Ausfilterung von Spam-Kommentaren, die versuchen, [Sicherheitslücken von W3 Total Cache und WP Super Cache](http://blog.sucuri.net/2013/05/w3-total-cache-and-wp-super-cache-vulnerability-being-targeted-in-the-wild.html) auszunutzen. [Ausführlicher auf Google+](https://plus.google.com/110569673423509816572/posts/afWWQbUh4at).
-* English: Detection and filtering of spam comments that try to exploit the latest [W3 Total Cache and WP Super Cache Vulnerability](http://blog.sucuri.net/2013/05/w3-total-cache-and-wp-super-cache-vulnerability-being-targeted-in-the-wild.html).
+* Deutsch: Erkennung und Ausfilterung von Spam-Kommentaren, die versuchen, [Sicherheitslücken von W3 Total Cache und WP Super Cache](https://blog.sucuri.net/2013/05/w3-total-cache-and-wp-super-cache-vulnerability-being-targeted-in-the-wild.html) auszunutzen. [Ausführlicher auf Google+](https://plus.google.com/110569673423509816572/posts/afWWQbUh4at).
+* English: Detection and filtering of spam comments that try to exploit the latest [W3 Total Cache and WP Super Cache Vulnerability](https://blog.sucuri.net/2013/05/w3-total-cache-and-wp-super-cache-vulnerability-being-targeted-in-the-wild.html).
 
 = 2.5.4 =
 * Jubiläumsausgabe: [Details zum Update](https://plus.google.com/110569673423509816572/posts/3dq9Re5vTY5)
@@ -222,13 +222,13 @@ Fragen rund ums Plugin werden gern per E-Mail beantwortet. Beachtet auch die [Gu
 * Optimierung des Regulären Ausdrucks
 
 = 2.5.2 =
-* Neu: [Reguläre Ausdrücke anwenden](http://playground.ebiene.de/antispam-bee-wordpress-plugin/#regexp_check) mit vordefinierten und eigenen Erkennungsmustern
+* Neu: [Reguläre Ausdrücke anwenden](https://playground.ebiene.de/antispam-bee-wordpress-plugin/#regexp_check) mit vordefinierten und eigenen Erkennungsmustern
 * Änderung der Filter-Reihenfolge
 * Verbesserungen an der Sprachdatei
 * [Hintergrundinformationen zum Update](https://plus.google.com/110569673423509816572/posts/CwtbSoMkGrT)
 
 = 2.5.1 =
-* [BBCode im Kommentar als Spamgrund](http://playground.ebiene.de/antispam-bee-wordpress-plugin/#bbcode_check)
+* [BBCode im Kommentar als Spamgrund](https://playground.ebiene.de/antispam-bee-wordpress-plugin/#bbcode_check)
 * IP-Anonymisierung bei der Länderprüfung
 * [Mehr Transparenz](https://plus.google.com/110569673423509816572/posts/ZMU6RfyRK29) durch hinzugefügte Datenschutzhinweise
 * PHP 5.2.4 als Voraussetzung (ist zugleich die Voraussetzung für WP 3.4)

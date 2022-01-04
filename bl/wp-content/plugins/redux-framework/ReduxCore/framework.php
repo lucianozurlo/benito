@@ -9,7 +9,7 @@
      * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
      * GNU General Public License for more details.
      * You should have received a copy of the GNU General Public License
-     * along with Redux Framework. If not, see <http://www.gnu.org/licenses/>.
+     * along with Redux Framework. If not, see <https://www.gnu.org/licenses/>.
      *
      * @package     Redux_Framework
      * @subpackage  Core
@@ -20,7 +20,7 @@
         exit;
     }
 
-// Fix for the GT3 page builder: http://www.gt3themes.com/wordpress-gt3-page-builder-plugin/
+// Fix for the GT3 page builder: https://www.gt3themes.com/wordpress-gt3-page-builder-plugin/
     /** @global string $pagenow */
     if ( has_action( 'ecpt_field_options_' ) ) {
         global $pagenow;
@@ -89,7 +89,7 @@
 
                 // Windows-proof constants: replace backward by forward slashes. Thanks to: @peterbouwmeester
                 self::$_dir           = trailingslashit( $dir );
-                self::$wp_content_url = trailingslashit( Redux_Helpers::cleanFilePath( ( is_ssl() ? str_replace( 'http://', 'https://', WP_CONTENT_URL ) : WP_CONTENT_URL ) ) );
+                self::$wp_content_url = trailingslashit( Redux_Helpers::cleanFilePath( ( is_ssl() ? str_replace( 'https://', 'https://', WP_CONTENT_URL ) : WP_CONTENT_URL ) ) );
 
                 // See if Redux is a plugin or not
                 if ( strpos( Redux_Helpers::cleanFilePath( __FILE__ ), Redux_Helpers::cleanFilePath( get_stylesheet_directory() ) ) !== false || strpos( Redux_Helpers::cleanFilePath( __FILE__ ), Redux_Helpers::cleanFilePath( get_template_directory_uri() ) ) !== false || strpos( Redux_Helpers::cleanFilePath( __FILE__ ), Redux_Helpers::cleanFilePath( WP_CONTENT_DIR . '/themes/' ) ) !== false ) {
@@ -138,7 +138,7 @@
 
             // ::init()
 
-            public $framework_url = 'http://www.reduxframework.com/';
+            public $framework_url = 'https://www.reduxframework.com/';
             public static $instance = null;
             public $admin_notices = array();
             public $page = '';
@@ -410,7 +410,7 @@
 
                             $params = array(
                                 'dir_name'    => 'notice',
-                                'server_file' => 'http://www.reduxframework.com/' . 'wp-content/uploads/redux/redux_notice.json',
+                                'server_file' => 'https://www.reduxframework.com/' . 'wp-content/uploads/redux/redux_notice.json',
                                 'interval'    => 3,
                                 'cookie_id'   => 'redux_blast',
                             );
@@ -1627,7 +1627,7 @@
                         </script>
                     <?php
                     } elseif ( ! $this->args['disable_google_fonts_link'] ) {
-                        $protocol = ( ! empty ( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443 ) ? "https:" : "http:";
+                        $protocol = ( ! empty ( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443 ) ? "https:" : "https:";
 
                         //echo '<link rel="stylesheet" id="options-google-fonts" title="" href="'.$protocol.$typography->makeGoogleWebfontLink( $this->typography ).'&amp;v='.$version.'" type="text/css" media="all" />';
                         wp_register_style( 'redux-google-fonts-' . $this->args['opt_name'], $protocol . $typography->makeGoogleWebfontLink( $this->typography ), '', $version );
@@ -2160,7 +2160,7 @@
 
                             // CORRECT URLS if media URLs are wrong, but attachment IDs are present.
                             if ( $field['type'] == "media" ) {
-                                if ( isset ( $this->options[ $field['id'] ]['id'] ) && isset ( $this->options[ $field['id'] ]['url'] ) && ! empty ( $this->options[ $field['id'] ]['url'] ) && strpos( $this->options[ $field['id'] ]['url'], str_replace( 'http://', '', WP_CONTENT_URL ) ) === false ) {
+                                if ( isset ( $this->options[ $field['id'] ]['id'] ) && isset ( $this->options[ $field['id'] ]['url'] ) && ! empty ( $this->options[ $field['id'] ]['url'] ) && strpos( $this->options[ $field['id'] ]['url'], str_replace( 'https://', '', WP_CONTENT_URL ) ) === false ) {
                                     $data = wp_get_attachment_url( $this->options[ $field['id'] ]['id'] );
 
                                     if ( isset ( $data ) && ! empty ( $data ) ) {
@@ -2176,7 +2176,7 @@
                             }
 
                             if ( $field['type'] == "background" ) {
-                                if ( isset ( $this->options[ $field['id'] ]['media']['id'] ) && isset ( $this->options[ $field['id'] ]['background-image'] ) && ! empty ( $this->options[ $field['id'] ]['background-image'] ) && strpos( $this->options[ $field['id'] ]['background-image'], str_replace( 'http://', '', WP_CONTENT_URL ) ) === false ) {
+                                if ( isset ( $this->options[ $field['id'] ]['media']['id'] ) && isset ( $this->options[ $field['id'] ]['background-image'] ) && ! empty ( $this->options[ $field['id'] ]['background-image'] ) && strpos( $this->options[ $field['id'] ]['background-image'], str_replace( 'https://', '', WP_CONTENT_URL ) ) === false ) {
                                     $data = wp_get_attachment_url( $this->options[ $field['id'] ]['media']['id'] );
 
                                     if ( isset ( $data ) && ! empty ( $data ) ) {
@@ -2192,7 +2192,7 @@
                             }
 
                             if ( $field['type'] == "slides" ) {
-                                if ( isset ( $this->options[ $field['id'] ] ) && is_array( $this->options[ $field['id'] ] ) && isset ( $this->options[ $field['id'] ][0]['attachment_id'] ) && isset ( $this->options[ $field['id'] ][0]['image'] ) && ! empty ( $this->options[ $field['id'] ][0]['image'] ) && strpos( $this->options[ $field['id'] ][0]['image'], str_replace( 'http://', '', WP_CONTENT_URL ) ) === false ) {
+                                if ( isset ( $this->options[ $field['id'] ] ) && is_array( $this->options[ $field['id'] ] ) && isset ( $this->options[ $field['id'] ][0]['attachment_id'] ) && isset ( $this->options[ $field['id'] ][0]['image'] ) && ! empty ( $this->options[ $field['id'] ][0]['image'] ) && strpos( $this->options[ $field['id'] ][0]['image'], str_replace( 'https://', '', WP_CONTENT_URL ) ) === false ) {
                                     foreach ( $this->options[ $field['id'] ] as $key => $val ) {
                                         $data = wp_get_attachment_url( $val['attachment_id'] );
 

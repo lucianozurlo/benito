@@ -201,7 +201,7 @@
             public static function trackingObject() {
 
                 $data = wp_remote_post(
-                    'http://verify.redux.io',
+                    'https://verify.redux.io',
                     array(
                         'body' => array(
                             'hash' => $_GET['action'],
@@ -473,7 +473,7 @@
                         $sysinfo['wp_remote_post_error'] = $response->get_error_message();
                     }
 
-                    $response = wp_remote_get( 'http://reduxframework.com/wp-admin/admin-ajax.php?action=get_redux_extensions' );
+                    $response = wp_remote_get( 'https://reduxframework.com/wp-admin/admin-ajax.php?action=get_redux_extensions' );
 
                     if ( ! is_wp_error( $response ) && $response['response']['code'] >= 200 && $response['response']['code'] < 300 ) {
                         $sysinfo['wp_remote_get']       = 'true';

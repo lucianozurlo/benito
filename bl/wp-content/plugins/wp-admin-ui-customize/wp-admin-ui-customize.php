@@ -2,10 +2,10 @@
 /*
 Plugin Name: WP Admin UI Customize
 Description: An excellent plugin to customize the management screens.
-Plugin URI: http://wpadminuicustomize.com/?utm_source=use_plugin&utm_medium=list&utm_content=wauc&utm_campaign=1_5_2_6
+Plugin URI: https://wpadminuicustomize.com/?utm_source=use_plugin&utm_medium=list&utm_content=wauc&utm_campaign=1_5_2_6
 Version: 1.5.2.6
 Author: gqevu6bsiz
-Author URI: http://gqevu6bsiz.chicappa.jp/?utm_source=use_plugin&utm_medium=list&utm_content=wauc&utm_campaign=1_5_2_6
+Author URI: https://gqevu6bsiz.chicappa.jp/?utm_source=use_plugin&utm_medium=list&utm_content=wauc&utm_campaign=1_5_2_6
 Text Domain: wauc
 Domain Path: /languages
 */
@@ -62,8 +62,8 @@ class WP_Admin_UI_Customize
 		$this->Name = 'WP Admin UI Customize';
 		$this->Dir = plugin_dir_path( __FILE__ );
 		$this->Url = plugin_dir_url( __FILE__ );
-		$this->Site = 'http://wpadminuicustomize.com/';
-		$this->AuthorUrl = 'http://gqevu6bsiz.chicappa.jp/';
+		$this->Site = 'https://wpadminuicustomize.com/';
+		$this->AuthorUrl = 'https://gqevu6bsiz.chicappa.jp/';
 		$this->ltd = 'wauc';
 		$this->Record = array(
 			"user_role" => $this->ltd . '_user_role_setting',
@@ -84,7 +84,7 @@ class WP_Admin_UI_Customize
 		$this->PageSlug = 'wp_admin_ui_customize';
 		$this->PluginSlug = dirname( plugin_basename( __FILE__ ) );
 		$this->Nonces = array( "field" => $this->ltd . '_field' , "value" => $this->ltd . '_value' );
-		$this->Schema = is_ssl() ? 'https://' : 'http://';
+		$this->Schema = is_ssl() ? 'https://' : 'https://';
 		$this->ActivatedPlugin = array();
 		$this->OtherPluginMenu = array();
 		$this->UPFN = 'Y';
@@ -140,7 +140,7 @@ class WP_Admin_UI_Customize
 	function plugin_action_links( $links , $file ) {
 		if( plugin_basename(__FILE__) == $file ) {
 			$link = '<a href="' . self_admin_url( 'admin.php?page=' . $this->PageSlug ) . '">' . __( 'Settings' ) . '</a>';
-			$support_link = '<a href="http://wordpress.org/support/plugin/' . $this->PluginSlug . '" target="_blank">' . __( 'Support Forums' ) . '</a>';
+			$support_link = '<a href="https://wordpress.org/support/plugin/' . $this->PluginSlug . '" target="_blank">' . __( 'Support Forums' ) . '</a>';
 			$delete_userrole_link = '<a href="' . self_admin_url( 'admin.php?page=' . $this->PageSlug . '_reset_userrole' ) . '">' . __( 'Reset User Roles' , $this->ltd ) . '</a>';
 			array_unshift( $links, $link , $delete_userrole_link , $support_link  );
 		}
@@ -865,7 +865,7 @@ class WP_Admin_UI_Customize
 					<p class="field-url description">
 						<input type="hidden" class="idtext" value="<?php echo $menu_widget["id"]; ?>" name="data[][id]" />
 						<?php if( strstr( $menu_widget["id"] , 'custom_node' ) && empty( $menu_widget["group"] ) ) : ?>
-							URL: <input type="text" class="regular-text linktext" value="<?php echo $menu_widget["href"]; ?>" name="data[][href]" placeholder="http://" />
+							URL: <input type="text" class="regular-text linktext" value="<?php echo $menu_widget["href"]; ?>" name="data[][href]" placeholder="https://" />
 						<?php else:  ?>
 							<?php if( $menu_widget["id"] == 'edit-post_type' ) : ?>
 								<strong><?php _e( 'Show only on front end.' , $this->ltd ); ?></strong>
@@ -1716,7 +1716,7 @@ class WP_Admin_UI_Customize
 	function login_headerurl() {
 		$GetData = get_option( $this->Record["loginscreen"] );
 
-		$url = __( 'http://wordpress.org/' );
+		$url = __( 'https://wordpress.org/' );
 		if( !empty( $GetData["UPFN"] ) ) {
 			unset( $GetData["UPFN"] );
 

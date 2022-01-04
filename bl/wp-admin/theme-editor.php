@@ -81,7 +81,7 @@ case 'update':
 	$newcontent = wp_unslash( $_POST['newcontent'] );
 	$location = 'theme-editor.php?file=' . urlencode( $relative_file ) . '&theme=' . urlencode( $stylesheet ) . '&scrollto=' . $scrollto;
 	if ( is_writeable( $file ) ) {
-		// is_writable() not always reliable, check return value. see comments @ http://uk.php.net/is_writable
+		// is_writable() not always reliable, check return value. see comments @ https://uk.php.net/is_writable
 		$f = fopen( $file, 'w+' );
 		if ( $f !== false ) {
 			fwrite( $f, $newcontent );
@@ -206,7 +206,7 @@ else : ?>
 		<div id="documentation" class="hide-if-no-js">
 		<label for="docs-list"><?php _e('Documentation:') ?></label>
 		<?php echo $docs_select; ?>
-		<input type="button" class="button" value=" <?php esc_attr_e( 'Look Up' ); ?> " onclick="if ( '' != jQuery('#docs-list').val() ) { window.open( 'http://api.wordpress.org/core/handbook/1.0/?function=' + escape( jQuery( '#docs-list' ).val() ) + '&amp;locale=<?php echo urlencode( get_locale() ) ?>&amp;version=<?php echo urlencode( $wp_version ) ?>&amp;redirect=true'); }" />
+		<input type="button" class="button" value=" <?php esc_attr_e( 'Look Up' ); ?> " onclick="if ( '' != jQuery('#docs-list').val() ) { window.open( 'https://api.wordpress.org/core/handbook/1.0/?function=' + escape( jQuery( '#docs-list' ).val() ) + '&amp;locale=<?php echo urlencode( get_locale() ) ?>&amp;version=<?php echo urlencode( $wp_version ) ?>&amp;redirect=true'); }" />
 		</div>
 	<?php endif; ?>
 

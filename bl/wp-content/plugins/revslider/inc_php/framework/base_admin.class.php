@@ -203,7 +203,7 @@
 		 */
 		public static function addCommonScripts(){
 
-            $prefix = (is_ssl()) ? 'https://' : 'http://';
+            $prefix = (is_ssl()) ? 'https://' : 'https://';
                 
 			//include jquery ui
 			if(GlobalsRevSlider::$isNewVersion){	//load new jquery ui library

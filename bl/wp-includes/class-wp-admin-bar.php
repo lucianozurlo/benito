@@ -15,7 +15,7 @@ class WP_Admin_Bar {
 	public function __get( $name ) {
 		switch ( $name ) {
 			case 'proto' :
-				return is_ssl() ? 'https://' : 'http://';
+				return is_ssl() ? 'https://' : 'https://';
 
 			case 'menu' :
 				_deprecated_argument( 'WP_Admin_Bar', '3.3', 'Modify admin bar nodes with WP_Admin_Bar::get_node(), WP_Admin_Bar::add_node(), and WP_Admin_Bar::remove_node(), not the <code>menu</code> property.' );

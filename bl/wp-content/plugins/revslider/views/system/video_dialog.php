@@ -79,28 +79,28 @@
 					<?php _e("Poster Image Url", REVSLIDER_TEXTDOMAIN)?>:
 					</div>
 					<input type="text" id="html5_url_poster" value=""></input>
-					<span class="video_example"><?php _e("Example",REVSLIDER_TEXTDOMAIN)?>: http://video-js.zencoder.com/oceans-clip.png</span>
+					<span class="video_example"><?php _e("Example",REVSLIDER_TEXTDOMAIN)?>: https://video-js.zencoder.com/oceans-clip.png</span>
 				</li>
 				<li style="width:45%;float:left;margin-left:4%;">
 					<div class="video-title">				
 					<?php _e("Video MP4 Url", REVSLIDER_TEXTDOMAIN)?>:
 					</div>
 					<input type="text" id="html5_url_mp4" value=""></input>
-					<span class="video_example"><?php _e("Example",REVSLIDER_TEXTDOMAIN)?>: http://video-js.zencoder.com/oceans-clip.mp4</span>
+					<span class="video_example"><?php _e("Example",REVSLIDER_TEXTDOMAIN)?>: https://video-js.zencoder.com/oceans-clip.mp4</span>
 				</li>
 				<li style="clear:both;width:45%;float:left;margin-top:20px;">
 					<div class="video-title">								
 					<?php _e("Video WEBM Url", REVSLIDER_TEXTDOMAIN)?>:
 					</div>
 					<input type="text" id="html5_url_webm" value=""></input>
-					<span class="video_example"><?php _e("Example",REVSLIDER_TEXTDOMAIN)?>: http://video-js.zencoder.com/oceans-clip.webm</span>					
+					<span class="video_example"><?php _e("Example",REVSLIDER_TEXTDOMAIN)?>: https://video-js.zencoder.com/oceans-clip.webm</span>					
 				</li>
 				<li style="width:45%;float:left;margin-left:4%;margin-top:20px;">
 					<div class="video-title">
 					<?php _e("Video OGV Url", REVSLIDER_TEXTDOMAIN)?>:
 					</div>			
 					<input type="text" id="html5_url_ogv" value=""></input>
-					<span class="video_example"><?php _e("Example",REVSLIDER_TEXTDOMAIN)?>: http://video-js.zencoder.com/oceans-clip.ogv</span>	
+					<span class="video_example"><?php _e("Example",REVSLIDER_TEXTDOMAIN)?>: https://video-js.zencoder.com/oceans-clip.ogv</span>	
 				</li>
 				
 			</ul>

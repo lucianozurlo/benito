@@ -1,10 +1,10 @@
 <?php
 /*
   Plugin Name: Limit Login Attempts
-  Plugin URI: http://devel.kostdoktorn.se/limit-login-attempts
+  Plugin URI: https://devel.kostdoktorn.se/limit-login-attempts
   Description: Limit rate of login attempts, including by way of cookies, for each IP.
   Author: Johan Eenfeldt
-  Author URI: http://devel.kostdoktorn.se
+  Author URI: https://devel.kostdoktorn.se
   Text Domain: limit-login-attempts
   Version: 1.7.1
 
@@ -998,7 +998,7 @@ function limit_login_option_page()	{
 
 	$client_type_warning = '';
 	if ($client_type != $client_type_guess) {
-		$faq = 'http://wordpress.org/extend/plugins/limit-login-attempts/faq/';
+		$faq = 'https://wordpress.org/extend/plugins/limit-login-attempts/faq/';
 
 		$client_type_warning = '<br /><br />' . sprintf(__('<strong>Current setting appears to be invalid</strong>. Please make sure it is correct. Further information can be found <a href="%s" title="FAQ">here</a>','limit-login-attempts'), $faq);
 	}

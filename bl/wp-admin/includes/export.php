@@ -339,11 +339,11 @@ function export_wp( $args = array() ) {
 
 <?php the_generator( 'export' ); ?>
 <rss version="2.0"
-	xmlns:excerpt="http://wordpress.org/export/<?php echo WXR_VERSION; ?>/excerpt/"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:wp="http://wordpress.org/export/<?php echo WXR_VERSION; ?>/"
+	xmlns:excerpt="https://wordpress.org/export/<?php echo WXR_VERSION; ?>/excerpt/"
+	xmlns:content="https://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="https://wellformedweb.org/CommentAPI/"
+	xmlns:dc="https://purl.org/dc/elements/1.1/"
+	xmlns:wp="https://wordpress.org/export/<?php echo WXR_VERSION; ?>/"
 >
 
 <channel>

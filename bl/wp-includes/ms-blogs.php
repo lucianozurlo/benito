@@ -37,7 +37,7 @@ function wpmu_update_blogs_date() {
  */
 function get_blogaddress_by_id( $blog_id ) {
 	$bloginfo = get_blog_details( (int) $blog_id, false ); // only get bare details!
-	return ( $bloginfo ) ? esc_url( 'http://' . $bloginfo->domain . $bloginfo->path ) : '';
+	return ( $bloginfo ) ? esc_url( 'https://' . $bloginfo->domain . $bloginfo->path ) : '';
 }
 
 /**

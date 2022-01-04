@@ -4,10 +4,10 @@
  *
  * @copyright 2012-2013 Leaf Corcoran
  *
- * @license http://opensource.org/licenses/gpl-license GPL-3.0
- * @license http://opensource.org/licenses/MIT MIT
+ * @license https://opensource.org/licenses/gpl-license GPL-3.0
+ * @license https://opensource.org/licenses/MIT MIT
  *
- * @link http://leafo.net/scssphp
+ * @link https://leafo.net/scssphp
  */
 
 /**
@@ -1668,7 +1668,7 @@ class scssc {
 		$urls = array();
 
 		// for "normal" scss imports (ignore vanilla css and external requests)
-		if (!preg_match('/\.css|^http:\/\/$/', $url)) {
+		if (!preg_match('/\.css|^https:\/\/$/', $url)) {
 			// try both normal and the _partial filename
 			$urls = array($url, preg_replace('/[^\/]+$/', '_\0', $url));
 		}
@@ -2497,7 +2497,7 @@ class scssc {
 	/**
 	 * CSS Colors
 	 *
-	 * @see http://www.w3.org/TR/css3-color
+	 * @see https://www.w3.org/TR/css3-color
 	 */
 	static protected $cssColors = array(
 		'aliceblue' => '240,248,255',

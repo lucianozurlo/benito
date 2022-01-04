@@ -6,14 +6,14 @@
  * A Google Chrome extension to display JSON in a user-friendly format
  *
  * This is a chromeified version of the JSONView Firefox extension by Ben Hollis:
- * http://jsonview.com
- * http://code.google.com/p/jsonview
+ * https://jsonview.com
+ * https://code.google.com/p/jsonview
  *
  * Also based on the XMLTree Chrome extension by Moonty & alan.stroop
  * https://chrome.google.com/extensions/detail/gbammbheopgpmaagmckhpjbfgdfkpadb
  *
- * port by Jamie Wilkinson (@jamiew) | http://jamiedubs.com | http://github.com/jamiew
- * MIT license / copyfree (f) F.A.T. Lab http://fffff.at
+ * port by Jamie Wilkinson (@jamiew) | https://jamiedubs.com | https://github.com/jamiew
+ * MIT license / copyfree (f) F.A.T. Lab https://fffff.at
  * Speed Project Approved: 2h
  */
 
@@ -96,7 +96,7 @@ function jsonView(id, target) {
 	if (is_json || is_jsonp) {
 		if (this.debug) { console.log("JSONView: sexytime!"); }
 		// JSONFormatter json->HTML prototype straight from Firefox JSONView
-		// For reference: http://code.google.com/p/jsonview
+		// For reference: https://code.google.com/p/jsonview
 
 		function JSONFormatter() {
 			// No magic required.

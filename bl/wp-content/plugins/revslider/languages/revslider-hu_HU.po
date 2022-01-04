@@ -2492,7 +2492,7 @@ msgstr ""
 
 #: settings/slider_settings_xml_lang.php:24
 #@ revslider
-msgid "To add more google fonts please read <a target=\"_blank\" href=\"http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380/faqs/15268\"> this tutorial </a> "
+msgid "To add more google fonts please read <a target=\"_blank\" href=\"https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380/faqs/15268\"> this tutorial </a> "
 msgstr ""
 
 #: views/slides.php:54
@@ -3093,17 +3093,17 @@ msgstr ""
 
 #: views/templates/slider_toolbox.php:48
 #@ revslider
-msgid "Replace all layer and background image url's. Example: http://localhost/ to http://yourwbsite.com/. <br> Note, the replace is not reversible"
+msgid "Replace all layer and background image url's. Example: https://localhost/ to https://yourwbsite.com/. <br> Note, the replace is not reversible"
 msgstr ""
 
 #: views/templates/slider_toolbox.php:52
 #@ revslider
-msgid "Replace From (example - http://localhost)"
+msgid "Replace From (example - https://localhost)"
 msgstr ""
 
 #: views/templates/slider_toolbox.php:58
 #@ revslider
-msgid "Replace To (example - http://yoursite.com)"
+msgid "Replace To (example - https://yoursite.com)"
 msgstr ""
 
 #: views/templates/slider_toolbox.php:64

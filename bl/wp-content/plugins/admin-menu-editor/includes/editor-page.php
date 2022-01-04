@@ -27,7 +27,7 @@ if ( !apply_filters('admin_menu_editor_is_pro', false) ){
 	(function($){
 		$('#screen-meta-links').append(
 			'<div id="ws-pro-version-notice" class="custom-screen-meta-link-wrap">' +
-				'<a href="http://adminmenueditor.com/upgrade-to-pro/?utm_source=Admin%2BMenu%2BEditor%2Bfree&utm_medium=text_link&utm_content=top_upgrade_link&utm_campaign=Plugins" id="ws-pro-version-notice-link" class="show-settings custom-screen-meta-link" target="_blank" title="View Pro version details">Upgrade to Pro</a>' +
+				'<a href="https://adminmenueditor.com/upgrade-to-pro/?utm_source=Admin%2BMenu%2BEditor%2Bfree&utm_medium=text_link&utm_content=top_upgrade_link&utm_campaign=Plugins" id="ws-pro-version-notice-link" class="show-settings custom-screen-meta-link" target="_blank" title="View Pro version details">Upgrade to Pro</a>' +
 			'</div>'
 		);
 	})(jQuery);
@@ -183,7 +183,7 @@ if ( apply_filters('admin_menu_editor_is_pro', false) ) {
 			$variation_index = hexdec( substr(md5(get_site_url()), -1) ) % count($benefit_variations);
 			$selected_variation = $benefit_variations[$variation_index];
 
-			$pro_version_link = 'http://adminmenueditor.com/upgrade-to-pro/?utm_source=Admin%2BMenu%2BEditor%2Bfree&utm_medium=text_link&utm_content=sidebar_link_cv' . $variation_index . '&utm_campaign=Plugins';
+			$pro_version_link = 'https://adminmenueditor.com/upgrade-to-pro/?utm_source=Admin%2BMenu%2BEditor%2Bfree&utm_medium=text_link&utm_content=sidebar_link_cv' . $variation_index . '&utm_campaign=Plugins';
 			?>
 			<div class="clear"></div>
 
@@ -198,7 +198,7 @@ if ( apply_filters('admin_menu_editor_is_pro', false) ) {
 					</ul>
 					<a href="<?php echo esc_attr($pro_version_link); ?>" target="_blank">Learn more</a>
 					|
-					<a href="http://amedemo.com/" target="_blank">Try online demo</a>
+					<a href="https://amedemo.com/" target="_blank">Try online demo</a>
 				</div>
 			</div>
 		<?php
@@ -401,7 +401,7 @@ if ( apply_filters('admin_menu_editor_is_pro', false) ) {
 
 	<h4>Recommendations</h4>
 	<p>
-		You can use a plugin like <a href="http://wordpress.org/plugins/peters-login-redirect/">Peter's Login Redirect</a>
+		You can use a plugin like <a href="https://wordpress.org/plugins/peters-login-redirect/">Peter's Login Redirect</a>
 		to redirect specific roles to different pages.
 	</p>
 

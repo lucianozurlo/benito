@@ -2,7 +2,7 @@
 
     /**
      * ReduxFramework Barebones Sample Config File
-     * For full documentation, please visit: http://docs.reduxframework.com/
+     * For full documentation, please visit: https://docs.reduxframework.com/
      */
 
     if ( ! class_exists( 'Redux' ) ) {
@@ -64,7 +64,7 @@
         'page_priority'        => null,
         // Order where the menu appears in the admin area. If there is any conflict, something will not show. Warning.
         'page_parent'          => 'themes.php',
-        // For a full list of options, visit: http://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
+        // For a full list of options, visit: https://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
         'page_permissions'     => 'manage_options',
         // Permissions needed to access the options panel.
         'menu_icon'            => '',
@@ -134,7 +134,7 @@
     // ADMIN BAR LINKS -> Setup custom links in the admin bar menu as external items.
     $args['admin_bar_links'][] = array(
         'id'    => 'redux-docs',
-        'href'  => 'http://docs.reduxframework.com/',
+        'href'  => 'https://docs.reduxframework.com/',
         'title' => __( 'Documentation', 'redux-framework-demo' ),
     );
 
@@ -163,12 +163,12 @@
         'icon'  => 'el el-facebook'
     );
     $args['share_icons'][] = array(
-        'url'   => 'http://twitter.com/reduxframework',
+        'url'   => 'https://twitter.com/reduxframework',
         'title' => 'Follow us on Twitter',
         'icon'  => 'el el-twitter'
     );
     $args['share_icons'][] = array(
-        'url'   => 'http://www.linkedin.com/company/redux-framework',
+        'url'   => 'https://www.linkedin.com/company/redux-framework',
         'title' => 'Find us on LinkedIn',
         'icon'  => 'el el-linkedin'
     );
@@ -262,7 +262,7 @@
     
     Redux::setSection( $opt_name, array(
         'title'      => __( 'Text', 'redux-framework-demo' ),
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="http://docs.reduxframework.com/core/fields/text/" target="_blank">http://docs.reduxframework.com/core/fields/text/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="https://docs.reduxframework.com/core/fields/text/" target="_blank">https://docs.reduxframework.com/core/fields/text/</a>',
         'id'         => 'opt-text-subsection',
         'subsection' => true,
         'fields'     => array(
@@ -279,7 +279,7 @@
     
     Redux::setSection( $opt_name, array(
         'title'      => __( 'Text Area', 'redux-framework-demo' ),
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="http://docs.reduxframework.com/core/fields/textarea/" target="_blank">http://docs.reduxframework.com/core/fields/textarea/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="https://docs.reduxframework.com/core/fields/textarea/" target="_blank">https://docs.reduxframework.com/core/fields/textarea/</a>',
         'id'         => 'opt-textarea-subsection',
         'subsection' => true,
         'fields'     => array(

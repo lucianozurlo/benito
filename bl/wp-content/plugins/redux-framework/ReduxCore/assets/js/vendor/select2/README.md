@@ -3,7 +3,7 @@ Select2
 
 Select2 is a jQuery-based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.
 
-To get started, checkout examples and documentation at http://ivaynberg.github.com/select2
+To get started, checkout examples and documentation at https://ivaynberg.github.com/select2
 
 Use cases
 ---------
@@ -27,21 +27,21 @@ Browser compatibility
 
 Usage
 -----
-You can source Select2 directly from a CDN like [JSDliver](http://www.jsdelivr.com/#!select2) or [CDNJS](http://www.cdnjs.com/libraries/select2), [download it from this GitHub repo](https://github.com/ivaynberg/select2/tags), or use one of the integrations below.
+You can source Select2 directly from a CDN like [JSDliver](https://www.jsdelivr.com/#!select2) or [CDNJS](https://www.cdnjs.com/libraries/select2), [download it from this GitHub repo](https://github.com/ivaynberg/select2/tags), or use one of the integrations below.
 
 Integrations
 ------------
 
-* [Wicket-Select2](https://github.com/ivaynberg/wicket-select2) (Java / [Apache Wicket](http://wicket.apache.org))
+* [Wicket-Select2](https://github.com/ivaynberg/wicket-select2) (Java / [Apache Wicket](https://wicket.apache.org))
 * [select2-rails](https://github.com/argerim/select2-rails) (Ruby on Rails)
-* [AngularUI](http://angular-ui.github.io/#ui-select) ([AngularJS](https://angularjs.org/))
+* [AngularUI](https://angular-ui.github.io/#ui-select) ([AngularJS](https://angularjs.org/))
 * [Django](https://github.com/applegrew/django-select2)
 * [Symfony](https://github.com/19Gerhard85/sfSelect2WidgetsPlugin)
 * [Symfony2](https://github.com/avocode/FormExtensions)
 * [Bootstrap 2](https://github.com/t0m/select2-bootstrap-css) and [Bootstrap 3](https://github.com/t0m/select2-bootstrap-css/tree/bootstrap3) (CSS skins)
 * [Meteor](https://github.com/nate-strauser/meteor-select2) (modern reactive JavaScript framework; + [Bootstrap 3 skin](https://github.com/esperadomedia/meteor-select2-bootstrap3-css/))
 * [Meteor](https://jquery-select2.meteor.com)
-* [Yii 2.x](http://demos.krajee.com/widgets#select2)
+* [Yii 2.x](https://demos.krajee.com/widgets#select2)
 * [Yii 1.x](https://github.com/tonybolzan/yii-select2)
 * [AtmosphereJS](https://atmospherejs.com/package/jquery-select2)
 
@@ -105,8 +105,8 @@ License or the GPL License.
 
 You may obtain a copy of the Apache License and the GPL License in the LICENSE file, or at:
 
-http://www.apache.org/licenses/LICENSE-2.0
-http://www.gnu.org/licenses/gpl-2.0.html
+https://www.apache.org/licenses/LICENSE-2.0
+https://www.gnu.org/licenses/gpl-2.0.html
 
 Unless required by applicable law or agreed to in writing, software distributed under the Apache License
 or the GPL License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,

@@ -808,7 +808,7 @@ function wpmu_signup_blog_notification( $domain, $path, $title, $user, $user_ema
 	if ( !is_subdomain_install() || get_current_site()->id != 1 )
 		$activate_url = network_site_url("wp-activate.php?key=$key");
 	else
-		$activate_url = "http://{$domain}{$path}wp-activate.php?key=$key"; // @todo use *_url() API
+		$activate_url = "https://{$domain}{$path}wp-activate.php?key=$key"; // @todo use *_url() API
 
 	$activate_url = esc_url($activate_url);
 	$admin_email = get_site_option( 'admin_email' );
@@ -838,7 +838,7 @@ function wpmu_signup_blog_notification( $domain, $path, $title, $user, $user_ema
 			$domain, $path, $title, $user, $user_email, $key, $meta
 		),
 		$activate_url,
-		esc_url( "http://{$domain}{$path}" ),
+		esc_url( "https://{$domain}{$path}" ),
 		$key
 	);
 	// TODO: Don't hard code activation link.
@@ -862,7 +862,7 @@ function wpmu_signup_blog_notification( $domain, $path, $title, $user, $user_ema
 			$domain, $path, $title, $user, $user_email, $key, $meta
 		),
 		$from_name,
-		esc_url( 'http://' . $domain . $path )
+		esc_url( 'https://' . $domain . $path )
 	);
 	wp_mail( $user_email, wp_specialchars_decode( $subject ), $message, $message_headers );
 	return true;

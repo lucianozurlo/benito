@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Revolution Slider
-Plugin URI: http://www.themepunch.com/revolution/
+Plugin URI: https://www.themepunch.com/revolution/
 Description: Revolution Slider - Premium responsive slider
 Author: ThemePunch
 Version: 4.6.0
-Author URI: http://themepunch.com
+Author URI: https://themepunch.com
 */
 
 // If this file is called directly, abort.

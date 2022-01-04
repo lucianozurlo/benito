@@ -2,11 +2,11 @@
 /****
 
 Plugin Name: Page Builder
-Plugin URI: http://qktheme.com
+Plugin URI: https://qktheme.com
 Description: Easily create custom page templates with intuitive drag-and-drop interface. Requires PHP5 and WP3.5
 Version: 1.0
 Author: QKTheme
-Author URI: http://qktheme.com
+Author URI: https://qktheme.com
 
 */
 
@@ -47,7 +47,7 @@ if(!is_network_admin()) $aq_page_builder->init();
 /** @legacy
 //set up & fire up plugin updater
 $aqpb_updater_config = array(
-	'api_url'	=> 'http://aquagraphite.com/api/',
+	'api_url'	=> 'https://aquagraphite.com/api/',
 	'slug'		=> 'aqua-page-builder',
 	'filename'	=> 'aq-page-builder.php'
 );

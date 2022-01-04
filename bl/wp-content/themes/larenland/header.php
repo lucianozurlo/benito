@@ -18,7 +18,7 @@ global $wp_query;
 <head>
 	<title>Benito Laren :: Obras</title>
 	<meta name="author" content="qktheme">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -29,7 +29,7 @@ global $wp_query;
     <link rel="apple-touch-icon" sizes="114x114" href="../../../../images/apple-touch-icon-114x114.png">
     <link rel="stylesheet" href="../../../../assets/elegant-icons/style.css">
     <link rel="stylesheet" href="../../../../assets/app-icons/styles.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../../../../css/owl.theme.css">
     <link rel="stylesheet" href="../../../../css/owl.carousel.css">
     <link rel="stylesheet" href="../../../../css/nivo-lightbox.css">

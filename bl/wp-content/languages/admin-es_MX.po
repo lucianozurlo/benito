@@ -636,7 +636,7 @@ msgid "Install Press This"
 msgstr "Instalar \"Publicar esto\""
 
 #. translators: date and time format for exact current time, mainly about
-#. timezones, see http:php.net/date
+#. timezones, see https:php.net/date
 #: wp-admin/options-general.php:21
 msgctxt "timezone date format"
 msgid "Y-m-d H:i:s"
@@ -908,7 +908,7 @@ msgstr "En respuesta a: <b><a href=\"%1$s\">%2$s</a></b>"
 msgid "In response to: <b>%s</b>"
 msgstr "En respuesta a: <b>%s</b>"
 
-#. translators: Publish box date format, see http:php.net/date
+#. translators: Publish box date format, see https:php.net/date
 #: wp-admin/edit-form-advanced.php:92 wp-admin/edit-form-advanced.php:105
 #: wp-admin/edit-form-comment.php:103
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:453
@@ -1516,7 +1516,7 @@ msgstr "<strong>De un vistazo</strong> - Muestra un resumen del contenido de tu 
 
 #: wp-admin/maint/repair.php:103
 msgid "https://wordpress.org/support/forum/how-to-and-troubleshooting"
-msgstr "http://es.forums.wordpress.org/forum/manuales-y-resolucion-de-problemas"
+msgstr "https://es.forums.wordpress.org/forum/manuales-y-resolucion-de-problemas"
 
 #: wp-admin/revision.php:78
 msgid "&larr; Return to post editor"
@@ -1581,7 +1581,7 @@ msgstr "Gracias por crear con <a href=\"%s\">WordPress</a>."
 #: wp-admin/upload.php:65 wp-admin/upload.php:202 wp-admin/user-edit.php:55
 #: wp-admin/user-new.php:184 wp-admin/users.php:63 wp-admin/widgets.php:74
 msgid "<a href=\"https://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
-msgstr "<a href=\"http://es.forums.wordpress.org/\" target=\"_blank\">Foros de soporte</a>"
+msgstr "<a href=\"https://es.forums.wordpress.org/\" target=\"_blank\">Foros de soporte</a>"
 
 #. translators: URL to the Make WordPress 'Get Involved' landing page used on
 #. the credits page
@@ -1684,7 +1684,7 @@ msgstr[0] "%s en moderación"
 msgstr[1] "%s en moderación"
 
 #. translators: date and time format for recent posts on the dashboard, see
-#. http:php.net/date
+#. https:php.net/date
 #: wp-admin/includes/dashboard.php:726
 msgid "M jS"
 msgstr "j M"
@@ -2415,8 +2415,8 @@ msgid "Plugins extend and expand the functionality of WordPress. You may automat
 msgstr "Los plugins extienden y amplían las funcionalidades de WordPress. Puedes instalar automáticamente plugins del <a href=\"%1$s\">Directorio de Plugins de WordPress </a> o subir un plugin en formato Zip a través de <a href=\"%2$s\">esta página</a>."
 
 #. Plugin URI of the plugin/theme
-msgid "http://wordpress.org/plugins/hello-dolly/"
-msgstr "http://wordpress.org/plugins/hello-dolly/"
+msgid "https://wordpress.org/plugins/hello-dolly/"
+msgstr "https://wordpress.org/plugins/hello-dolly/"
 
 #: wp-admin/includes/class-wp-upgrader.php:131
 msgid "The package contains no files."
@@ -3628,8 +3628,8 @@ msgid "Matt Mullenweg"
 msgstr "Matt Mullenweg"
 
 #. Author URI of the plugin/theme
-msgid "http://ma.tt/"
-msgstr "http://ma.tt/"
+msgid "https://ma.tt/"
+msgstr "https://ma.tt/"
 
 #: wp-admin/includes/screen.php:1031
 msgid "Show on screen"
@@ -3646,7 +3646,7 @@ msgstr "%1$s (%2$s)"
 
 #. translators: default GMT offset or timezone string. Must be either a valid
 #. offset (-12 to 14) 	   or a valid timezone string (America/New_York). See
-#. http:us3.php.net/manual/en/timezones.php 	   for all timezone strings
+#. https:us3.php.net/manual/en/timezones.php 	   for all timezone strings
 #. supported by PHP.
 #: wp-admin/includes/schema.php:368
 msgctxt "default GMT offset or timezone string"
@@ -5169,8 +5169,8 @@ msgid "Your browser is out of date!"
 msgstr "¡Tu navegador está obsoleto!"
 
 #: wp-admin/freedoms.php:54
-msgid "Don&#8217;t you wish all software came with these freedoms? So do we! For more information, check out the <a href=\"http://www.fsf.org/\">Free Software Foundation</a>."
-msgstr "¿No te gustaría que todo el software tuviera esa libertad? Nosotros también. Para más información ve a la <a href=\"http://www.fsf.org/\">Free Software Foundation</a>."
+msgid "Don&#8217;t you wish all software came with these freedoms? So do we! For more information, check out the <a href=\"https://www.fsf.org/\">Free Software Foundation</a>."
+msgstr "¿No te gustaría que todo el software tuviera esa libertad? Nosotros también. Para más información ve a la <a href=\"https://www.fsf.org/\">Free Software Foundation</a>."
 
 #: wp-admin/about.php:39 wp-admin/credits.php:95 wp-admin/freedoms.php:12
 #: wp-admin/freedoms.php:32
@@ -5613,12 +5613,12 @@ msgstr[0] "%s usuario"
 msgstr[1] "%s usuarios"
 
 #: wp-admin/includes/dashboard.php:945
-msgid "http://wordpress.org/news/"
-msgstr "http://wordpress.org/news/"
+msgid "https://wordpress.org/news/"
+msgstr "https://wordpress.org/news/"
 
 #: wp-admin/includes/dashboard.php:954
-msgid "http://wordpress.org/news/feed/"
-msgstr "http://wordpress.org/news/feed/"
+msgid "https://wordpress.org/news/feed/"
+msgstr "https://wordpress.org/news/feed/"
 
 #: wp-admin/options-discussion.php:86
 msgid "(Signup has been disabled. Only members of this site can comment.)"
@@ -5678,8 +5678,8 @@ msgid "You can find additional plugins for your site by using the <a href=\"%1$s
 msgstr "Puedes encontrar plugins adicionales para tu sitio usando la funcionalidad <a href=\"%1$s\">Instalador/navegador de plugins</a> o navegando por el <a href=\"%2$s\" target=\"_blank\">directorio de plugins de WordPress</a> directamente e instalando manualmente nuevos plugins. Para instalar manualmente un plugin normalmente necesitarás subir el fichero del plugin a tu directorio <code>/wp-content/plugins</code>. Una vez se haya instalado el plugin puedes activarlo aquí."
 
 #: wp-admin/edit-link-form.php:60
-msgid "XFN stands for <a href=\"http://gmpg.org/xfn/\" target=\"_blank\">XHTML Friends Network</a>, which is optional. WordPress allows the generation of XFN attributes to show how you are related to the authors/owners of the site to which you are linking."
-msgstr "XFN se refiere a <a href=\"http://gmpg.org/xfn/\" target=\"_blank\">red de amigos XHTML</a> (XHTML Friends Network), y es opcional. WordPress permite generar atributos XFN que muestran tu relación con los autores/propietarios del sitio al que estés enlazando."
+msgid "XFN stands for <a href=\"https://gmpg.org/xfn/\" target=\"_blank\">XHTML Friends Network</a>, which is optional. WordPress allows the generation of XFN attributes to show how you are related to the authors/owners of the site to which you are linking."
+msgstr "XFN se refiere a <a href=\"https://gmpg.org/xfn/\" target=\"_blank\">red de amigos XHTML</a> (XHTML Friends Network), y es opcional. WordPress permite generar atributos XFN que muestran tu relación con los autores/propietarios del sitio al que estés enlazando."
 
 #: wp-admin/includes/file.php:1143
 msgid "FTP Password"
@@ -7534,22 +7534,22 @@ msgstr "Mostrar avatares"
 msgid "Maximum Rating"
 msgstr "Calificación máxima"
 
-#. translators: Content suitability rating: http:bit.ly/89QxZA
+#. translators: Content suitability rating: https:bit.ly/89QxZA
 #: wp-admin/options-discussion.php:218
 msgid "G &#8212; Suitable for all audiences"
 msgstr "G &#8212; Para todos los públicos"
 
-#. translators: Content suitability rating: http:bit.ly/89QxZA
+#. translators: Content suitability rating: https:bit.ly/89QxZA
 #: wp-admin/options-discussion.php:220
 msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
 msgstr "PG &#8212; Posiblemente ofensivo, normalmente para mayores de 13 años"
 
-#. translators: Content suitability rating: http:bit.ly/89QxZA
+#. translators: Content suitability rating: https:bit.ly/89QxZA
 #: wp-admin/options-discussion.php:222
 msgid "R &#8212; Intended for adult audiences above 17"
 msgstr "R &#8212; Destinado a un público adulto mayor de 17"
 
-#. translators: Content suitability rating: http:bit.ly/89QxZA
+#. translators: Content suitability rating: https:bit.ly/89QxZA
 #: wp-admin/options-discussion.php:224
 msgid "X &#8212; Even more mature than above"
 msgstr "X &#8212; Contenido más adulto que los anteriores."
@@ -8856,8 +8856,8 @@ msgid "Web Address"
 msgstr "Dirección web"
 
 #: wp-admin/edit-link-form.php:105
-msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
-msgstr "Ejemplo: <code>http://wordpress.org/</code> &#8212;no olvides poner <code>http://</code>"
+msgid "Example: <code>https://wordpress.org/</code> &#8212; don&#8217;t forget the <code>https://</code>"
+msgstr "Ejemplo: <code>https://wordpress.org/</code> &#8212;no olvides poner <code>https://</code>"
 
 #: wp-admin/edit-link-form.php:113
 msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
@@ -9938,12 +9938,12 @@ msgstr "<code>_none</code> &mdash; misma ventana o pestaña."
 msgid "Choose the target frame for your link."
 msgstr "Ellige el marco de destino para tu enlace."
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:952
 msgid "rel:"
 msgstr "rel:"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:956 wp-admin/includes/meta-boxes.php:957
 msgid "identity"
 msgstr "identidad"
@@ -9952,130 +9952,130 @@ msgstr "identidad"
 msgid "another web address of mine"
 msgstr "otra dirección web mía"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:964 wp-admin/includes/meta-boxes.php:965
 msgid "friendship"
 msgstr "amistad"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:967
 msgid "contact"
 msgstr "contacto"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:970
 msgid "acquaintance"
 msgstr "conocido"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:973
 msgid "friend"
 msgstr "amigo"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:976 wp-admin/includes/meta-boxes.php:1009
 #: wp-admin/includes/meta-boxes.php:1032
 msgid "none"
 msgstr "ninguno"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:981 wp-admin/includes/meta-boxes.php:982
 msgid "physical"
 msgstr "físico"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:984
 msgid "met"
 msgstr "conocido en persona"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:989 wp-admin/includes/meta-boxes.php:990
 msgid "professional"
 msgstr "profesional"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:992
 msgid "co-worker"
 msgstr "compañero de trabajo"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:995
 msgid "colleague"
 msgstr "colega"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1000 wp-admin/includes/meta-boxes.php:1001
 msgid "geographical"
 msgstr "geográfico"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1003
 msgid "co-resident"
 msgstr "co-residente"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1006
 msgid "neighbor"
 msgstr "vecino"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1014 wp-admin/includes/meta-boxes.php:1015
 msgid "family"
 msgstr "familia"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1017
 msgid "child"
 msgstr "hija/o"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1020
 msgid "kin"
 msgstr "pariente"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1023
 msgid "parent"
 msgstr "padre/madre"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1026
 msgid "sibling"
 msgstr "hermano/a"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1029
 msgid "spouse"
 msgstr "cónyuge"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1037 wp-admin/includes/meta-boxes.php:1038
 msgid "romantic"
 msgstr "romántica"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1040
 msgid "muse"
 msgstr "inspiración"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1043
 msgid "crush"
 msgstr "flechazo"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1046
 msgid "date"
 msgstr "fecha"
 
-#. translators: xfn: http:gmpg.org/xfn/
+#. translators: xfn: https:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1049
 msgid "sweetheart"
 msgstr "pareja"
 
 #: wp-admin/includes/meta-boxes.php:1055
-msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"http://gmpg.org/xfn/\">XFN</a>."
-msgstr "Si el enlace es a una persona, puedes especificar tu relación con ella utilizando el formulario de arriba. Si deseas aprender más acerca de cómo funciona esto revisa el <a href=\"http://gmpg.org/xfn/\">XFN</a>."
+msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"https://gmpg.org/xfn/\">XFN</a>."
+msgstr "Si el enlace es a una persona, puedes especificar tu relación con ella utilizando el formulario de arriba. Si deseas aprender más acerca de cómo funciona esto revisa el <a href=\"https://gmpg.org/xfn/\">XFN</a>."
 
 #: wp-admin/includes/meta-boxes.php:1070
 msgid "Image Address"
@@ -10561,7 +10561,7 @@ msgstr "Por favor, pon algún valor en el campo personalizado."
 msgid "User <a href=\"#%s\">%s</a> added"
 msgstr "Usuario <a href=\"#%s\">%s</a> añadido"
 
-#. translators: draft saved date format, see http:php.net/date
+#. translators: draft saved date format, see https:php.net/date
 #: wp-admin/includes/misc.php:819
 msgid "g:i:s a"
 msgstr "G:i:s"

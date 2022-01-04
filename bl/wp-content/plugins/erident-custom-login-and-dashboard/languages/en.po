@@ -132,7 +132,7 @@ msgid ""
 "The background-position property sets the starting position of a background "
 "image. If you entering the value in \"pixels\" or \"percentage\", add \"px\" "
 "or \"%\" at the end of value. This will not show any changes if you set the "
-"Background Repeat option as \"Repeat\". <a href=\"http://www.w3schools.com/"
+"Background Repeat option as \"Repeat\". <a href=\"https://www.w3schools.com/"
 "cssref/pr_background-position.asp\" target=\"_blank\">More Info</a>"
 msgstr ""
 
@@ -145,7 +145,7 @@ msgid ""
 "The background-size property specifies the size of a background image. If "
 "you entering the value in \"pixels\" or \"percentage\", add \"px\" or \"%\" "
 "at the end of value. Possible values: auto, length, percentage, cover, "
-"contain. <a href=\"http://www.w3schools.com/cssref/css3_pr_background-size."
+"contain. <a href=\"https://www.w3schools.com/cssref/css3_pr_background-size."
 "asp\" target=\"_blank\">More Info</a>"
 msgstr ""
 
@@ -426,7 +426,7 @@ msgstr ""
 msgid ""
 "Hey, I'm Libin, a professional Front End Engineer/WordPress Developer. You "
 "can hire me for freelancing projects.<br/><br/>Email me: <a href=\"mailto:"
-"libin@libin.in\">libin@libin.in</a> <br/>Online Portfolio: <a href=\"http://"
+"libin@libin.in\">libin@libin.in</a> <br/>Online Portfolio: <a href=\"https://"
 "www.libin.in\" target=\"_blank\">www.libin.in</a>"
 msgstr ""
 
@@ -436,7 +436,7 @@ msgstr ""
 
 #: er-custom-login.php:884
 msgid ""
-"Spanish by <a href=\"http://www.linkedin.com/in/adrifolio\" target=\"_blank"
+"Spanish by <a href=\"https://www.linkedin.com/in/adrifolio\" target=\"_blank"
 "\">Adriana De La Cuadra</a>"
 msgstr ""
 
@@ -448,7 +448,7 @@ msgstr ""
 
 #: er-custom-login.php:886
 msgid ""
-"German by <a href=\"http://www.starsofvietnam.net/\" target=\"_blank\">Peter "
+"German by <a href=\"https://www.starsofvietnam.net/\" target=\"_blank\">Peter "
 "Kaulfuss</a>"
 msgstr ""
 

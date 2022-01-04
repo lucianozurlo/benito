@@ -1,7 +1,7 @@
 <?php
     /**
      * ReduxFramework Sample Config File
-     * For full documentation, please visit: http://docs.reduxframework.com/
+     * For full documentation, please visit: https://docs.reduxframework.com/
      */
 
     if ( ! class_exists( 'Redux_Framework_sample_config' ) ) {
@@ -213,7 +213,7 @@
                         <p class="theme-description"><?php echo $this->theme->display( 'Description' ); ?></p>
                         <?php
                             if ( $this->theme->parent() ) {
-                                printf( ' <p class="howto">' . __( 'This <a href="%1$s">child theme</a> requires its parent theme, %2$s.', 'redux-framework-demo' ) . '</p>', __( 'http://codex.wordpress.org/Child_Themes', 'redux-framework-demo' ), $this->theme->parent()->display( 'Name' ) );
+                                printf( ' <p class="howto">' . __( 'This <a href="%1$s">child theme</a> requires its parent theme, %2$s.', 'redux-framework-demo' ) . '</p>', __( 'https://codex.wordpress.org/Child_Themes', 'redux-framework-demo' ), $this->theme->parent()->display( 'Name' ) );
                             }
                         ?>
 
@@ -280,7 +280,7 @@
                             //'mode'      => false, // Can be set to false to allow any media type, or can also be set to any mime type.
                             'desc'     => __( 'Basic media uploader with disabled URL input field.', 'redux-framework-demo' ),
                             'subtitle' => __( 'Upload any media using the WordPress native uploader', 'redux-framework-demo' ),
-                            'default'  => array( 'url' => 'http://s.wordpress.org/style/images/codeispoetry.png' ),
+                            'default'  => array( 'url' => 'https://s.wordpress.org/style/images/codeispoetry.png' ),
                             //'hint'      => array(
                             //    'title'     => 'Hint Title',
                             //    'content'   => 'This is a <b>hint</b> for the media field with a Title.',
@@ -604,7 +604,7 @@
                             'subtitle' => __( 'Paste your CSS code here.', 'redux-framework-demo' ),
                             'mode'     => 'css',
                             'theme'    => 'monokai',
-                            'desc'     => 'Possible modes can be found at <a href="http://ace.c9.io" target="_blank">http://ace.c9.io/</a>.',
+                            'desc'     => 'Possible modes can be found at <a href="https://ace.c9.io" target="_blank">https://ace.c9.io/</a>.',
                             'default'  => "#header{\nmargin: 0 auto;\n}"
                         ),
                         /*
@@ -615,7 +615,7 @@
                         'subtitle'  => __('Paste your JS code here.', 'redux-framework-demo'),
                         'mode'      => 'javascript',
                         'theme'     => 'chrome',
-                        'desc'      => 'Possible modes can be found at <a href="http://ace.c9.io" target="_blank">http://ace.c9.io/</a>.',
+                        'desc'      => 'Possible modes can be found at <a href="https://ace.c9.io" target="_blank">https://ace.c9.io/</a>.',
                         'default'   => "jQuery(document).ready(function(){\n\n});"
                     ),
                     array(
@@ -625,7 +625,7 @@
                         'subtitle'  => __('Paste your PHP code here.', 'redux-framework-demo'),
                         'mode'      => 'php',
                         'theme'     => 'chrome',
-                        'desc'      => 'Possible modes can be found at <a href="http://ace.c9.io" target="_blank">http://ace.c9.io/</a>.',
+                        'desc'      => 'Possible modes can be found at <a href="https://ace.c9.io" target="_blank">https://ace.c9.io/</a>.',
                         'default'   => '<?php\nisset ( $redux ) ? true : false;\n?>'
                     ),
                     */
@@ -861,7 +861,7 @@
                             'subtitle' => __( 'This must be a URL.', 'redux-framework-demo' ),
                             'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
                             'validate' => 'url',
-                            'default'  => 'http://reduxframework.com',
+                            'default'  => 'https://reduxframework.com',
                             //                        'text_hint' => array(
                             //                            'title'     => '',
                             //                            'content'   => 'Please enter a valid <strong>URL</strong> in this field.'
@@ -959,7 +959,7 @@
                             'title'    => __( 'Textarea Option - HTML Validated', 'redux-framework-demo' ),
                             'subtitle' => __( 'HTML Allowed (wp_kses)', 'redux-framework-demo' ),
                             'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
-                            'validate' => 'html', //see http://codex.wordpress.org/Function_Reference/wp_kses_post
+                            'validate' => 'html', //see https://codex.wordpress.org/Function_Reference/wp_kses_post
                             'default'  => 'HTML is allowed in here.'
                         ),
                         array(
@@ -970,7 +970,7 @@
                             'desc'         => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
                             'validate'     => 'html_custom',
                             'default'      => '<p>Some HTML is allowed in here.</p>',
-                            'allowed_html' => array( '' ) //see http://codex.wordpress.org/Function_Reference/wp_kses
+                            'allowed_html' => array( '' ) //see https://codex.wordpress.org/Function_Reference/wp_kses
                         ),
                         array(
                             'id'       => 'opt-textarea-js',
@@ -1562,7 +1562,7 @@
 
                 $this->sections[] = array(
                     'title'  => __( 'WPML Example', 'redux-framework-demo' ),
-                    'desc'   => __( 'These fields can be fully translated by WPML (WordPress Multi-Language). This serves as an example for you to implement. For extra details look at our <a href="http://docs.reduxframework.com/core/advanced/wpml-integration/" target="_blank">WPML Implementation</a> documentation.', 'redux-framework-demo' ),
+                    'desc'   => __( 'These fields can be fully translated by WPML (WordPress Multi-Language). This serves as an example for you to implement. For extra details look at our <a href="https://docs.reduxframework.com/core/advanced/wpml-integration/" target="_blank">WPML Implementation</a> documentation.', 'redux-framework-demo' ),
                     'icon'   => 'el el-home',
                     // 'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
                     'fields' => array(
@@ -1699,7 +1699,7 @@
                     'page_priority'        => null,
                     // Order where the menu appears in the admin area. If there is any conflict, something will not show. Warning.
                     'page_parent'          => 'themes.php',
-                    // For a full list of options, visit: http://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
+                    // For a full list of options, visit: https://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
                     'page_permissions'     => 'manage_options',
                     // Permissions needed to access the options panel.
                     'menu_icon'            => '',
@@ -1767,7 +1767,7 @@
                 // ADMIN BAR LINKS -> Setup custom links in the admin bar menu as external items.
                 $this->args['admin_bar_links'][] = array(
                     'id'    => 'redux-docs',
-                    'href'   => 'http://docs.reduxframework.com/',
+                    'href'   => 'https://docs.reduxframework.com/',
                     'title' => __( 'Documentation', 'redux-framework-demo' ),
                 );
 
@@ -1796,12 +1796,12 @@
                     'icon'  => 'el el-facebook'
                 );
                 $this->args['share_icons'][] = array(
-                    'url'   => 'http://twitter.com/reduxframework',
+                    'url'   => 'https://twitter.com/reduxframework',
                     'title' => 'Follow us on Twitter',
                     'icon'  => 'el el-twitter'
                 );
                 $this->args['share_icons'][] = array(
-                    'url'   => 'http://www.linkedin.com/company/redux-framework',
+                    'url'   => 'https://www.linkedin.com/company/redux-framework',
                     'title' => 'Find us on LinkedIn',
                     'icon'  => 'el el-linkedin'
                 );

@@ -51,7 +51,7 @@ $latest_version = get_option('revslider-latest-version', GlobalsRevSlider::SLIDE
 	<div class="validation-label"><?php _e('Purchase code:',REVSLIDER_TEXTDOMAIN); ?></div> 
 	<div class="validation-input">
 		<input type="text" name="rs-validation-token" value="<?php echo $code; ?>" <?php echo ($validated === 'true') ? ' readonly="readonly"' : ''; ?> style="width: 350px;" />
-		<p class="validation-description"><?php _e('Please enter your ',REVSLIDER_TEXTDOMAIN); ?><strong style="color:#000"><?php _e('CodeCanyon Slider Revolution purchase code / license key',REVSLIDER_TEXTDOMAIN); ?></strong><?php _e('. You can find your key by following the instructions on',REVSLIDER_TEXTDOMAIN); ?><a target="_blank" href="http://www.themepunch.com/home/plugins/wordpress-plugins/revolution-slider-wordpress/where-to-find-the-purchase-code/"><?php _e(' this page.',REVSLIDER_TEXTDOMAIN); ?></a></p>
+		<p class="validation-description"><?php _e('Please enter your ',REVSLIDER_TEXTDOMAIN); ?><strong style="color:#000"><?php _e('CodeCanyon Slider Revolution purchase code / license key',REVSLIDER_TEXTDOMAIN); ?></strong><?php _e('. You can find your key by following the instructions on',REVSLIDER_TEXTDOMAIN); ?><a target="_blank" href="https://www.themepunch.com/home/plugins/wordpress-plugins/revolution-slider-wordpress/where-to-find-the-purchase-code/"><?php _e(' this page.',REVSLIDER_TEXTDOMAIN); ?></a></p>
 	</div>
 	<div style="height:15px" class="clear"></div>
 	
@@ -85,7 +85,7 @@ $latest_version = get_option('revslider-latest-version', GlobalsRevSlider::SLIDE
 	?> 
 	<h3> <?php _e("How to get Support ?",REVSLIDER_TEXTDOMAIN)?></h3>				
 	<p>
-	<?php _e("Please feel free to contact us via our ",REVSLIDER_TEXTDOMAIN)?><a href='http://themepunch.ticksy.com'><?php _e("Support Forum ",REVSLIDER_TEXTDOMAIN)?></a><?php _e("and/or via the ",REVSLIDER_TEXTDOMAIN)?><a href='http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380/comments'><?php _e("Item Disscussion Forum",REVSLIDER_TEXTDOMAIN)?></a><br />
+	<?php _e("Please feel free to contact us via our ",REVSLIDER_TEXTDOMAIN)?><a href='https://themepunch.ticksy.com'><?php _e("Support Forum ",REVSLIDER_TEXTDOMAIN)?></a><?php _e("and/or via the ",REVSLIDER_TEXTDOMAIN)?><a href='https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380/comments'><?php _e("Item Disscussion Forum",REVSLIDER_TEXTDOMAIN)?></a><br />
 	</p> 	
 	<?php 	
 } else {

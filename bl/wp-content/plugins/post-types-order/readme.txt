@@ -1,6 +1,6 @@
 === Post Types Order  ===
 Contributors: Nsp Code
-Donate link: http://www.nsp-code.com/donate.php
+Donate link: https://www.nsp-code.com/donate.php
 Tags: post order, post type order, custom order, admin posts order
 Requires at least: 2.8
 Tested up to: 4.1
@@ -24,15 +24,15 @@ This was built considering for everyone to be able to use no matter the WordPres
 * Use the Re-Order interface which appear to every custom post type (non-hierarchical) to change the post order to a new one.
 
 = Example of Usage =
-[youtube http://www.youtube.com/watch?v=VEbNKFSfhCc] 
+[youtube https://www.youtube.com/watch?v=VEbNKFSfhCc] 
 
 As you can see just a matter of drag and drop and post ordering will change on front side right away.
 If for some reason the post order does not update on your front side, you either do something wrong or the theme code you are using does not use a standard query per WordPress Codex rules and regulations. But we can still help, use the forum to report your issue as there are many peoples who gladly help or get in touch with us.
 
-<br />Check out the advanced version of this plugin at <a target="_blank" href="http://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-post-types-order/">Advanced Post Types Order</a>
+<br />Check out the advanced version of this plugin at <a target="_blank" href="https://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-post-types-order/">Advanced Post Types Order</a>
 
 <br />
-<br />This plugin is developed by <a target="_blank" href="http://www.nsp-code.com">Nsp-Code</a>
+<br />This plugin is developed by <a target="_blank" href="https://www.nsp-code.com">Nsp-Code</a>
 
 == Installation ==
 
@@ -72,22 +72,22 @@ All ideas are welcome and i put them on my list to be implemented into the new v
   - Next / Previous post link functionality update
   - Code improvements  
   - Norvegian translation update - Bjorn Johansen bjornjohansen.no
-  - Czech translation - dUDLAJ; Martin Kucera - http://jsemweb.cz/
+  - Czech translation - dUDLAJ; Martin Kucera - https://jsemweb.cz/
 
 = 1.7.4 =
-  - Japanese translation - Git6 Sosuke Watanabe  - http://git6.com/  
-  - Portuguese translation update - Pedro Mendon?a - http://www.pedromendonca.pt 
+  - Japanese translation - Git6 Sosuke Watanabe  - https://git6.com/  
+  - Portuguese translation update - Pedro Mendon?a - https://www.pedromendonca.pt 
   - Chinese translation - Coolwp coolwp.com@gmail.com
 
 = 1.7.0 =
-  - Swedish translation - Onlinebyran - http://onlinebyran.se
-  - Portuguese translation - Pedro Mendon?a - http://www.pedromendonca.pt
+  - Swedish translation - Onlinebyran - https://onlinebyran.se
+  - Portuguese translation - Pedro Mendon?a - https://www.pedromendonca.pt
   - AJAX save filter
 
 = 1.6.8 = 
  - Edit Gallery - image order fix
  - "re-order" menu item allow translation 
- - Hungarian translation - Adam Laki - http://codeguide.hu/
+ - Hungarian translation - Adam Laki - https://codeguide.hu/
  - Minor admin style improvments
 
 = 1.6.5 = 
@@ -109,14 +109,14 @@ All ideas are welcome and i put them on my list to be implemented into the new v
 = 1.6.1 = 
  - Updates/Fixes
  - Menu Walker nottices Fix
- - Hebrew translation - Lunasite Team http://www.lunasite.co.il
+ - Hebrew translation - Lunasite Team https://www.lunasite.co.il
  - Dutch translation - Denver Sessink
 
 = 1.5.8 = 
  - Updates/Fixes
  - Ignore Search queries when Autosort is ON
  - Text Instances translatable fix
- - Italian translation - Black Studio http://www.blackstudio.it 
+ - Italian translation - Black Studio https://www.blackstudio.it 
  - Spanish translation - Marcelo Cannobbio
 
 = 1.5.7 = 
@@ -177,4 +177,4 @@ Make sure you get the latest version.
 
 Available in English, Brazilian Portuguese, Spanish, Romanian, Italian, Dusth, Hebrew, German, Norwegian (norsk), Turkish (t?rk?e), Swedish, Hungarian, Portuguese, Chinese, Czech
 Want to contribute with a translation to your language? Please contact us at electronice_delphi@yahoo.com
-http://www.nsp-code.com
+https://www.nsp-code.com

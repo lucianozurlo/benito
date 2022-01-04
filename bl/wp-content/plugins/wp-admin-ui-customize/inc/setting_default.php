@@ -59,10 +59,10 @@ wp_enqueue_style( $this->PageSlug , $this->Url . $this->PluginSlug . '.css', arr
 							<ul>
 								<li><a href="<?php echo $this->Site; ?>?utm_source=use_plugin&utm_medium=side&utm_content=<?php echo $this->ltd; ?>&utm_campaign=<?php echo str_replace( '.' , '_' , $this->Ver ); ?>" target="_blank"><?php _e( 'Plugin\'s site' , $this->ltd ); ?></a></li>
 								<li><a href="<?php echo $this->AuthorUrl; ?>?utm_source=use_plugin&utm_medium=side&utm_content=<?php echo $this->ltd; ?>&utm_campaign=<?php echo str_replace( '.' , '_' , $this->Ver ); ?>" target="_blank"><?php _e( 'Developer\'s site' , $this->ltd ); ?></a></li>
-								<li><a href="http://wordpress.org/support/plugin/<?php echo $this->PluginSlug; ?>" target="_blank"><?php _e( 'Support Forums' ); ?></a></li>
-								<li><a href="http://wordpress.org/support/view/plugin-reviews/<?php echo $this->PluginSlug; ?>" target="_blank"><?php _e( 'Reviews' , $this->ltd ); ?></a></li>
+								<li><a href="https://wordpress.org/support/plugin/<?php echo $this->PluginSlug; ?>" target="_blank"><?php _e( 'Support Forums' ); ?></a></li>
+								<li><a href="https://wordpress.org/support/view/plugin-reviews/<?php echo $this->PluginSlug; ?>" target="_blank"><?php _e( 'Reviews' , $this->ltd ); ?></a></li>
 								<li><a href="https://twitter.com/gqevu6bsiz" target="_blank">twitter</a></li>
-								<li><a href="http://www.facebook.com/pages/Gqevu6bsiz/499584376749601" target="_blank">facebook</a></li>
+								<li><a href="https://www.facebook.com/pages/Gqevu6bsiz/499584376749601" target="_blank">facebook</a></li>
 							</ul>
 						</div>
 					</div>
@@ -76,11 +76,11 @@ wp_enqueue_style( $this->PageSlug , $this->Url . $this->PluginSlug . '.css', arr
 							<p class="description"><?php _e( 'Easily import/export setting between installations.' , $this->ltd ); ?></p>
 							<p><strong><a href="<?php echo $this->Site; ?>multisite_about/?utm_source=use_plugin&utm_medium=side&utm_content=<?php echo $this->ltd; ?>&utm_campaign=<?php echo str_replace( '.' , '_' , $this->Ver ); ?>" target="_blank">WP Admin UI Customize for Multisite</a></strong></p>
 							<p class="description"><?php _e( 'Unified custom management screens for Multisite.' , $this->ltd ); ?></p>
-							<p><strong><a href="http://wordpress.org/extend/plugins/post-lists-view-custom/" target="_blank">Post Lists View Custom</a></strong></p>
+							<p><strong><a href="https://wordpress.org/extend/plugins/post-lists-view-custom/" target="_blank">Post Lists View Custom</a></strong></p>
 							<p class="description"><?php _e( 'Customize list view columns for posts, pages, custom post types, media library, and other management screens.' , $this->ltd ); ?></p>
-							<p><strong><a href="http://wordpress.org/extend/plugins/announce-from-the-dashboard/" target="_blank">Announce from the Dashboard</a></strong></p>
+							<p><strong><a href="https://wordpress.org/extend/plugins/announce-from-the-dashboard/" target="_blank">Announce from the Dashboard</a></strong></p>
 							<p class="description"><?php _e( 'Create dashboard messages to be displayed for selected user roles.' , $this->ltd ); ?></p>
-							<p><strong><a href="http://wordpress.org/extend/plugins/custom-options-plus-post-in/" target="_blank">Custom Options Plus Post in</a></strong></p>
+							<p><strong><a href="https://wordpress.org/extend/plugins/custom-options-plus-post-in/" target="_blank">Custom Options Plus Post in</a></strong></p>
 							<p class="description"><?php _e( 'Create custom global variables that can be used with generated template tags or shortcodes.' , $this->ltd ); ?></p>
 							<p>&nbsp;</p>
 						</div>

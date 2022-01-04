@@ -4,7 +4,7 @@
  *
  * @category YourThemeOrPlugin
  * @package  Metaboxes
- * @license  http://www.opensource.org/licenses/gpl-license.php GPL v2.0 (or later)
+ * @license  https://www.opensource.org/licenses/gpl-license.php GPL v2.0 (or later)
  * @link     https://github.com/webdevstudios/Custom-Metaboxes-and-Fields-for-WordPress
  */
 
@@ -247,7 +247,7 @@ function cmb_sample_metaboxes( array $meta_boxes ) {
 			),
 			array(
 				'name' => __( 'oEmbed', 'cmb' ),
-				'desc' => __( 'Enter a youtube, twitter, or instagram URL. Supports services listed at <a href="http://codex.wordpress.org/Embeds">http://codex.wordpress.org/Embeds</a>.', 'cmb' ),
+				'desc' => __( 'Enter a youtube, twitter, or instagram URL. Supports services listed at <a href="https://codex.wordpress.org/Embeds">https://codex.wordpress.org/Embeds</a>.', 'cmb' ),
 				'id'   => $prefix . 'test_embed',
 				'type' => 'oembed',
 			),

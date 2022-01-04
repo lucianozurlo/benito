@@ -663,7 +663,7 @@ function is_new_day() {
  * @since 2.3.0
  *
  * @see _http_build_query() Used to build the query
- * @see http://us2.php.net/manual/en/function.http-build-query.php for more on what
+ * @see https://us2.php.net/manual/en/function.http-build-query.php for more on what
  *		http_build_query() does.
  *
  * @param array $data URL-encode key/value pairs.
@@ -679,7 +679,7 @@ function build_query( $data ) {
  * @since 3.2.0
  * @access private
  *
- * @see http://us1.php.net/manual/en/function.http-build-query.php
+ * @see https://us1.php.net/manual/en/function.http-build-query.php
  *
  * @param array|object  $data       An array or object of data. Converted to array.
  * @param string        $prefix     Optional. Numeric index. If set, start parameter numbering with it.
@@ -757,8 +757,8 @@ function add_query_arg() {
 	else
 		$frag = '';
 
-	if ( 0 === stripos( $uri, 'http://' ) ) {
-		$protocol = 'http://';
+	if ( 0 === stripos( $uri, 'https://' ) ) {
+		$protocol = 'https://';
 		$uri = substr( $uri, 7 );
 	} elseif ( 0 === stripos( $uri, 'https://' ) ) {
 		$protocol = 'https://';
@@ -1663,8 +1663,8 @@ function wp_is_writable( $path ) {
  *
  * @since 2.8.0
  *
- * @see http://bugs.php.net/bug.php?id=27609
- * @see http://bugs.php.net/bug.php?id=30931
+ * @see https://bugs.php.net/bug.php?id=27609
+ * @see https://bugs.php.net/bug.php?id=30931
  *
  * @param string $path Windows path to check for write-ability.
  * @return bool Whether the path is writable.
@@ -2470,7 +2470,7 @@ function _default_wp_die_handler( $message, $title = '', $args = array() ) {
 <!DOCTYPE html>
 <!-- Ticket #11289, IE bug fix: always pad the error page with enough characters such that it is greater than 512 bytes, even after gzip compression abcdefghijklmnopqrstuvwxyz1234567890aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz11223344556677889900abacbcbdcdcededfefegfgfhghgihihjijikjkjlklkmlmlnmnmononpopoqpqprqrqsrsrtstsubcbcdcdedefefgfabcadefbghicjkldmnoepqrfstugvwxhyz1i234j567k890laabmbccnddeoeffpgghqhiirjjksklltmmnunoovppqwqrrxsstytuuzvvw0wxx1yyz2z113223434455666777889890091abc2def3ghi4jkl5mno6pqr7stu8vwx9yz11aab2bcc3dd4ee5ff6gg7hh8ii9j0jk1kl2lmm3nnoo4p5pq6qrr7ss8tt9uuvv0wwx1x2yyzz13aba4cbcb5dcdc6dedfef8egf9gfh0ghg1ihi2hji3jik4jkj5lkl6kml7mln8mnm9ono
 -->
-<html xmlns="http://www.w3.org/1999/xhtml" <?php if ( function_exists( 'language_attributes' ) && function_exists( 'is_rtl' ) ) language_attributes(); else echo "dir='$text_direction'"; ?>>
+<html xmlns="https://www.w3.org/1999/xhtml" <?php if ( function_exists( 'language_attributes' ) && function_exists( 'is_rtl' ) ) language_attributes(); else echo "dir='$text_direction'"; ?>>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title><?php echo $title ?></title>
@@ -3321,7 +3321,7 @@ function dead_db() {
 	header( 'Content-Type: text/html; charset=utf-8' );
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"<?php if ( is_rtl() ) echo ' dir="rtl"'; ?>>
+<html xmlns="https://www.w3.org/1999/xhtml"<?php if ( is_rtl() ) echo ' dir="rtl"'; ?>>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title><?php _e( 'Database Error' ); ?></title>
@@ -3767,7 +3767,7 @@ function wp_guess_url() {
 			}
 		}
 
-		$schema = is_ssl() ? 'https://' : 'http://'; // set_url_scheme() is not defined yet
+		$schema = is_ssl() ? 'https://' : 'https://'; // set_url_scheme() is not defined yet
 		$url = $schema . $_SERVER['HTTP_HOST'] . $path;
 	}
 
@@ -4322,8 +4322,8 @@ function __return_empty_string() {
  *
  * @since 3.0.0
  *
- * @see http://blogs.msdn.com/ie/archive/2008/07/02/ie8-security-part-v-comprehensive-protection.aspx
- * @see http://src.chromium.org/viewvc/chrome?view=rev&revision=6985
+ * @see https://blogs.msdn.com/ie/archive/2008/07/02/ie8-security-part-v-comprehensive-protection.aspx
+ * @see https://src.chromium.org/viewvc/chrome?view=rev&revision=6985
  */
 function send_nosniff_header() {
 	@header( 'X-Content-Type-Options: nosniff' );
@@ -4647,7 +4647,7 @@ function wp_auth_check_load() {
  */
 function wp_auth_check_html() {
 	$login_url = wp_login_url();
-	$current_domain = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'];
+	$current_domain = ( is_ssl() ? 'https://' : 'https://' ) . $_SERVER['HTTP_HOST'];
 	$same_domain = ( strpos( $login_url, $current_domain ) === 0 );
 
 	/**

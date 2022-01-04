@@ -55,7 +55,7 @@
                 $filesystem = $this->parent->filesystem;
                 
                 // get notice data from server
-                $data = $filesystem->execute('get_contents', $this->server_file);// 'http://www.reduxframework.com/' . 'wp-content/uploads/redux/redux_notice.json');
+                $data = $filesystem->execute('get_contents', $this->server_file);// 'https://www.reduxframework.com/' . 'wp-content/uploads/redux/redux_notice.json');
 
                 // if some data exists
                 if ($data != '' || !empty($data)) {

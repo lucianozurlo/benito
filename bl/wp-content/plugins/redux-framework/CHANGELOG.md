@@ -1294,7 +1294,7 @@
 * Fixed:    CSS spacing issue
 * Fixed:    Customizer now works and doesn't break other customizer fields outside of Redux.
 * Fixed:    Several minor bug fixes
-* Added:    Metabox support via extension http://reduxframework.com/extensions/
+* Added:    Metabox support via extension https://reduxframework.com/extensions/
 * Added:    Admin-bar menu
 * Fixed:    Section field now folds.
 * Fixed:    wp_content_dir path now handles double forward slashes.
@@ -1484,7 +1484,7 @@
 * Fixed an odd saving issue.
 * Fixed link issues in the framework
 * Issue #135: jQuery UI wasn't being properly queued
-* Issue #140: Admin notice glitch. See http://reduxframework.com/2013/10/wordpress-notifications-custom-options-panels/
+* Issue #140: Admin notice glitch. See https://reduxframework.com/2013/10/wordpress-notifications-custom-options-panels/
 * Use hooks instead of custom variable for custom admin CSS
 * Added "raw" field that allows PHP or a hook to embed anything in the panel.
 * Submenus in Admin now change the tabs without reloading the page.

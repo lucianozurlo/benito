@@ -371,9 +371,9 @@ function validate_another_blog_signup() {
  */
 function confirm_another_blog_signup( $domain, $path, $blog_title, $user_name, $user_email = '', $meta = array() ) {
 	?>
-	<h2><?php printf( __( 'The site %s is yours.' ), "<a href='http://{$domain}{$path}'>{$blog_title}</a>" ) ?></h2>
+	<h2><?php printf( __( 'The site %s is yours.' ), "<a href='https://{$domain}{$path}'>{$blog_title}</a>" ) ?></h2>
 	<p>
-		<?php printf( __( '<a href="http://%1$s">http://%2$s</a> is your new site. <a href="%3$s">Log in</a> as &#8220;%4$s&#8221; using your existing password.' ), $domain.$path, $domain.$path, "http://" . $domain.$path . "wp-login.php", $user_name ) ?>
+		<?php printf( __( '<a href="https://%1$s">https://%2$s</a> is your new site. <a href="%3$s">Log in</a> as &#8220;%4$s&#8221; using your existing password.' ), $domain.$path, $domain.$path, "https://" . $domain.$path . "wp-login.php", $user_name ) ?>
 	</p>
 	<?php
 	/**
@@ -623,7 +623,7 @@ function validate_blog_signup() {
  */
 function confirm_blog_signup( $domain, $path, $blog_title, $user_name = '', $user_email = '', $meta = array() ) {
 	?>
-	<h2><?php printf( __( 'Congratulations! Your new site, %s, is almost ready.' ), "<a href='http://{$domain}{$path}'>{$blog_title}</a>" ) ?></h2>
+	<h2><?php printf( __( 'Congratulations! Your new site, %s, is almost ready.' ), "<a href='https://{$domain}{$path}'>{$blog_title}</a>" ) ?></h2>
 
 	<p><?php _e( 'But, before you can start using your site, <strong>you must activate it</strong>.' ) ?></p>
 	<p><?php printf( __( 'Check your inbox at <strong>%s</strong> and click the link given.' ),  $user_email) ?></p>

@@ -579,7 +579,7 @@ function wp_nav_menu_item_link_meta_box() {
 		<p id="menu-item-url-wrap">
 			<label class="howto" for="custom-menu-item-url">
 				<span><?php _e('URL'); ?></span>
-				<input id="custom-menu-item-url" name="menu-item[<?php echo $_nav_menu_placeholder; ?>][menu-item-url]" type="text" class="code menu-item-textbox" value="http://" />
+				<input id="custom-menu-item-url" name="menu-item[<?php echo $_nav_menu_placeholder; ?>][menu-item-url]" type="text" class="code menu-item-textbox" value="https://" />
 			</label>
 		</p>
 
@@ -1056,7 +1056,7 @@ function wp_save_nav_menu_items( $menu_id = 0, $menu_data = array() ) {
 					// And item type either isn't set.
 					! isset( $_item_object_data['menu-item-type'] ) ||
 					// Or URL is the default.
-					in_array( $_item_object_data['menu-item-url'], array( 'http://', '' ) ) ||
+					in_array( $_item_object_data['menu-item-url'], array( 'https://', '' ) ) ||
 					! ( 'custom' == $_item_object_data['menu-item-type'] && ! isset( $_item_object_data['menu-item-db-id'] ) ) || // or it's not a custom menu item (but not the custom home page)
 					// Or it *is* a custom menu item that already exists.
 					! empty( $_item_object_data['menu-item-db-id'] )

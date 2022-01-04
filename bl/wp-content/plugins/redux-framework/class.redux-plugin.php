@@ -405,9 +405,9 @@
                 if ( strpos( $file, 'redux-framework.php' ) !== false && is_plugin_active( $file ) ) {
 
                     $new_links = array(
-                        '<a href="http://docs.reduxframework.com/" target="_blank">' . __( 'Docs', 'redux-framework' ) . '</a>',
+                        '<a href="https://docs.reduxframework.com/" target="_blank">' . __( 'Docs', 'redux-framework' ) . '</a>',
                         '<a href="https://github.com/ReduxFramework/redux-framework" target="_blank">' . __( 'Repo', 'redux-framework' ) . '</a>',
-                        '<a href="http://build.reduxframework.com/" target="_blank">' . __( 'Builder', 'redux-framework' ) . '</a>',
+                        '<a href="https://build.reduxframework.com/" target="_blank">' . __( 'Builder', 'redux-framework' ) . '</a>',
                         '<a href="' . admin_url( 'tools.php?page=redux-support' ) . '">' . __( 'Get Support', 'redux-framework' ) . '</a>',
                     );
 

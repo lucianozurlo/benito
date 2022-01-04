@@ -13,7 +13,7 @@ wp.svgPainter = ( function( $, window, document, undefined ) {
 
 	$(document).ready( function() {
 		// detection for browser SVG capability
-		if ( document.implementation.hasFeature( 'http://www.w3.org/TR/SVG11/feature#Image', '1.1' ) ) {
+		if ( document.implementation.hasFeature( 'https://www.w3.org/TR/SVG11/feature#Image', '1.1' ) ) {
 			$( document.body ).removeClass( 'no-svg' ).addClass( 'svg' );
 			wp.svgPainter.init();
 		}
@@ -26,9 +26,9 @@ wp.svgPainter = ( function( $, window, document, undefined ) {
 	 *
 	 * Based on: https://gist.github.com/Yaffle/1284012
 	 *
-	 * Copyright (c) 2012 Yannick Albert (http://yckart.com)
+	 * Copyright (c) 2012 Yannick Albert (https://yckart.com)
 	 * Licensed under the MIT license
-	 * http://www.opensource.org/licenses/mit-license.php
+	 * https://www.opensource.org/licenses/mit-license.php
 	 */
 	base64 = ( function() {
 		var c,

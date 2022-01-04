@@ -88,8 +88,8 @@
  * Copyright, Moxiecode Systems AB
  * Released under LGPL License.
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 /**
@@ -220,8 +220,8 @@ define("tinymce/pasteplugin/Utils", [
  * Copyright, Moxiecode Systems AB
  * Released under LGPL License.
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 /**
@@ -834,8 +834,8 @@ define("tinymce/pasteplugin/Clipboard", [
  * Copyright, Moxiecode Systems AB
  * Released under LGPL License.
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 /**
@@ -1335,8 +1335,8 @@ define("tinymce/pasteplugin/WordFilter", [
  * Copyright, Moxiecode Systems AB
  * Released under LGPL License.
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 /**
@@ -1497,8 +1497,8 @@ define("tinymce/pasteplugin/Quirks", [
  * Copyright, Moxiecode Systems AB
  * Released under LGPL License.
  *
- * License: http://www.tinymce.com/license
- * Contributing: http://www.tinymce.com/contributing
+ * License: https://www.tinymce.com/license
+ * Contributing: https://www.tinymce.com/contributing
  */
 
 /**
