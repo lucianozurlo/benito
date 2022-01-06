@@ -1,2 +1,0 @@
-[29-May-2014 03:16:54 UTC] PHP Notice:  Undefined variable: textdomain in /home/qkthemes/public_html/demos/bl/wp-content/themes/bl/framework/widget/popular.php on line 12
-[29-May-2014 03:16:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/qkthemes/public_html/demos/bl/wp-content/themes/bl/framework/widget/popular.php:12) in /home/qkthemes/public_html/demos/bl/wp-content/themes/bl/css/color.php on line 9
