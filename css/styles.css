@@ -353,13 +353,13 @@ h5 {
   border: none;
   padding: 0 !important;
   margin-bottom: 0 !important;
-  visibility: hidden;
+  backface-visibility: hidden;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
 }
 
 .sticky-navigation .navbar-header img {
   max-height: 30px;
-  visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .sticky-navigation .main-navigation .current a {
@@ -554,8 +554,7 @@ object {
 -----------------------------------------*/
 .testimonials {
     background: url(../images/bg-2.jpg) no-repeat center fixed;
-    -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
     color: #ffffff;
     padding-top: 0;
     padding-bottom: 60px;
@@ -563,8 +562,7 @@ object {
 
 .exposiciones {
     background: url(../images/bg_exposiciones.jpg) no-repeat center fixed;
-    -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
     color: #ffffff;
     padding-top: 0;
     padding-bottom: 60px;
@@ -836,7 +834,7 @@ footer .contact-box .contact-button {
     background: #232323;
     -webkit-box-shadow: 0px 0px 0px 3px #232323;
     box-shadow: 0px 0px 0px 3px #232323;
-    visibility: hidden;
+    -webkit-backface-visibility: hidden;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
