@@ -96,23 +96,6 @@ body {
 }
 
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
-
-@-webkit-viewport {
-    width: device-width;
-}
-
-@-moz-viewport {
-    width: device-width;
-}
-
-@-ms-viewport {
-    width: device-width;
-}
-
-@-o-viewport {
-    width: device-width;
-}
-
 @viewport {
     width: device-width;
 }
@@ -370,14 +353,13 @@ h5 {
   border: none;
   padding: 0 !important;
   margin-bottom: 0 !important;
-  -webkit-backface-visibility: hidden;
-  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-          box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  visibility: hidden;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
 }
 
 .sticky-navigation .navbar-header img {
   max-height: 30px;
-  -webkit-backface-visibility: hidden;
+  visibility: hidden;
 }
 
 .sticky-navigation .main-navigation .current a {
@@ -610,18 +592,28 @@ object {
     margin: auto;
 }
 
-.testimonials .feedback .image {
+a .obras,
+a:visited .obras {
     font-size: 24px;
     border: 2px solid transparent;
-    -webkit-box-shadow: 0px 0px 0px 2px #ffffff;
-            box-shadow: 0px 0px 0px 2px #ffffff;
+    box-shadow: 0px 0px 0px 2px #ffffff;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
     margin: auto;
     margin-top: 5px;
     overflow: hidden;
+    text-transform: none;
+    text-decoration: none;
+    transition: .2s;
+
+}
+a:hover .obras {
+    box-shadow: 0px 0px 0px 2px #ea8825;
+}
+.single-service a h3 {
+    margin-bottom: 40px;
 }
 
 .testimonials .feedback .image img {
@@ -742,7 +734,7 @@ object {
 
 }
 .single-package .color-bg {
-    background-color: !important;
+    background: #232323;
 }
 .single-package .price h2 {
     color: #FFFFFF;
@@ -844,7 +836,7 @@ footer .contact-box .contact-button {
     background: #232323;
     -webkit-box-shadow: 0px 0px 0px 3px #232323;
     box-shadow: 0px 0px 0px 3px #232323;
-    -webkit-backface-visibility: hidden;
+    visibility: hidden;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
@@ -884,7 +876,7 @@ footer .contact-box .expanded-contact-form .textarea-box {
 }
 
 footer .contact-box .expanded-contact-form .textarea-box:active,
-footer .contact-box .expanded-contact-form .textarea-box:focus,     {
+footer .contact-box .expanded-contact-form .textarea-box:focus {
     color: #FFF;
 }
 
