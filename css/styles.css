@@ -832,11 +832,8 @@ footer .contact-box .contact-button {
     vertical-align: middle;
     margin-top: -40px;
     background: #232323;
-    -webkit-box-shadow: 0px 0px 0px 3px #232323;
     box-shadow: 0px 0px 0px 3px #232323;
-    -webkit-backface-visibility: hidden;
-    -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
+    backface-visibility: hidden;
     background-clip: padding-box;
 }
 
@@ -899,4 +896,11 @@ footer .copyright {
     color: #808080;
     padding-top: 30px;
     margin-bottom: 50px;
+}
+
+.sticky-navigation .main-navigation li a {
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
 }
